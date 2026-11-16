@@ -46,35 +46,35 @@ struct GlossaryView: View {
 
     var body: some View {
         let terms = store.glossaryTerms(matching: query)
-        VStack(alignment: .leading, spacing: 8) {
-            if !store.data.glossaryIntro.isEmpty {
-                Text(store.data.glossaryIntro)
-                    .font(.body)
+        List {
+            Section {
+                Text("Glossary")
+                    .font(.body.weight(.semibold))
                     .foregroundStyle(Color(.label))
-                    .fixedSize(horizontal: false, vertical: true)
-                    .padding(.horizontal)
-            }
-            List {
-                Section {
-                    Text("\(terms.count) \(terms.count == 1 ? "term" : "terms")")
-                        .font(.title3.weight(.bold))
+                    .accessibilityHeading(.h1)
+                if !store.data.glossaryIntro.isEmpty {
+                    Text(store.data.glossaryIntro)
+                        .font(.body.weight(.semibold))
                         .foregroundStyle(Color(.label))
-                        .accessibilityHeading(.h2)
-                    ForEach(terms) { term in
-                        NavigationLink(value: Route.glossaryTerm(term.id)) {
-                            VStack(alignment: .leading, spacing: 3) {
-                                Text(term.term).font(.body.weight(.semibold))
-                                SecondaryLine(text: term.definition)
-                            }
-                            .padding(.vertical, 2)
-                            .accessibilityElement(children: .combine)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Text("\(terms.count) \(terms.count == 1 ? "term" : "terms")")
+                    .font(.body.weight(.semibold))
+                    .foregroundStyle(Color(.label))
+                    .accessibilityHeading(.h2)
+                ForEach(terms) { term in
+                    NavigationLink(value: Route.glossaryTerm(term.id)) {
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(term.term).font(.body.weight(.semibold)).foregroundStyle(Color(.label))
+                            SecondaryLine(text: term.definition)
                         }
+                        .padding(.vertical, 2)
+                        .accessibilityElement(children: .combine)
                     }
                 }
             }
-            .havenListChrome()
         }
-        .havenScreenTitle("Glossary")
+        .havenListChrome()
         .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a term")
         .autocorrectionDisabled()
     }
