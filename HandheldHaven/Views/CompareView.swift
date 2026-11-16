@@ -36,14 +36,10 @@ struct CompareView: View {
                     }
                     if !compare.isFull {
                         Button("Add Device") { showingPicker = true }
-                            .font(.body)
-                            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                             .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
                     }
                     if !picked.isEmpty {
                         Button("Clear Comparison", role: .destructive) { compare.removeAll() }
-                            .font(.body)
-                            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                     }
                 } header: {
                     SectionHeader("Devices (\(picked.count) of \(CompareStore.capacity))")
