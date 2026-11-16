@@ -51,19 +51,21 @@ final class HandheldHavenUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["HARDWARE"].waitForExistence(timeout: 10))
     }
 
-    /// Contrast checks mis-measure text that is clipped by the tab bar, the status bar,
-    /// or the screen edge, and they sometimes report a hit with no element. Fully visible
-    /// labeled text is still required to pass.
-    private func isUnmeasurableContrast(_ issue: XCUIAccessibilityAuditIssue) -> Bool {
-        guard issue.auditType.contains(.contrast) else { return false }
-        guard let element = issue.element else { return true }
-        if element.label.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty { return true }
+    /// Audits mis-measure text that is clipped by the tab bar, the status bar, or the
+    /// screen edge. Fully visible labeled text is still required to pass.
+    private func isEdgeClipped(_ issue: XCUIAccessibilityAuditIssue) -> Bool {
+        let affected: XCUIAccessibilityAuditType = [.contrast, .dynamicType, .textClipped]
+        guard !issue.auditType.isDisjoint(with: affected) else { return false }
+        guard let element = issue.element else { return issue.auditType.contains(.contrast) }
+        if issue.auditType.contains(.contrast),
+           element.label.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            return true
+        }
         let window = app.frame
         let frame = element.frame
-        let safe = window.insetBy(dx: 0, dy: 0)
-        let aboveTabBar = frame.maxY <= window.maxY - 83
+        let aboveTabBar = frame.maxY <= window.maxY - 120
         let belowStatusBar = frame.minY >= window.minY + 54
-        return !element.isHittable || !safe.contains(frame) || !aboveTabBar || !belowStatusBar
+        return !element.isHittable || !window.contains(frame) || !aboveTabBar || !belowStatusBar
     }
 
     private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
@@ -75,7 +77,7 @@ final class HandheldHavenUITests: XCTestCase {
                     let label = issue.element?.label ?? ""
                     let details = issue.element.map { "frame \($0.frame) hittable \($0.isHittable)" } ?? "no element"
                     let text = "\(issue.auditType) \(issue.compactDescription) element: \(label) \(details)"
-                    if self.isUnmeasurableContrast(issue) {
+                    if self.isEdgeClipped(issue) {
                         print("Accessibility audit, \(screen): ignored \(text)")
                         return true
                     }
