@@ -61,6 +61,7 @@ struct SettingsView: View {
     var body: some View {
         Form {
             Section {
+                settingsHeading("Text")
                 Picker("Text size", selection: $textSize) {
                     ForEach(TextSizeOption.allCases) { option in
                         Text(option.title).tag(option)
@@ -69,15 +70,12 @@ struct SettingsView: View {
                 .pickerStyle(.navigationLink)
                 Text("Sample: A handheld with a built-in keyboard gives you every screen reader command.")
                     .font(.body)
-                    .fixedSize(horizontal: false, vertical: true)
-            } header: {
-                SectionHeader("Text")
-            } footer: {
-                Text("Every screen uses Dynamic Type. Use system setting follows Settings, Accessibility, Display and Text Size, on iPhone and iPad.")
                     .foregroundStyle(Color(.label))
+                    .fixedSize(horizontal: false, vertical: true)
+                settingsNote("Every screen uses Dynamic Type. Use system setting follows Settings, Accessibility, Display and Text Size, on iPhone and iPad.")
             }
-
             Section {
+                settingsHeading("Contrast and motion")
                 Toggle("High contrast", isOn: $highContrast)
                 LabeledFact(
                     label: "Increase Contrast",
@@ -87,25 +85,17 @@ struct SettingsView: View {
                     label: "Reduce Motion",
                     value: reduceMotion ? "On. Handheld Haven adds no extra animation." : "Off. Handheld Haven adds no extra animation."
                 )
-            } header: {
-                SectionHeader("Contrast and motion")
-            } footer: {
-                Text("High contrast makes supporting text semibold and follows the system Increase Contrast setting when that is on. Text stays in the label color so it does not depend on gray. Reduce Motion is read from the system. Navigation uses the system motion setting.")
-                    .foregroundStyle(Color(.label))
+                settingsNote("High contrast makes supporting text semibold and follows the system Increase Contrast setting when that is on. Text uses the label color. Reduce Motion is read from the system. Navigation uses the system motion setting.")
             }
-
             Section {
+                settingsHeading("Saved on this device")
                 Button("Clear Recently Viewed (\(recents.keys.count))", role: .destructive) { recents.removeAll() }
                     .disabled(recents.keys.isEmpty)
                 Button("Clear Comparison (\(compare.ids.count))", role: .destructive) { compare.removeAll() }
                     .disabled(compare.ids.isEmpty)
                 Button("Remove All Favorites (\(favorites.keys.count))", role: .destructive) { confirmFavorites = true }
                     .disabled(favorites.keys.isEmpty)
-            } header: {
-                SectionHeader("Saved on this device")
-            } footer: {
-                Text("Favorites, recently viewed entries, comparison picks, text size, and high contrast stay on this device. Nothing is sent anywhere.")
-                    .foregroundStyle(Color(.label))
+                settingsNote("Favorites, recently viewed entries, comparison picks, text size, and high contrast stay on this device. Nothing is sent anywhere.")
             }
         }
         .havenListChrome()
@@ -114,5 +104,21 @@ struct SettingsView: View {
             Button("Remove All Favorites", role: .destructive) { favorites.removeAll() }
             Button("Cancel", role: .cancel) {}
         }
+    }
+
+    private func settingsHeading(_ title: String) -> some View {
+        Text(title)
+            .font(.title3.weight(.bold))
+            .foregroundStyle(Color(.label))
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .accessibilityHeading(.h2)
+    }
+
+    private func settingsNote(_ text: String) -> some View {
+        Text(text)
+            .font(.body)
+            .foregroundStyle(Color(.label))
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
