@@ -71,7 +71,7 @@ struct GlossaryView: View {
         }
         .havenListChrome()
         .havenScreenTitle("Glossary")
-        .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Look up a term")
+        .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a term")
         .autocorrectionDisabled()
     }
 }

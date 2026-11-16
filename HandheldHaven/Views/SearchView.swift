@@ -49,7 +49,7 @@ struct SearchView: View {
             }
             .havenListChrome()
             .havenScreenTitle("Search")
-            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Devices, guides, and terms")
+            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find")
             .autocorrectionDisabled()
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {

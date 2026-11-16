@@ -132,7 +132,7 @@ struct ComparePickerView: View {
                     SectionHeader("\(results.count) devices")
                 }
             }
-            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a device to add")
+            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a device")
             .autocorrectionDisabled()
             .havenScreenTitle("Add Device")
             .inlineTitle()
