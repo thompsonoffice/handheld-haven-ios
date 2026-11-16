@@ -39,6 +39,11 @@ final class HandheldHavenUITests: XCTestCase {
         app.navigationBars.buttons.element(boundBy: 0).tap()
     }
 
+    /// Lists keep their scroll position, and rows above the fold are not in the hierarchy.
+    private func scrollToTop() {
+        for _ in 0..<4 { app.swipeDown() }
+    }
+
     private func openOriginalWin() {
         tab("Browse")
         tapRow("GPD WIN SERIES")
@@ -49,7 +54,9 @@ final class HandheldHavenUITests: XCTestCase {
     private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
         do {
             try app.performAccessibilityAudit { issue in
-                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) element: \(issue.element?.label ?? "")")
+                let label = issue.element?.label ?? ""
+                let details = issue.element?.debugDescription ?? ""
+                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) element: \(label) \(details)")
                 return false
             }
             print("Accessibility audit, \(screen): no issues")
@@ -84,8 +91,9 @@ final class HandheldHavenUITests: XCTestCase {
         openOriginalWin()
         goBack()
         goBack()
+        scrollToTop()
         XCTAssertTrue(app.staticTexts["Recently Viewed"].waitForExistence(timeout: 10))
-        XCTAssertTrue(row(startingWith: "GPD Win (original)").exists)
+        XCTAssertTrue(row(startingWith: "GPD Win (original)").waitForExistence(timeout: 5))
     }
 
     func testSearchFindsProjectKennan() {
@@ -125,8 +133,14 @@ final class HandheldHavenUITests: XCTestCase {
         app.buttons["Add to Compare"].tap()
         tab("Compare")
         XCTAssertTrue(app.switches["Show only differences"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["Processor"].exists)
-        XCTAssertTrue(row(startingWith: "Device 1: GPD Win (original)").exists)
+        XCTAssertTrue(row(startingWith: "Device 1: GPD Win (original)").waitForExistence(timeout: 5))
+        var swipes = 0
+        let processor = app.staticTexts["Processor"]
+        while !processor.exists && swipes < 8 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(processor.exists)
         audit("Compare with two devices")
     }
 
@@ -150,7 +164,10 @@ final class HandheldHavenUITests: XCTestCase {
         app.switches["High contrast"].tap()
         tapRow("Text size")
         tapRow("Accessibility size 3")
-        XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 10) || app.staticTexts["Accessibility size 3"].exists)
+        if !app.navigationBars["Settings"].waitForExistence(timeout: 3) {
+            goBack()
+        }
+        XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 10))
         tab("Browse")
         XCTAssertTrue(row(startingWith: "BLIND BUYER'S GUIDE").waitForExistence(timeout: 10))
     }

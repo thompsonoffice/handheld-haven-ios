@@ -33,6 +33,8 @@ struct BrowseView: View {
                     SectionHeader("Guides")
                 } footer: {
                     Text("Independent guide. Not affiliated with any device manufacturer.")
+                    .font(.footnote)
+                    .foregroundStyle(Color(.label))
                 }
                 Section {
                     ForEach(store.chapters) { chapter in
@@ -43,6 +45,7 @@ struct BrowseView: View {
                 }
             }
             .navigationTitle("Browse")
+            .havenListChrome()
             .havenDestinations()
         }
     }
@@ -68,6 +71,7 @@ struct ChapterDetailView: View {
             }
         }
         .wrappingNavigationTitle(chapter.title)
+        .havenListChrome()
     }
 }
 
@@ -91,5 +95,6 @@ struct RecentsView: View {
             }
         }
         .navigationTitle("Recently Viewed")
+        .havenListChrome()
     }
 }

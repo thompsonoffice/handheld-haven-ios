@@ -47,6 +47,7 @@ struct SearchView: View {
                     }
                 }
             }
+            .havenListChrome()
             .navigationTitle("Search")
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Devices, guides, and terms")
             .autocorrectionDisabled()

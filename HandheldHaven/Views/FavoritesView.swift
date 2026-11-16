@@ -30,6 +30,7 @@ struct FavoritesView: View {
                 }
             }
             .navigationTitle("Favorites")
+            .havenListChrome()
             .havenDestinations()
         }
     }

@@ -74,6 +74,7 @@ struct SettingsView: View {
                 SectionHeader("Text")
             } footer: {
                 Text("Every screen uses Dynamic Type. Use system setting follows Settings, Accessibility, Display and Text Size, on iPhone and iPad.")
+                    .foregroundStyle(Color(.label))
             }
 
             Section {
@@ -89,7 +90,8 @@ struct SettingsView: View {
             } header: {
                 SectionHeader("Contrast and motion")
             } footer: {
-                Text("High contrast makes supporting text semibold and follows the system Increase Contrast setting when that is on. Text stays in the primary color so it does not depend on gray. Reduce Motion is read from the system. Navigation uses the system motion setting.")
+                Text("High contrast makes supporting text semibold and follows the system Increase Contrast setting when that is on. Text stays in the label color so it does not depend on gray. Reduce Motion is read from the system. Navigation uses the system motion setting.")
+                    .foregroundStyle(Color(.label))
             }
 
             Section {
@@ -103,8 +105,10 @@ struct SettingsView: View {
                 SectionHeader("Saved on this device")
             } footer: {
                 Text("Favorites, recently viewed entries, comparison picks, text size, and high contrast stay on this device. Nothing is sent anywhere.")
+                    .foregroundStyle(Color(.label))
             }
         }
+        .havenListChrome()
         .navigationTitle("Settings")
         .confirmationDialog("Remove all \(favorites.keys.count) favorites?", isPresented: $confirmFavorites, titleVisibility: .visible) {
             Button("Remove All Favorites", role: .destructive) { favorites.removeAll() }

@@ -11,6 +11,7 @@ struct DeviceDetailView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(device.name)
                         .font(.largeTitle.weight(.bold))
+                        .foregroundStyle(Color(.label))
                         .fixedSize(horizontal: false, vertical: true)
                         .accessibilityHeading(.h1)
                     SecondaryLine(text: store.chapterTitle(for: device))
@@ -71,6 +72,7 @@ struct DeviceDetailView: View {
             .padding()
             .readableColumn()
         }
+        .background(Color(.systemBackground))
         .wrappingNavigationTitle(device.name)
         .onAppear { recents.record(FavoriteKey.device(device.id)) }
     }

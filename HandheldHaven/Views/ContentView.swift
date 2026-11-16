@@ -22,10 +22,23 @@ struct ContentView: View {
             CompareView()
                 .tabItem { Label("Compare", systemImage: "rectangle.split.2x1") }
                 .tag(AppTab.compare)
-                .badge(compare.ids.count)
+                .modifier(CountBadge(count: compare.ids.count))
             MoreView()
                 .tabItem { Label("More", systemImage: "ellipsis.circle") }
                 .tag(AppTab.more)
+        }
+    }
+}
+
+/// A tab badge only when there is something to announce. A zero badge is an empty
+/// low-contrast element in the accessibility audit.
+struct CountBadge: ViewModifier {
+    let count: Int
+    func body(content: Content) -> some View {
+        if count > 0 {
+            content.badge(count)
+        } else {
+            content
         }
     }
 }
@@ -62,6 +75,7 @@ struct MoreView: View {
                 }
             }
             .navigationTitle("More")
+            .havenListChrome()
             .havenDestinations()
         }
     }

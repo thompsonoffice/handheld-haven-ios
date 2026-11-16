@@ -70,6 +70,7 @@ struct CompareView: View {
                 }
             }
             .navigationTitle("Compare")
+            .havenListChrome()
             .havenDestinations()
             .sheet(isPresented: $showingPicker) {
                 ComparePickerView()

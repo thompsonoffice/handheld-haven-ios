@@ -69,6 +69,7 @@ struct GlossaryView: View {
                 SectionHeader("\(terms.count) \(terms.count == 1 ? "term" : "terms")")
             }
         }
+        .havenListChrome()
         .navigationTitle("Glossary")
         .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Look up a term")
         .autocorrectionDisabled()

@@ -44,6 +44,15 @@ extension View {
         frame(maxWidth: 740, alignment: .leading)
             .frame(maxWidth: .infinity, alignment: .leading)
     }
+
+    /// Opaque label-colored lists. Grouped gray headers and tinted chevrons fail the contrast audit.
+    func havenListChrome() -> some View {
+        self
+            .headerProminence(.increased)
+            .tint(Color(.label))
+            .scrollContentBackground(.hidden)
+            .background(Color(.systemBackground))
+    }
 }
 
 struct RouteView: View {
@@ -96,7 +105,7 @@ struct SectionHeader: View {
     var body: some View {
         Text(title)
             .font(.title3.weight(.bold))
-            .foregroundStyle(.primary)
+            .foregroundStyle(Color(.label))
             .fixedSize(horizontal: false, vertical: true)
             .frame(maxWidth: .infinity, alignment: .leading)
             .accessibilityHeading(level)
@@ -119,6 +128,7 @@ struct DetailSection<Content: View>: View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
                 .font(.title2.weight(.bold))
+                .foregroundStyle(Color(.label))
                 .fixedSize(horizontal: false, vertical: true)
                 .accessibilityHeading(level)
             content
@@ -134,6 +144,7 @@ struct BodyText: View {
     var body: some View {
         Text(text)
             .font(.body)
+            .foregroundStyle(Color(.label))
             .fixedSize(horizontal: false, vertical: true)
             .frame(maxWidth: .infinity, alignment: .leading)
     }
@@ -146,7 +157,7 @@ struct SecondaryLine: View {
     var body: some View {
         Text(text)
             .font(highContrast ? .subheadline.weight(.semibold) : .subheadline)
-            .foregroundStyle(.primary)
+            .foregroundStyle(Color(.label))
             .fixedSize(horizontal: false, vertical: true)
     }
 }
@@ -158,8 +169,8 @@ struct LabeledFact: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(label).font(.subheadline.weight(.semibold))
-            Text(value).font(.body).fixedSize(horizontal: false, vertical: true)
+            Text(label).font(.subheadline.weight(.semibold)).foregroundStyle(Color(.label))
+            Text(value).font(.body).foregroundStyle(Color(.label)).fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .accessibilityElement(children: .combine)
@@ -189,6 +200,7 @@ struct FavoriteButton: View {
         }
         .buttonStyle(.bordered)
         .controlSize(.large)
+        .tint(Color(.label))
         .accessibilityLabel("Favorite")
         .accessibilityAddTraits(isOn ? .isSelected : [])
         .accessibilityHint(isOn ? "Removes \(name) from Favorites." : "Adds \(name) to Favorites.")
@@ -218,6 +230,7 @@ struct CompareButton: View {
         }
         .buttonStyle(.bordered)
         .controlSize(.large)
+        .tint(Color(.label))
         .disabled(!isIn && compare.isFull)
         .accessibilityHint(!isIn && compare.isFull
             ? "Compare already has two devices. Remove one in the Compare tab first."
@@ -237,6 +250,7 @@ struct ShareTextButton: View {
         }
         .buttonStyle(.bordered)
         .controlSize(.large)
+        .tint(Color(.label))
         .accessibilityHint("Shares or saves this entry as a plain text file.")
     }
 }

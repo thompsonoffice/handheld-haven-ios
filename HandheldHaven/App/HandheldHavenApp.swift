@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @main
 struct HandheldHavenApp: App {
@@ -9,12 +10,41 @@ struct HandheldHavenApp: App {
     private let loaded: Result<HavenStore, Error>
 
     init() {
+        HandheldHavenApp.configureOpaqueChrome()
         let defaults = HandheldHavenApp.makeDefaults()
         self.defaults = defaults
         _favorites = StateObject(wrappedValue: FavoritesStore(defaults: defaults))
         _recents = StateObject(wrappedValue: RecentsStore(defaults: defaults))
         _compare = StateObject(wrappedValue: CompareStore(defaults: defaults))
         loaded = Result { try HavenStore.loadBundled() }
+    }
+
+    /// Label-colored chrome so tab icons, titles, and bars clear the contrast audit.
+    private static func configureOpaqueChrome() {
+        let tab = UITabBarAppearance()
+        tab.configureWithOpaqueBackground()
+        tab.backgroundColor = .systemBackground
+        let item = UITabBarItemAppearance()
+        item.normal.iconColor = .label
+        item.normal.titleTextAttributes = [.foregroundColor: UIColor.label]
+        item.selected.iconColor = .label
+        item.selected.titleTextAttributes = [.foregroundColor: UIColor.label]
+        tab.stackedLayoutAppearance = item
+        tab.inlineLayoutAppearance = item
+        tab.compactInlineLayoutAppearance = item
+        UITabBar.appearance().standardAppearance = tab
+        UITabBar.appearance().scrollEdgeAppearance = tab
+
+        let nav = UINavigationBarAppearance()
+        nav.configureWithOpaqueBackground()
+        nav.backgroundColor = .systemBackground
+        nav.titleTextAttributes = [.foregroundColor: UIColor.label]
+        nav.largeTitleTextAttributes = [.foregroundColor: UIColor.label]
+        UINavigationBar.appearance().standardAppearance = nav
+        UINavigationBar.appearance().scrollEdgeAppearance = nav
+        UINavigationBar.appearance().tintColor = .label
+        UICollectionView.appearance().tintColor = .label
+        UITableView.appearance().tintColor = .label
     }
 
     /// UI tests launch with -HandheldHavenUITesting so they start from an empty store.
