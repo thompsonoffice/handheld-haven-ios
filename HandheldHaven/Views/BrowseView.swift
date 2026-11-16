@@ -24,10 +24,10 @@ struct BrowseView: View {
                         GuideRow(guide: guide)
                     }
                     NavigationLink(value: Route.glossary) {
-                        Label("Glossary", systemImage: "book.closed")
+                        Text("Glossary").font(.body).foregroundStyle(Color(.label))
                     }
                     NavigationLink(value: Route.sources) {
-                        Label("Sources", systemImage: "text.alignleft")
+                        Text("Sources").font(.body).foregroundStyle(Color(.label))
                     }
                 } header: {
                     SectionHeader("Guides")

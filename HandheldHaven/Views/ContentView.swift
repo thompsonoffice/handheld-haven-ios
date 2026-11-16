@@ -49,26 +49,26 @@ struct MoreView: View {
             List {
                 Section {
                     NavigationLink(value: Route.settings) {
-                        Label("Settings", systemImage: "gearshape")
+                        Text("Settings").font(.body).foregroundStyle(Color(.label))
                     }
                     NavigationLink(value: Route.recents) {
-                        Label("Recently Viewed", systemImage: "clock")
+                        Text("Recently Viewed").font(.body).foregroundStyle(Color(.label)).fixedSize(horizontal: false, vertical: true)
                     }
                     NavigationLink(value: Route.glossary) {
-                        Label("Glossary", systemImage: "book.closed")
+                        Text("Glossary").font(.body).foregroundStyle(Color(.label))
                     }
                     NavigationLink(value: Route.sources) {
-                        Label("Sources", systemImage: "text.alignleft")
+                        Text("Sources").font(.body).foregroundStyle(Color(.label))
                     }
                 } header: {
                     SectionHeader("In this guide")
                 }
                 Section {
                     NavigationLink(value: Route.about) {
-                        Label("About Handheld Haven", systemImage: "info.circle")
+                        Text("About Handheld Haven").font(.body).foregroundStyle(Color(.label)).fixedSize(horizontal: false, vertical: true)
                     }
                     NavigationLink(value: Route.privacy) {
-                        Label("Privacy Policy", systemImage: "hand.raised")
+                        Text("Privacy Policy").font(.body).foregroundStyle(Color(.label)).fixedSize(horizontal: false, vertical: true)
                     }
                 } header: {
                     SectionHeader("About")

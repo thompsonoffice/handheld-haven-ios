@@ -12,6 +12,16 @@ struct CompareView: View {
         let rows = store.comparisonRows(for: picked)
         let shown = differencesOnly ? rows.filter(\.differs) : rows
         NavigationStack {
+            VStack(spacing: 0) {
+            if !compare.isFull {
+                Button("Add Device") { showingPicker = true }
+                    .font(.body)
+                    .buttonStyle(.bordered)
+                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .padding(.horizontal)
+                    .padding(.bottom, 8)
+                    .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
+            }
             List {
                 Section {
                     if picked.isEmpty {
@@ -61,20 +71,9 @@ struct CompareView: View {
                         .font(.body)
                 }
             }
-            .havenScreenTitle("Compare")
             .havenListChrome()
-            .safeAreaInset(edge: .bottom) {
-                if !compare.isFull {
-                    Button("Add Device") { showingPicker = true }
-                        .font(.body)
-                        .buttonStyle(.bordered)
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                        .padding(.horizontal)
-                        .padding(.vertical, 8)
-                        .background(Color(.systemBackground))
-                        .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
-                }
             }
+            .havenScreenTitle("Compare")
             .havenDestinations()
             .sheet(isPresented: $showingPicker) {
                 ComparePickerView()
