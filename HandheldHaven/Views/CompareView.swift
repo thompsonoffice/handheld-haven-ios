@@ -16,8 +16,8 @@ struct CompareView: View {
             if !compare.isFull {
                 Button("Add Device") { showingPicker = true }
                     .font(.body)
-                    .buttonStyle(.bordered)
-                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .foregroundStyle(Color(.label))
+                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                     .padding(.horizontal)
                     .padding(.bottom, 8)
                     .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
