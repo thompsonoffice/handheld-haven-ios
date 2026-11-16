@@ -35,15 +35,15 @@ struct CompareView: View {
                         .accessibilityAction(named: "Remove from Compare") { compare.remove(device.id) }
                     }
                     if !compare.isFull {
-                        Button {
-                            showingPicker = true
-                        } label: {
-                            Label("Add Device", systemImage: "plus.circle")
-                        }
-                        .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
+                        Button("Add Device") { showingPicker = true }
+                            .font(.body)
+                            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                            .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
                     }
                     if !picked.isEmpty {
                         Button("Clear Comparison", role: .destructive) { compare.removeAll() }
+                            .font(.body)
+                            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                     }
                 } header: {
                     SectionHeader("Devices (\(picked.count) of \(CompareStore.capacity))")
