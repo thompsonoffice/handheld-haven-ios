@@ -35,7 +35,13 @@ struct CompareView: View {
                         .accessibilityAction(named: "Remove from Compare") { compare.remove(device.id) }
                     }
                     if !compare.isFull {
-                        Button("Add Device") { showingPicker = true }
+                        Text("Add Device")
+                            .font(.body)
+                            .foregroundStyle(Color(.label))
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .contentShape(Rectangle())
+                            .onTapGesture { showingPicker = true }
+                            .accessibilityAddTraits(.isButton)
                             .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
                     }
                     if !picked.isEmpty {

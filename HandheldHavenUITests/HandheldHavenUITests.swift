@@ -68,23 +68,35 @@ final class HandheldHavenUITests: XCTestCase {
 
     private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
         var problems: [String] = []
-        do {
-            try app.performAccessibilityAudit { issue in
-                let label = issue.element?.label ?? ""
-                let details = issue.element.map { "frame \($0.frame) hittable \($0.isHittable)" } ?? "no element"
-                let text = "\(issue.auditType) \(issue.compactDescription) element: \(label) \(details)"
-                if self.isUnmeasurableContrast(issue) {
-                    print("Accessibility audit, \(screen): ignored \(text)")
+        var ran = false
+        for attempt in 1...2 {
+            do {
+                try app.performAccessibilityAudit { issue in
+                    let label = issue.element?.label ?? ""
+                    let details = issue.element.map { "frame \($0.frame) hittable \($0.isHittable)" } ?? "no element"
+                    let text = "\(issue.auditType) \(issue.compactDescription) element: \(label) \(details)"
+                    if self.isUnmeasurableContrast(issue) {
+                        print("Accessibility audit, \(screen): ignored \(text)")
+                        return true
+                    }
+                    problems.append(text)
+                    print("Accessibility audit, \(screen): \(text)")
                     return true
                 }
-                problems.append(text)
-                print("Accessibility audit, \(screen): \(text)")
-                return true
+                ran = true
+                break
+            } catch {
+                let timedOut = String(describing: error).contains("complete in time")
+                if timedOut && attempt == 1 {
+                    problems.removeAll()
+                    print("Accessibility audit, \(screen): timed out, retrying")
+                    continue
+                }
+                XCTFail("Accessibility audit could not run on \(screen): \(error)", file: file, line: line)
+                return
             }
-        } catch {
-            XCTFail("Accessibility audit could not run on \(screen): \(error)", file: file, line: line)
-            return
         }
+        if !ran { return }
         if problems.isEmpty {
             print("Accessibility audit, \(screen): no issues")
         } else {
