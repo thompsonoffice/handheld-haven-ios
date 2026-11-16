@@ -1,0 +1,181 @@
+import XCTest
+
+/// Main flows plus XCUIApplication.performAccessibilityAudit on iOS 17+.
+/// These run in the Simulator. They do not replace VoiceOver on a device.
+final class HandheldHavenUITests: XCTestCase {
+    private var app: XCUIApplication!
+
+    override func setUp() {
+        super.setUp()
+        continueAfterFailure = false
+        app = XCUIApplication()
+        app.launchArguments = ["-HandheldHavenUITesting"]
+        app.launch()
+    }
+
+    private func tab(_ name: String) {
+        let button = app.tabBars.buttons[name]
+        XCTAssertTrue(button.waitForExistence(timeout: 15), "tab \(name)")
+        button.tap()
+    }
+
+    private func row(startingWith prefix: String) -> XCUIElement {
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", prefix)).firstMatch
+    }
+
+    private func tapRow(_ prefix: String) {
+        let element = row(startingWith: prefix)
+        _ = element.waitForExistence(timeout: 5)
+        var swipes = 0
+        while !(element.exists && element.isHittable) && swipes < 12 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(element.exists, "row starting with \(prefix)")
+        element.tap()
+    }
+
+    private func goBack() {
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+    }
+
+    private func openOriginalWin() {
+        tab("Browse")
+        tapRow("GPD WIN SERIES")
+        tapRow("GPD Win (original)")
+        XCTAssertTrue(app.staticTexts["HARDWARE"].waitForExistence(timeout: 10))
+    }
+
+    private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
+        do {
+            try app.performAccessibilityAudit { issue in
+                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) element: \(issue.element?.label ?? "")")
+                return false
+            }
+            print("Accessibility audit, \(screen): no issues")
+        } catch {
+            XCTFail("Accessibility audit failed on \(screen): \(error)", file: file, line: line)
+        }
+    }
+
+    func testFiveTabsAreLabeled() {
+        for name in ["Browse", "Search", "Favorites", "Compare", "More"] {
+            XCTAssertTrue(app.tabBars.buttons[name].waitForExistence(timeout: 15), name)
+        }
+    }
+
+    func testBrowseChapterToDevice() {
+        openOriginalWin()
+        for heading in ["WHAT IT CAN DO", "BLIND USABILITY", "SOURCES"] {
+            XCTAssertTrue(app.staticTexts[heading].exists, heading)
+        }
+        XCTAssertTrue(app.buttons["Favorite"].exists)
+        XCTAssertTrue(app.buttons["Add to Compare"].exists)
+    }
+
+    func testFavoriteAppearsInFavorites() {
+        openOriginalWin()
+        app.buttons["Favorite"].tap()
+        tab("Favorites")
+        XCTAssertTrue(row(startingWith: "GPD Win (original)").waitForExistence(timeout: 10))
+    }
+
+    func testRecentlyViewedOnBrowse() {
+        openOriginalWin()
+        goBack()
+        goBack()
+        XCTAssertTrue(app.staticTexts["Recently Viewed"].waitForExistence(timeout: 10))
+        XCTAssertTrue(row(startingWith: "GPD Win (original)").exists)
+    }
+
+    func testSearchFindsProjectKennan() {
+        tab("Search")
+        let field = app.searchFields.firstMatch
+        XCTAssertTrue(field.waitForExistence(timeout: 10))
+        field.tap()
+        field.typeText("Project Kennan")
+        XCTAssertTrue(app.staticTexts["resultCount"].waitForExistence(timeout: 10))
+        XCTAssertTrue(row(startingWith: "ROG Xbox Ally").waitForExistence(timeout: 10))
+    }
+
+    func testGlossaryLookup() {
+        tab("Browse")
+        tapRow("Glossary")
+        let field = app.searchFields.firstMatch
+        XCTAssertTrue(field.waitForExistence(timeout: 10))
+        field.tap()
+        field.typeText("Narrator")
+        tapRow("NARRATOR")
+        XCTAssertTrue(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "screen reader built into Windows")).firstMatch.waitForExistence(timeout: 10))
+    }
+
+    func testBuyersGuideOpens() {
+        tab("Browse")
+        tapRow("BLIND BUYER'S GUIDE")
+        XCTAssertTrue(app.staticTexts["WHAT TO AVOID"].waitForExistence(timeout: 10))
+    }
+
+    func testCompareTwoDevices() {
+        openOriginalWin()
+        app.buttons["Add to Compare"].tap()
+        XCTAssertTrue(app.buttons["Remove from Compare"].waitForExistence(timeout: 5))
+        goBack()
+        tapRow("GPD Win 2")
+        XCTAssertTrue(app.buttons["Add to Compare"].waitForExistence(timeout: 10))
+        app.buttons["Add to Compare"].tap()
+        tab("Compare")
+        XCTAssertTrue(app.switches["Show only differences"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Processor"].exists)
+        XCTAssertTrue(row(startingWith: "Device 1: GPD Win (original)").exists)
+        audit("Compare with two devices")
+    }
+
+    func testCompareAddDeviceSheet() {
+        tab("Compare")
+        let add = app.buttons["Add Device"]
+        XCTAssertTrue(add.waitForExistence(timeout: 10))
+        add.tap()
+        let field = app.searchFields.firstMatch
+        XCTAssertTrue(field.waitForExistence(timeout: 10))
+        field.tap()
+        field.typeText("GPD Win 2")
+        tapRow("GPD Win 2")
+        XCTAssertTrue(row(startingWith: "Device 1: GPD Win 2").waitForExistence(timeout: 10))
+    }
+
+    func testSettingsTextSizeAndHighContrast() {
+        tab("More")
+        tapRow("Settings")
+        XCTAssertTrue(app.switches["High contrast"].waitForExistence(timeout: 10))
+        app.switches["High contrast"].tap()
+        tapRow("Text size")
+        tapRow("Accessibility size 3")
+        XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 10) || app.staticTexts["Accessibility size 3"].exists)
+        tab("Browse")
+        XCTAssertTrue(row(startingWith: "BLIND BUYER'S GUIDE").waitForExistence(timeout: 10))
+    }
+
+    func testAccessibilityAuditMainScreens() {
+        tab("Browse"); audit("Browse")
+        tab("Search"); audit("Search")
+        tab("Favorites"); audit("Favorites")
+        tab("Compare"); audit("Compare empty")
+        tab("More"); audit("More")
+        tapRow("Settings"); audit("Settings")
+        goBack()
+        tapRow("About Handheld Haven")
+        XCTAssertTrue(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "not affiliated")).firstMatch.waitForExistence(timeout: 10))
+        audit("About")
+        goBack()
+        tapRow("Privacy Policy"); audit("Privacy Policy")
+        tab("Browse")
+        tapRow("Glossary"); audit("Glossary")
+        goBack()
+        tapRow("BLIND BUYER'S GUIDE"); audit("Blind buyer's guide")
+    }
+
+    func testAccessibilityAuditDevice() {
+        openOriginalWin()
+        audit("Device detail")
+    }
+}

@@ -1,0 +1,81 @@
+# PREPARED BUT DISABLED. Archives, signs, and uploads Handheld Haven to
+# App Store Connect (TestFlight).
+#
+# It cannot run until ALL of these are true (see docs/APP-STORE-SETUP.md):
+#   1. The Apple Developer Program membership is active.
+#   2. An app record for bundle ID com.thompsonoffice.handheldhaven exists in App Store Connect.
+#   3. Repository secrets exist: ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8 (the .p8 file's text),
+#      APPLE_TEAM_ID.
+#   4. Repository variable ENABLE_TESTFLIGHT_UPLOAD is set to true.
+# Until then the job is skipped even if someone starts the workflow by hand.
+# This workflow does not run on push.
+name: TestFlight upload (disabled)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    if: ${{ vars.ENABLE_TESTFLIGHT_UPLOAD == 'true' }}
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Use the newest installed Xcode
+        run: |
+          XCODE=$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Generate the Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate
+
+      - name: Write the App Store Connect API key
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/asc"
+          printf '%s' "$ASC_KEY_P8" > "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8"
+
+      - name: Archive (cloud-managed signing through the API key)
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          set -o pipefail
+          xcodebuild archive \
+            -project HandheldHaven.xcodeproj -scheme HandheldHaven -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath build/HandheldHaven.xcarchive \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" CODE_SIGN_STYLE=Automatic \
+            CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID" | xcbeautify
+
+      - name: Export and upload to App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          sed "s/TEAM_ID_PLACEHOLDER/$APPLE_TEAM_ID/" scripts/ExportOptions-upload.plist > build/ExportOptions.plist
+          xcodebuild -exportArchive \
+            -archivePath build/HandheldHaven.xcarchive \
+            -exportOptionsPlist build/ExportOptions.plist \
+            -exportPath build/export \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+      - name: Remove the key file
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/asc"
