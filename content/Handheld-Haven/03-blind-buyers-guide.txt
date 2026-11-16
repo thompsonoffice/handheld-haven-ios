@@ -1,0 +1,58 @@
+BLIND BUYER'S GUIDE: SHOULD YOU BUY A HANDHELD?
+
+This guide is for blind and low vision people deciding whether a handheld Windows computer is worth it, and which kind. It is based on the entries in this book. No device was tested by the author. Prices are launch prices with the year shown; they are not today's prices, and some later went up. Check current prices yourself.
+
+FIRST QUESTION: WHAT DO YOU WANT IT FOR?
+If you want a small computer for writing, email, the web and screen reader use, the most important feature is a physical keyboard. A handheld with a built-in keyboard, or a tablet with a keyboard cover, gives you every screen reader command. A controller-only gaming handheld is a poor main computer without an external keyboard.
+If you want to play mainstream games on the go, a controller-shaped handheld like the ROG Ally or Legion Go makes sense, but plan on a small Bluetooth keyboard for setup and for screen reader work.
+If you want to play audio games (games made to be played by sound), almost any Windows handheld from the last several years is more than powerful enough, because most audio games need very little processing power. What matters more is that the device runs normal 64-bit Windows on an Intel or AMD processor, has a headphone jack or good Bluetooth audio, and works with your screen reader.
+
+CAN A HANDHELD REPLACE A LAPTOP?
+Some can, partly. A handheld with a Ryzen or Intel Core processor runs full Windows, NVDA, JAWS and Office like a laptop. Most handhelds have USB-C ports that can connect to a dock with a keyboard, monitor and power. The tradeoffs: tiny or no keyboards, short battery life when gaming, fans that can be loud, and maker software that may not be screen reader friendly. A US$599.99 ROG Xbox Ally (2025 launch price) plus a keyboard can cost less than many gaming laptops, but it is not cheaper than a basic laptop for office work.
+
+STARTING A SCREEN READER: THE BIG DIFFERENCE BETWEEN DEVICES
+Microsoft documents two ways to start Narrator: Windows key+Ctrl+Enter on a keyboard, and Windows button+Volume Up on a touch device with a hardware Windows button.
+Devices with a built-in keyboard (GPD Win, Win 2, Win Max, Win Max 2, Win Mini, GPD Win 4 with its slide-out keyboard, GPD Pocket and MicroPC, AYANEO Flip KB) let you press Windows key+Ctrl+Enter yourself, where the keyboard has a Windows key and Ctrl key (check the entry; on tiny keyboards some keys need Fn). The GPD Win 3 is a trap here: its slide-out keyboard is a flat touch panel with no physical keys.
+Small Windows 8 era tablets (Dell Venue 8 Pro, Toshiba Encore, HP Stream 7) have a hardware Windows button.
+Controller-only handhelds (ROG Ally family, Legion Go family, MSI Claw, most AYANEO and OneXPlayer models, Zotac Zone) do not list a Windows button. Can I Play That's review of the ROG Xbox Ally X found Windows setup mentions only keyboard combinations to turn on Narrator. Plan to plug in a USB or Bluetooth keyboard for first setup, or have sighted help for the first few minutes.
+
+VALUE AND BUDGET PICKS (BASED ON LAUNCH PRICES AND DOCUMENTED FEATURES)
+These are suggestions to research further, not tested recommendations. Every price below is a launch price, dated.
+
+Best value for a screen reader user who also games: ROG Xbox Ally, US$599.99 at launch in October 2025. It runs Windows 11 with Xbox mode, and the best accessibility reporting in this book is for its sibling, the Xbox Ally X: an AppleVis user found NVDA and Narrator workable in Xbox mode and Armoury Crate "surprisingly accessible", and Can I Play That documented button remapping with macros. Add a keyboard for setup. The original ROG Ally (US$599.99 Z1, US$699.99 Z1 Extreme, 2023) shares the same Armoury Crate software and is often discussed as a cheaper used option, but no used price was sourced.
+
+Best value with a built-in keyboard for gaming: GPD Win Mini (crowdfunding from US$699 in 2023, retail about US$820) or GPD Win 4 (from US$799 in 2022). Both have a keyboard for screen reader commands and a game controller. GPD's own software accessibility is not documented.
+
+Best small productivity machine: GPD Pocket 3 (from US$650 on Indiegogo in 2021 with a Pentium Silver; higher at retail) or GPD Pocket 4 (newer and more powerful, about US$1,300 to US$1,400 as tested by Notebookcheck). These are pocket laptops with keyboards, full Windows, and in the Pocket 4's case strong performance. Notebookcheck's price widget showed Pocket 4 Amazon listings on November 12, 2026 (see the entry), but prices change constantly.
+
+Budget Windows tablet with a keyboard: Surface Go line. The Surface Go launched at US$399 in 2018 (keyboard extra, US$99 for the Go 2 keyboard). These are Intel x86 tablets, so NVDA and JAWS install normally once you leave S mode, a free one-way switch in Settings. They are not gaming machines. The Surface Go 4 for Business launched at US$579 in 2023.
+
+Cheapest ever new: HP Stream 7, US$99 in 2014. Today it is a curiosity: 1 GB of RAM and 32 GB of storage, far too little for a modern screen reader to run comfortably.
+
+Steam Deck: from US$399 at launch in 2022 (LCD), with OLED prices raised to US$789 and US$949 on May 27, 2026. SteamOS now has a screen reader for the Steam interface (2025 beta), but Windows audio games and NVDA need Windows, which SightlessKombat installed only with sighted help. Choose it only if Steam games are your main goal and you accept those limits, or have help installing Windows.
+
+WHAT TO AVOID
+Windows RT devices (Surface RT and Surface 2): they cannot install NVDA, JAWS or normal desktop programs. Only Narrator works.
+Very old devices for daily use: UMPCs and 2013 Atom tablets cannot run current NVDA well, and many are 32-bit.
+ARM Windows devices (Surface Pro X, Surface Pro 11 Snapdragon models, Surface Pro 12-inch) for gaming: NVDA runs through emulation and JAWS has an ARM64 version, but anti-cheat and some older games and drivers do not run on ARM. They are fine for productivity.
+MSI Claw if maker software accessibility matters to you: an AppleVis user reported MSI Center is not accessible (single report; may have changed).
+
+USED-MARKET NOTES
+No used-market prices were collected for this book, so none are given. A Reddit discussion by a blind ROG Ally owner and AppleVis forum posts mention buying handhelds, but without prices we could verify. If you buy used:
+Ask the seller to confirm the battery holds a charge and the device boots to Windows without a password or account lock. A device still linked to someone's Microsoft account or with BitLocker on may be hard to reset without sighted help.
+Ask whether the joysticks drift (move by themselves), a common wear problem on handhelds.
+Ask whether the charger is included; many handhelds need a USB-C charger of a specific wattage.
+Confirm the exact model and memory. For example, the original ROG Ally came in Z1 and Z1 Extreme versions, and the Surface Go came in 4 GB and 8 GB versions.
+Plan to reset Windows yourself with a keyboard connected, then turn on Narrator during setup with Windows key+Ctrl+Enter.
+Buy from sellers with a return window when you can.
+
+CHECKLIST BEFORE YOU BUY
+Does it have a keyboard, or will you carry one?
+Is it x86 (Intel or AMD), so NVDA, JAWS and audio games run normally?
+Does it run full Windows 10 or 11, not Windows RT, and is S mode removable?
+Is there a 3.5 mm headphone jack, or are you happy with Bluetooth audio latency?
+Can the maker's software remap a button to a keyboard shortcut? (Documented for ASUS Armoury Crate.)
+Is the battery life acceptable for what you will do? Gaming handhelds often last one to three hours under load.
+Is there a return policy, in case setup is harder than expected?
+
+Sources for claims in this guide are in the matching device entries and in 06-sources.txt.

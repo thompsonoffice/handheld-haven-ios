@@ -1,0 +1,148 @@
+LENOVO LEGION GO FAMILY
+
+Lenovo's Legion Go (2023), Legion Go S (2025, Windows and SteamOS), and Legion Go 2 (2025).
+
+This file has 3 entries:
+1. Lenovo Legion Go
+2. Lenovo Legion Go S (Windows and SteamOS editions)
+3. Lenovo Legion Go 2
+
+ENTRY: Lenovo Legion Go
+Maker: Lenovo (Legion)
+Released: October 31, 2023 (Wikipedia).
+Launch price: US$599.99 (Z1, 256 GB), US$699.99 (Z1 Extreme, 512 GB), US$749.99 (Z1 Extreme, 1 TB) (Wikipedia). Tom's Hardware cites the original at US$749.99.
+
+WHAT IT CAN DO
+A big-screen Windows handheld with Nintendo Switch-style detachable controllers and a kickstand. The right controller can work as a vertical FPS mouse on a base.
+
+HARDWARE
+Processor: AMD Ryzen Z1 or Z1 Extreme (as ROG Ally).
+Memory: 16 GB LPDDR5X-7500, 120 GB/s; soldered.
+Graphics: RDNA 3, 4 or 12 compute units.
+Storage: 256 GB, 512 GB or 1 TB NVMe M.2 2242 PCIe 4.0 SSD; UHS-II microSD.
+Display: 8.8-inch 2560 by 1600 IPS, 144 Hz, 500 nits, 16:10, Gorilla Glass 5.
+Battery: 49.2 Wh.
+Weight and size: 854 grams with controllers, 650 grams without (Wikipedia).
+Operating system: Windows 11 Home.
+Wi-Fi and network: Tri-band Wi-Fi 6E (chip not documented).
+Bluetooth: Bluetooth 5.3.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C (USB4 per The Verge), microSD UHS-II, 3.5 mm headset jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo speakers with Dolby Atmos, dual-array microphone, hall-effect sticks, 79-blade fan. Ships with carrying case, charger and controller base.
+
+CONTROLS AND BUTTON LAYOUT
+Two sticks, LB/RB, LT/RT, rear grip buttons, D-pad, A/B/X/Y, View/Menu, Quick Settings button, Legion Space button, volume, power. Detachable controllers.
+
+HOW IT FEELS
+Large: about 11.8 inches wide, 5.2 tall, 1.6 thick, weighing almost 1.9 pounds, about the heft of a large hardback. The controllers slide off the sides like Joy-Cons. Gizmodo noted the size is a disadvantage. A blind Reddit user asked about its haptics; a search summary said users find haptics and speakers weak (UNCERTAIN, not fetched).
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. Legion Space accessibility with a screen reader is not documented in any source found; a Lenovo community post confirms standard Windows 11 accessibility features apply. SteamOS version of the Legion Go S: Valve added a built-in screen reader to SteamOS in a June 2025 beta, toggled in Settings or with a two-button shortcut, and The Verge lists the Legion Go S as one of the SteamOS devices getting it. It reads the Steam interface, not Windows programs, so NVDA-dependent PC audio games will not run there.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid for its year. Runs most current games at 720p to 1080p with reduced settings. Kernel anti-cheat games generally run because it is real Windows, though individual titles can block handhelds (not documented per device). All Windows audio games, NVDA-accessible indies and accessibility mods (for example Pokemon accessibility scripts mentioned by a blind Ally owner) run as on a desktop.
+
+UNCERTAIN
+Haptics/speaker quality claim UNCERTAIN.
+
+SOURCES
+https://en.wikipedia.org/wiki/Lenovo_Legion_Go
+https://www.theverge.com/news/769776/legion-go-2-official-lenovo-new-flagship-handheld-cost
+https://gaming.lenovo.com/legion-go/post/for-dark-lord-caliban---windows-11-accessibility-features-4Nv7B2nRkeTWrnZ
+
+----------
+
+ENTRY: Lenovo Legion Go S (Windows and SteamOS editions)
+Maker: Lenovo
+Released: Announced CES January 2025. Windows model January 2025 (white); SteamOS model (Nebula Violet) May 2025 (Tom's Hardware, The Verge).
+Launch price: Windows: US$729.99 (Z2 Go, 32 GB/1 TB, January 2025); US$599.99 Windows 16 GB/1 TB from May. SteamOS: announced at US$499.99, actual price US$599 for the base Z2 Go (The Verge review); Z1 Extreme SteamOS US$829 (Tom's Hardware). XDA said a later Windows edition sold at US$799.
+
+WHAT IT CAN DO
+A one-piece 8-inch handheld (no detachable controllers), the first officially licensed third-party SteamOS handheld. The Windows version is a standard Windows 11 PC.
+
+HARDWARE
+Processor: AMD Ryzen Z2 Go (Zen 3+, Lenovo-exclusive; Tom's Guide) or Ryzen Z1 Extreme (Zen 4, 8 cores/16 threads, up to 5.1 GHz). Lenovo targets 20 to 40 W configurable power (The Verge).
+Memory: 16 or 32 GB LPDDR5X-6400; soldered.
+Graphics: Z2 Go: RDNA 2 (Tom's Guide). Z1 Extreme: Radeon 780M, RDNA 3, 12 compute units.
+Storage: 512 GB or 1 TB M.2 2242 PCIe Gen 4 SSD; Lenovo spec sheets indicate 2280 drives fit (Tom's Hardware); microSD.
+Display: 8-inch 1920 by 1200 IPS, 120 Hz, VRR, 500 nits.
+Battery: 55.5 Wh; 65 W adapter.
+Weight and size: 730 to 740 grams (1.61 to 1.63 pounds); 11.7 by 5.02 by 0.89 inches.
+Operating system: Windows 11 or SteamOS.
+Wi-Fi and network: MediaTek MT7922 Wi-Fi 6E (Tom's Hardware).
+Bluetooth: Bluetooth 5.3.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB4 Type-C on top, microSD, 3.5 mm headphone jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Not documented beyond the above.
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout: two sticks, D-pad, face buttons, bumpers, triggers, rear buttons (exact list not documented in sources used).
+
+HOW IT FEELS
+The Verge: "a sculpted grip that felt supremely comfortable" and good ergonomics, but a "somewhat slippery texture". About 1.6 pounds, slimmer than the original Go.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. Legion Space accessibility with a screen reader is not documented in any source found; a Lenovo community post confirms standard Windows 11 accessibility features apply. SteamOS version of the Legion Go S: Valve added a built-in screen reader to SteamOS in a June 2025 beta, toggled in Settings or with a two-button shortcut, and The Verge lists the Legion Go S as one of the SteamOS devices getting it. It reads the Steam interface, not Windows programs, so NVDA-dependent PC audio games will not run there.
+
+GAME COMPATIBILITY
+Performance tier: mid (Z2 Go, roughly Steam Deck level per The Verge) to upper-mid (Z1 Extreme). Tom's Hardware measured SteamOS 4 to 15 fps faster than Windows on the same hardware; The Verge about 17 percent. But SteamOS cannot run NVDA, so blind users relying on Windows audio games should choose Windows.
+
+UNCERTAIN
+Price history varied; dates given.
+
+SOURCES
+https://www.theverge.com/2025/1/7/24338028/lenovo-legion-go-s-steam-windows
+https://www.tomshardware.com/video-games/handheld-gaming/lenovo-legion-go-s-steamos-review
+https://www.tomshardware.com/video-games/handheld-gaming/lenovos-legion-go-s-handheld-is-powered-by-amds-z2-go-runs-steamos-or-windows
+https://www.theverge.com/reviews/704903/lenovo-legion-go-s-steam-os-review-z2-go-z1-extreme
+https://www.tomsguide.com/gaming/handheld-gaming/the-lenovo-legion-go-s-with-steamos-is-the-gaming-handheld-ive-been-waiting-for
+https://www.theverge.com/games/689922/steam-is-adding-screen-reader-support-and-other-accessibility-tools
+
+----------
+
+ENTRY: Lenovo Legion Go 2
+Maker: Lenovo
+Released: Unveiled CES January 2025; released October 2025 (Wikipedia; Tom's Hardware review October 2, 2025).
+Launch price: US$1,099.99 (Z2, 16 GB/1 TB), US$1,199.99 (Z2, 32 GB), US$1,349.99 (Z2 Extreme, 32 GB/1 TB), US$1,479.99 (Z2 Extreme, 2 TB) (The Verge, 2025). Tom's Hardware had earlier reported a US$1,049 start.
+
+WHAT IT CAN DO
+Successor to the Legion Go: still detachable controllers and an 8.8-inch screen, now OLED with 30 to 144 Hz VRR, and AMD Z2 chips.
+
+HARDWARE
+Processor: AMD Ryzen Z2 or Ryzen Z2 Extreme (Z2 Extreme: up to 8 Zen 5 cores/16 threads).
+Memory: 16 GB LPDDR5X-7500 (Z2) or 32 GB LPDDR5X-8000 (Z2 Extreme); soldered.
+Graphics: Z2 Extreme: Radeon 890M-class RDNA 3.5 (Wikipedia). Z2: not documented here.
+Storage: 1 TB or 2 TB SSD; microSD UHS-II.
+Display: 8.8-inch 1920 by 1200 OLED, 30 to 144 Hz VRR, 500 nits, 1,000 nits peak, HDR.
+Battery: 74 Wh.
+Weight and size: DISPUTED: Tom's Hardware 2.03 pounds with controllers (about 920 grams; Digitec also measured 920 g); The Verge's spec table lists 2.38 pounds (1,079 grams). Size with pads 11.64 by 5.38 by 1.66 inches.
+Operating system: Windows 11.
+Wi-Fi and network: Wi-Fi 6E.
+Bluetooth: Bluetooth 5.3.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB4 (one top, one bottom), microSD UHS-II, 3.5 mm headset jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint reader in the power button; hall-effect sticks; carrying case and joystick conversion kit included (XDA). XDA calls the sound system robust.
+
+CONTROLS AND BUTTON LAYOUT
+Detachable controllers as on the original Go, with more rounded handles.
+
+HOW IT FEELS
+Digitec: handles more rounded and much more ergonomic, an excellent high-quality finish, but bulky and heavy at almost a kilogram. Tom's Hardware's reviewer sometimes ended sessions with tired hands and wrists.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. Legion Space accessibility with a screen reader is not documented in any source found; a Lenovo community post confirms standard Windows 11 accessibility features apply. SteamOS version of the Legion Go S: Valve added a built-in screen reader to SteamOS in a June 2025 beta, toggled in Settings or with a two-button shortcut, and The Verge lists the Legion Go S as one of the SteamOS devices getting it. It reads the Steam interface, not Windows programs, so NVDA-dependent PC audio games will not run there.
+
+GAME COMPATIBILITY
+Performance tier: high (Z2 Extreme), with the biggest gains at 1280 by 800 (Tom's Hardware).
+
+UNCERTAIN
+Weight DISPUTED.
+
+SOURCES
+https://www.tomshardware.com/video-games/handheld-gaming/lenovo-legion-go-2-review
+https://www.theverge.com/news/769776/legion-go-2-official-lenovo-new-flagship-handheld-cost
+https://www.xda-developers.com/lenovo-legion-go-2-review/
+https://www.digitec.ch/en/page/lenovo-legion-go-2-review-too-heavy-too-slow-40071
+https://en.wikipedia.org/wiki/Lenovo_Legion_Go
+
+END OF LENOVO LEGION GO FAMILY

@@ -1,0 +1,372 @@
+GPD WIN SERIES
+
+GPD (Shenzhen GPD Technology) began the modern Windows gaming handheld with the crowdfunded GPD Win in 2016. The Win line mixes thumb keyboards and game controls.
+
+This file has 8 entries:
+1. GPD Win (original)
+2. GPD Win 2
+3. GPD Win Max
+4. GPD Win 3
+5. GPD Win 4 (including 2023, 2024 and 2025 refreshes)
+6. GPD Win Max 2
+7. GPD Win Mini
+8. GPD Win 5
+
+ENTRY: GPD Win (original)
+Also known as: GPD Win 1
+Maker: GamePad Digital (GPD), Shenzhen, China
+Released: Announced October 2015; crowdfunded on Indiegogo in 2016; shipped from October 2016 (Wikipedia).
+Launch price: Indiegogo pre-order backers were offered US$330 (Wikipedia) and Liliputing reported a US$299 early crowdfunding price; planned retail was US$499 (Laptop Mag via search pointer, UNCERTAIN); Liliputing's October 2016 review noted US$340 from GPD's AliExpress store.
+
+WHAT IT CAN DO
+A full x86 Windows 10 computer the size of a large Nintendo DS. It runs ordinary Windows desktop programs, older and lighter PC games, emulators and audio games, and it has a QWERTY keyboard built in. It is not powerful enough for modern 3D games.
+
+HARDWARE
+Processor: Intel Atom x7-Z8700 (first units shipped with x7-Z8750, then GPD standardized on the Z8700 because it performed better, per Liliputing). Quad-core, four threads. The Z8700 is the same chip Microsoft used in the Surface 3, whose Wikipedia infobox lists 1.6 GHz base and up to 2.4 GHz, 2 W scenario design power.
+Memory: 4 GB LPDDR3, soldered (not upgradeable).
+Graphics: Intel HD Graphics 405 (integrated). Compute units: not documented.
+Storage: 64 GB eMMC 4.51 (soldered) plus one microSD slot.
+Display: 5.5-inch 1280 by 720 capacitive multi-touch, Gorilla Glass 3.
+Battery: 6,900 mAh (Wikipedia) or 6,700 mAh (Liliputing), DISPUTED; GPD claimed 6 to 8 hours.
+Weight and size: About 13 ounces (Liliputing); 155 by 97 by 22 millimetres (6.1 by 3.8 by 0.9 inches).
+Operating system: Windows 10 Home.
+Wi-Fi and network: Wi-Fi 802.11a/b/g/n/ac, dual band 2.4 and 5 GHz. Wi-Fi chip: not documented.
+Bluetooth: Bluetooth (version not documented in sources used).
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): One USB 3.0 Type-A, one USB-C (charging), mini HDMI, headset jack, microSD. No Thunderbolt or USB4; no eGPU support documented.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint reader: none documented. Cameras: none documented. One speaker on the side. Haptics and gyro: not documented. Mouse-mode switch between the sticks.
+
+CONTROLS AND BUTTON LAYOUT
+D-pad, four face buttons (X, Y, A, B), two analog sticks, L1, L2, R1, R2 shoulder buttons, L3 and R3 as small keys to the right of the keyboard, plus a full QWERTY keyboard with an Fn key. A slide switch between the sticks turns on mouse mode: right stick moves the pointer, left stick scrolls, shoulder buttons click.
+
+HOW IT FEELS
+Picture a thick clamshell, a little smaller than a paperback, about 6 inches wide and almost an inch thick, weighing about as much as a full can of soup. You lift the lid like a Nintendo DS. The lower half has the D-pad and left stick on the upper left, the face buttons and right stick on the upper right, and a tiny chiclet keyboard filling the space below them. Liliputing describes a glossy black plastic case and says the gaming buttons "feel pretty good". The keyboard is too small for touch typing; it is meant for passwords, URLs and short commands. The single speaker sits on the side where your palm naturally rests, so it is easy to muffle it with your hand.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. The built-in keyboard means NVDA keystrokes (Insert or Caps Lock combinations) are physically available, but the tiny keys and Fn layer make them hard to find by touch; Liliputing notes Fn keys are triggered by holding Fn and pressing the number row.
+
+GAME COMPATIBILITY
+Performance tier: very low (Atom era). Liliputing and Windows Central reported it as suitable for older and less demanding PC games and emulation; Windows Central put it at roughly Xbox 360-era and lighter titles. Text and audio games, NVDA-friendly indie titles and most AudioGames.net-style games ask very little of the CPU and are a good fit. Anti-cheat: no specific issues documented. Expect Windows 10 to be the last practical version; Windows 11 is not officially supported on this Atom chip (Microsoft's processor list is not cited here, treat as UNCERTAIN).
+
+UNCERTAIN
+Battery capacity is DISPUTED (6,900 vs 6,700 mAh). The US$499 planned retail figure comes from a search summary of Laptop Mag and Liliputing and is UNCERTAIN.
+
+SOURCES
+https://en.wikipedia.org/wiki/GPD_Win
+https://liliputing.com/gpd-win-handheld-gaming-pc-quick-review/
+https://liliputing.com/gpd-win-is-a-handheld-windows-gaming-pc-for-299-crowdfunding/
+https://www.windowscentral.com/gpd-win-review
+https://en.wikipedia.org/wiki/Surface_3
+
+----------
+
+ENTRY: GPD Win 2
+Maker: GamePad Digital (GPD)
+Released: Indiegogo campaign early 2018; shipped May 2018 (Wikipedia).
+Launch price: US$649 Indiegogo pre-order (Liliputing, 2018). Retail price: not documented in sources used.
+
+WHAT IT CAN DO
+A pocket Windows 10 PC with the same class of Core m3 chip as entry-level Surface Pro and Surface Laptop models (Liliputing). Plays older and mid-weight PC games, emulators, and light office work; can drive an external display, keyboard and mouse.
+
+HARDWARE
+Processor: Intel Core m3 (Wikipedia lists Core m3 with HD 615 graphics; the exact model, commonly reported as m3-7Y30 then m3-8100Y, is UNCERTAIN). Dual-core, four threads; clocks and TDP not documented in sources used.
+Memory: 8 GB (type: not documented in sources used; soldered).
+Graphics: Intel HD Graphics 615 (integrated).
+Storage: 128 GB M.2 SSD, replaceable (Wikipedia), plus microSD.
+Display: 6-inch 1280 by 720, 10-point touch.
+Battery: not documented
+Weight and size: 162 by 99 by 25 millimetres (6.4 by 3.9 by 1 inch). Weight: not documented in sources used.
+Operating system: Windows 10 Home.
+Wi-Fi and network: Wi-Fi 802.11a/b/g/n/ac dual band; chip not documented.
+Bluetooth: Bluetooth (version not documented).
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB 3.0 Type-A, USB-C, micro HDMI, headset jack, microSD. No Thunderbolt; eGPU not documented.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint, cameras, haptics, gyro: not documented.
+
+CONTROLS AND BUTTON LAYOUT
+D-pad, four face buttons, six shoulder buttons, two analog sticks, a small clamshell keyboard with tactile keys and bumps on F and J (Liliputing). Joystick mouse mode with shoulder buttons as clicks.
+
+HOW IT FEELS
+A slightly bigger, thicker clamshell than the original Win, about 6.4 inches wide and an inch thick. Open the lid and the controls sit above a thumb keyboard. Liliputing says GPD made the keyboard tactile with little bumps on the J and F keys, but the keys are much smaller than a fingertip, so typing more than a few words "feels like a chore".
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. The F and J bumps are a genuine help for finding your place on the keyboard by touch.
+
+GAME COMPATIBILITY
+Performance tier: low to low-mid. Liliputing found Rayman Origins, Psychonauts and Deadlight played smoothly with the built-in controller, and played StarCraft II on an external display. Good for audio games, older titles and emulation up to roughly the sixth console generation (UNCERTAIN, general expectation, not tested in sources).
+
+UNCERTAIN
+Exact Core m3 model and battery size not confirmed in sources used.
+
+SOURCES
+https://en.wikipedia.org/wiki/GPD_Win_2
+https://liliputing.com/gpd-win-2-handheld-desktop-gaming-general-purpose-computing/
+
+----------
+
+ENTRY: GPD Win Max
+Maker: GamePad Digital (GPD)
+Released: Indiegogo campaign launched May 18, 2020, ended July 1, 2020; shipped from August 2020 (Wikipedia).
+Launch price: US$779 on Indiegogo, later raised to US$800 (Wikipedia). More than 3,500 backers contributed over US$2.8 million.
+
+WHAT IT CAN DO
+A tiny gaming laptop: an 8-inch clamshell with a real laptop-style keyboard and touchpad plus game controls above the keyboard. Runs mid-weight PC games of its era and full desktop work.
+
+HARDWARE
+Processor: Intel Core i5-1035G7 (Ice Lake, four cores, eight threads; clocks and TDP setting not documented in sources used).
+Memory: 16 GB DDR4 (soldered status not documented).
+Graphics: Intel Iris Plus Graphics 940 (integrated, per Wikipedia).
+Storage: 512 GB SSD, replaceable, plus microSD.
+Display: 8-inch 1280 by 800 (16:10), 10-point touch.
+Battery: Three 5,000 mAh lithium-ion cells in series; USB Power Delivery 3.0, 65 W charging. Some users reported failure of the included USB-C power supply (Wikipedia).
+Weight and size: 790 grams (1.7 pounds); 207 by 145 by 26 millimetres.
+Operating system: Windows 10 Home.
+Wi-Fi and network: Wi-Fi 6 (chip not documented).
+Bluetooth: Bluetooth 5.0.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-A 5 Gbps, one USB-C 10 Gbps, one Thunderbolt 3, HDMI, 3.5 mm headset jack, microSD. Thunderbolt 3 makes an external GPU enclosure possible in principle (not tested in sources).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Touchpad (3-point, one button). Fingerprint, camera, haptics, gyro: not documented.
+
+CONTROLS AND BUTTON LAYOUT
+XInput controller, D-pad, four face buttons, four shoulder buttons, two clickable analog sticks, placed above a laptop keyboard.
+
+HOW IT FEELS
+Think of a very small, thick laptop, about 8 inches wide, 5.7 inches deep and an inch thick, weighing about as much as a hardcover book. When you open it, your thumbs find the D-pad and sticks along the top edge of the keyboard deck, above the letter keys.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. Its laptop-style keyboard is the most usable for screen reader commands of the early Win models.
+
+GAME COMPATIBILITY
+Performance tier: low-mid for 2020. Fine for audio games, older 3D titles and lighter indie games.
+
+UNCERTAIN
+Whether the RAM is soldered is not documented.
+
+SOURCES
+https://en.wikipedia.org/wiki/GPD_Win_Max
+
+----------
+
+ENTRY: GPD Win 3
+Maker: GamePad Digital (GPD)
+Released: Announced January 2021; Indiegogo January to March 2021 (Wikipedia).
+Launch price: US$799 on Indiegogo (Notebookcheck).
+
+WHAT IT CAN DO
+A slider handheld: the screen slides up to reveal a backlit touch keyboard. A much bigger performance jump than earlier Wins thanks to Intel Tiger Lake, with Thunderbolt 4 for docking.
+
+HARDWARE
+Processor: Intel Core i5-1135G7 or Core i7-1165G7; later i7-1195G7 (Wikipedia). Four cores, eight threads (Tiger Lake). TDP settings: not documented in sources used.
+Memory: 16 GB LPDDR4x-4266, soldered.
+Graphics: Intel Iris Xe integrated (80 EU on the i5, 96 EU on the i7, per Notebookcheck).
+Storage: SSD, replaceable, plus spring-loaded microSD (Notebookcheck).
+Display: 5.5-inch 1280 by 720, 10-point touch, under a thick layer of Gorilla Glass (Notebookcheck).
+Battery: 3 by 5,000 mAh, 57 Wh (Wikipedia, as listed). Notebookcheck: just over 11 hours of Wi-Fi browsing, no more than 1.5 hours of 3D gaming; about 1.5 hours to fully charge with the 65 W adapter.
+Weight and size: 560 grams (Wikipedia) or 553 grams (Notebookcheck); 198 by 92 by 27 millimetres.
+Operating system: Windows 10 Home, later Windows 11 Home.
+Wi-Fi and network: Wi-Fi 6 (some units shipped with the wrong wireless adapter, per Liliputing's GPD Duo review). Chip: not documented.
+Bluetooth: Bluetooth 5.0.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-A 5 Gbps, USB-C with Thunderbolt 4, HDMI (via dock per some reports; Wikipedia lists HDMI), 3.5 mm headset jack, microSD. Thunderbolt 4 allows eGPU docks in principle.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Touch-sensitive backlit keyboard with no physical keys (Notebookcheck). Touchpad listed in infobox (3-point). No webcam (Notebookcheck wished for one). Haptics and gyro: not documented.
+
+CONTROLS AND BUTTON LAYOUT
+D-pad, four face buttons, shoulder buttons and triggers, two sticks around a sliding 5.5-inch screen; a flat capacitive keyboard underneath. The integrated controller shows up as an Xbox controller in Steam games (Notebookcheck).
+
+HOW IT FEELS
+A smooth, rounded handheld about 7.8 inches wide and just over an inch thick, about the weight of a large smartphone and a half. The screen slides up like an old BlackBerry slider. Notebookcheck found the controller arrow keys and shoulder buttons "weak and shallow in feedback" compared with a DualShock or Switch, reported occasional stuck buttons, and said sliding the screen up often registers stray key presses. The keyboard is glass-flat with no key edges, so it gives you nothing to feel.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. Important caution for the Win 3: its keyboard is a flat touch panel with no physical keys (Notebookcheck), so finding Windows+Ctrl+Enter or NVDA keys by touch is close to impossible. Plan on an external keyboard.
+
+GAME COMPATIBILITY
+Performance tier: mid for 2021. Notebookcheck tested The Witcher 3 under stress. Good for audio games, indie and many older AAA games at low settings.
+
+UNCERTAIN
+HDMI on the unit versus dock is listed inconsistently; treat as UNCERTAIN.
+
+SOURCES
+https://en.wikipedia.org/wiki/GPD_Win_3
+https://www.notebookcheck.net/GPD-Win-3-Review-The-Unofficial-Microsoft-Switch.514859.0.html
+https://www.notebookcheck.net/The-GPD-Win3-launches-on-Indiegogo-for-US-799-with-over-US-1-1-million-raised-in-under-24-hours.515264.0.html
+
+----------
+
+ENTRY: GPD Win 4 (including 2023, 2024 and 2025 refreshes)
+Maker: GamePad Digital (GPD)
+Released: Indiegogo campaign started December 2022; first orders fulfilled March 2023 (Wikipedia). Later refreshes added newer AMD chips.
+Launch price: US$799 (16 GB/512 GB) to US$1,199 (32 GB/2 TB) on Indiegogo; 4G module US$100 extra (Notebookcheck, 2022).
+
+WHAT IT CAN DO
+A PlayStation Vita-like slider with a real slide-out physical keyboard and AMD graphics strong enough for many modern games at low settings. Also offered with SteamOS per Wikipedia.
+
+HARDWARE
+Processor: AMD Ryzen 7 6800U at launch; later Ryzen 5 7640U, Ryzen 7 7840U, Ryzen 5 8640U, Ryzen 7 8840U, and Ryzen AI 9 HX 370 versions (Wikipedia). The 6800U is eight cores, sixteen threads (Zen 3+). TDP settings: not documented in sources used.
+Memory: 16 to 32 GB LPDDR5x-6400, or 16 to 64 GB LPDDR5x-7500 on newer versions (Wikipedia). Soldered.
+Graphics: AMD Radeon 680M, 760M, 780M or 890M depending on chip (integrated).
+Storage: 512 GB to 4 TB SSD, replaceable, plus microSD.
+Display: 6-inch 1920 by 1080, 10-point touch.
+Battery: 45.62 Wh (11,849 mAh).
+Weight and size: 598 grams (1.3 pounds); 220 by 92 by 28 millimetres.
+Operating system: Windows 11 or SteamOS (Wikipedia).
+Wi-Fi and network: Wi-Fi 6 (chip not documented).
+Bluetooth: Bluetooth 5.2.
+Cellular: Optional 4G module (US$100, Notebookcheck).
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C 40 Gbps (USB4), USB-C 10 Gbps, HDMI through dock, 3.5 mm headset jack, microSD. USB4 allows eGPU docks in principle.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Touchpad (3-point, one button). Fingerprint, cameras, haptics, gyro: not documented in sources used.
+
+CONTROLS AND BUTTON LAYOUT
+D-pad, face buttons, two sticks, shoulder buttons and triggers around a 6-inch screen that slides up to expose a physical backlit QWERTY keyboard (Liliputing's GPD Duo review describes the Win 4 as having a slide-out keyboard).
+
+HOW IT FEELS
+About 8.7 inches wide, 3.6 inches tall and just over an inch thick, weighing about 1.3 pounds, roughly the weight of two large phones. The grips curve back like a PS Vita. Slide the screen up and a small physical keyboard appears.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. The slide-out keyboard is physical (unlike the Win 3's touch panel), so Windows+Ctrl+Enter is reachable on the device itself.
+
+GAME COMPATIBILITY
+Performance tier: mid (6800U) to upper-mid (8840U, HX 370). Plays many current games at reduced settings, all audio games, and emulation. Anti-cheat: Windows-native, so games with kernel anti-cheat generally install as on a PC; specific issues not documented.
+
+UNCERTAIN
+Wikipedia's infobox gives a 2021 release date, which conflicts with its own text (campaign December 2022); this book uses the text.
+
+SOURCES
+https://en.wikipedia.org/wiki/GPD_Win_4
+https://www.notebookcheck.net/GPD-Win-4-Pricing-revealed-alongside-revised-release-window.671859.0.html
+https://liliputing.com/gpd-duo-review/
+
+----------
+
+ENTRY: GPD Win Max 2
+Maker: GamePad Digital (GPD)
+Released: Indiegogo mid-2022; estimated shipping September 2022 (Windows Central). Release listed as October 2022 by Lost In Consoles.
+Launch price: US$899 limited edition (50 units, 6800U/16 GB/128 GB), US$999 standard, up to US$1,299 (Windows Central, July 2022). Notebookcheck: about US$1,000 for either chip.
+
+WHAT IT CAN DO
+A 10.1-inch mini gaming laptop with a full keyboard, touchpad and game controls. Doubles as a capable small office laptop with LTE.
+
+HARDWARE
+Processor: AMD Ryzen 7 6800U (8 cores, 16 threads) or Intel Core i7-1260P (12 cores, 16 threads; Notebookcheck measured 28 W sustained, 35 W short burst). Later refreshes exist with newer AMD chips (not detailed here).
+Memory: 16 or 32 GB LPDDR5, soldered (Notebookcheck).
+Graphics: AMD Radeon 680M or Intel Iris Xe 96 EU (integrated).
+Storage: 1 TB or 2 TB SSD (Notebookcheck test unit: BiWin 1 TB M.2). Full-size SD and microSD readers.
+Display: 10.1-inch 2560 by 1600 (16:10), 60 Hz, glossy IPS touchscreen with pen support.
+Battery: 70 Wh (Notebookcheck).
+Weight and size: About 1.005 to 1.042 kg (2.2 to 2.3 pounds); 227 by 160 by 23 millimetres.
+Operating system: Windows 11 Home.
+Wi-Fi and network: Intel Wi-Fi 6E AX210 (Notebookcheck's Intel unit).
+Bluetooth: Bluetooth 5.2.
+Cellular: Quectel LTE EG25-G modem in Notebookcheck's unit.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Notebookcheck lists Thunderbolt (Intel unit), USB-C with Power Delivery, USB-A, HDMI, 3.5 mm combo jack, SD and microSD. eGPU via Thunderbolt possible in principle.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint reader, brightness sensor, accelerometer, webcam, quad speakers, backlit chiclet keyboard (Notebookcheck). Haptics and gyro: not documented.
+
+CONTROLS AND BUTTON LAYOUT
+Game controls (sticks, D-pad, face buttons) above the keyboard, and shoulder buttons along the back edge; magnetic covers hide the sticks when typing (widely reported, UNCERTAIN as not in sources used).
+
+HOW IT FEELS
+A small, solid magnesium-aluminium alloy laptop (Lost In Consoles), about 9 by 6.3 inches and under an inch thick, weighing about as much as a large hardcover dictionary. Its keyboard is close to netbook size and is the most typing-friendly of any Win model.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. Of all GPD Win models this is the most screen-reader-friendly by layout, because the keyboard is near laptop size and backlit.
+
+GAME COMPATIBILITY
+Performance tier: mid for 2022. Good for most indie and older AAA games, all audio games, and emulation.
+
+UNCERTAIN
+Magnetic stick covers not confirmed in fetched sources.
+
+SOURCES
+https://www.windowscentral.com/software-apps/windows-11/gpd-win-max-2-pricing-revealed-heres-how-it-compares-to-the-steam-deck
+https://www.notebookcheck.net/GPD-Win-Max-2-handheld-gaming-PC-review-Intel-Core-i7-1260P-or-AMD-Ryzen-7-6800U.633565.0.html
+https://lostinconsoles.com/consoles/gpd-win-max-2-gamepad-digital
+
+----------
+
+ENTRY: GPD Win Mini
+Maker: GamePad Digital (GPD)
+Released: Announced 2023; Indiegogo listed for October 2023; Japanese retail shipping planned late December 2023 (ASCII.jp).
+Launch price: Crowdfunding US$699 (7640U/16 GB/512 GB), US$869 (7840U/32 GB/512 GB), US$999 (7840U/32 GB/2 TB); retail US$820, US$960 and US$1,150 (Notebookcheck, 2023).
+
+WHAT IT CAN DO
+A clamshell the size of a small paperback with game controls above a thumb keyboard and a 7-inch 120 Hz screen. Plays many modern games at low settings; OCuLink port for GPD's G1 external GPU.
+
+HARDWARE
+Processor: AMD Ryzen 5 7640U (6 cores, 12 threads, up to 4.9 GHz, 28 W) or Ryzen 7 7840U (8 cores, 16 threads, up to 5.1 GHz, 28 W) (ASCII.jp).
+Memory: 16, 32 or 64 GB LPDDR5-6400, soldered.
+Graphics: AMD Radeon 760M or 780M (integrated; the chips' standard GPUs).
+Storage: 512 GB or 2 TB PCIe Gen4 x4 SSD; microSD up to 2 TB, UHS-I (ASCII.jp).
+Display: 7-inch IPS 1920 by 1080, 120 Hz, 500 nits, 10-point touch.
+Battery: 44.24 Wh; GPD claims about 2 hours heavy, 3 to 6 hours moderate, about 10 hours light use.
+Weight and size: About 520 grams; 168 by 109 by 26 millimetres.
+Operating system: Windows 11 Home; SteamOS or GPD OS installable (ASCII.jp).
+Wi-Fi and network: Wi-Fi 6E (chip not documented).
+Bluetooth: Bluetooth 5.2.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB4 (40 Gbps), USB 3.2 Gen 2 Type-C (10 Gbps), OCuLink (SFF-8612) for eGPU, 3.5 mm combo jack, microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): No webcam. Dual speakers with DTS:X Ultra, microphone. Hall-effect joysticks. Fingerprint, haptics, gyro: not documented.
+
+CONTROLS AND BUTTON LAYOUT
+Hall-effect sticks, D-pad, face buttons above a QWERTY keyboard with 10.1 mm key pitch and raised bumps on F and J (ASCII.jp).
+
+HOW IT FEELS
+Smaller than a paperback book's footprint and about an inch thick, weighing a little over a pound. ASCII.jp says the keyboard is hard to touch-type but comfortable for thumb typing, and the gamepad is slightly small but comfortable after getting used to it.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot. Bumps on F and J plus a physical keyboard make Narrator and NVDA commands reachable without an external keyboard.
+
+GAME COMPATIBILITY
+Performance tier: mid to upper-mid (7840U). Modern indie and many AAA games at low settings, all audio games.
+
+UNCERTAIN
+None beyond general notes.
+
+SOURCES
+https://www.notebookcheck.net/GPD-Win-Mini-to-launch-for-US-699-as-company-reveals-full-specifications-for-new-compact-AMD-Phoenix-gaming-handheld.742166.0.html
+https://ascii.jp/limit/group/ida/elem/000/004/174/4174557/
+
+----------
+
+ENTRY: GPD Win 5
+Maker: GamePad Digital (GPD)
+Released: Crowdfunded 2025; released globally (Notebookcheck). Release date reported as November 25, 2025 in a search summary (UNCERTAIN).
+Launch price: Liliputing: US$1,448 and up during crowdfunding, US$1,599 retail (starting configuration). A search summary reported US$1,850 (32 GB) and US$2,268 (64 GB) for the Ryzen AI Max+ 395 model; treat those as UNCERTAIN.
+
+WHAT IT CAN DO
+The first handheld with AMD's Strix Halo chip, aimed at the highest performance of any handheld so far, using an external battery pack.
+
+HARDWARE
+Processor: AMD Ryzen AI Max+ 395 or Ryzen AI Max 385 (Notebookcheck, DROIX). Core and thread counts: not documented in sources used.
+Memory: Up to 64 GB (Notebookcheck).
+Graphics: Integrated Radeon graphics of the Strix Halo chip (model not documented in sources used).
+Storage: not documented
+Display: not documented
+Battery: Detachable external 80 Wh battery pack (search summary citing Notebookcheck and DROIX, UNCERTAIN).
+Weight and size: About 565 grams without the battery; the battery adds about 350 grams (UNCERTAIN, search summary).
+Operating system: Windows 11 (assumed from GPD's line; not confirmed in sources used, UNCERTAIN).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+not documented
+
+HOW IT FEELS
+Not documented in the sources used. THIN ENTRY.
+
+BLIND USABILITY
+GPD's own software and tools: accessibility with a screen reader is not documented. Windows itself includes Narrator (start or stop with Windows key+Ctrl+Enter on the built-in or an external keyboard). Because GPD Win models from the Win, Win 2, Win Max, Win 3 and Win 4 have a built-in physical or touch keyboard, you can usually press Windows+Ctrl+Enter without plugging anything in, which is a real advantage over keyboard-less handhelds. NVDA or JAWS can be installed like on any Windows PC. Out-of-box Windows setup with Narrator on GPD hardware has not been tested in any source found; plan on a USB or Bluetooth keyboard and, if possible, a sighted helper for the first boot.
+
+GAME COMPATIBILITY
+Performance tier: top of the handheld range according to early testing reported by PC Gamer; specifics not documented here.
+
+UNCERTAIN
+THIN ENTRY. Most specifications come from search summaries rather than fetched pages.
+
+SOURCES
+https://liliputing.com/the-first-handheld-gaming-pc-with-amd-strix-halo-will-sell-for-1448-and-up-during-crowdfunding-1599-retail/
+https://www.notebookcheck.net/GPD-Win-5-released-globally-with-AMD-Ryzen-AI-Max-395-and-up-to-64-GB-RAM.1123906.0.html
+https://www.pcgamer.com/hardware/handheld-gaming-pcs/gpds-strix-halo-handheld-has-finally-seen-some-testing-and-usd2-200-still-seems-like-a-tough-sell-even-if-it-blows-today-handhelds-out-of-the-water/
+
+END OF GPD WIN SERIES

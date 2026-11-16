@@ -1,0 +1,364 @@
+AYANEO
+
+AYANEO, a Shenzhen maker, has released more Windows handhelds than almost anyone since 2021. This file covers the main lines; AYANEO's catalog is very large and not every variant is listed.
+
+This file has 8 entries:
+1. AYANEO (original, 2021) and AYANEO 2021 Pro
+2. AYANEO Next and Next Pro
+3. AYANEO Air, Air Lite and Air Pro
+4. AYANEO Air Plus
+5. AYANEO 2 and AYANEO Geek
+6. AYANEO 2S, Air 1S, Geek 1S and Kun
+7. AYANEO Flip KB and Flip DS
+8. AYANEO 3
+
+ENTRY: AYANEO (original, 2021) and AYANEO 2021 Pro
+Maker: AYANEO (Anyun Intelligent Technology, Hong Kong; founded 2020 by Arthur Zhang)
+Released: 2021, crowdfunded on Indiegogo (Wikipedia).
+Launch price: Reported Indiegogo price US$789 for the 4500U model (search summary of AYANEO's own price article, UNCERTAIN).
+
+WHAT IT CAN DO
+AYANEO's first Windows handheld, launched before the Steam Deck. Reviewers called performance acceptable for less demanding games, for a niche crowd (Wikipedia).
+
+HARDWARE
+Processor: AMD Ryzen 5 4500U (6 cores/6 threads, Zen 2); the Pro used a faster chip (model not documented here).
+Memory: 16 GB.
+Graphics: AMD Radeon integrated (Vega).
+Storage: 512 GB or 1 TB SSD.
+Display: 7-inch 1280 by 800 touchscreen.
+Battery: not documented
+Weight and size: About 1.5 pounds (Liliputing's ONEXPLAYER review comparison).
+Operating system: Windows 10 (at launch; UNCERTAIN).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Linear analog triggers (DROIX).
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout with linear triggers.
+
+HOW IT FEELS
+About 1.5 pounds. DROIX describes the original as slightly unwieldy, which the Next later improved. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: low-mid.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://en.wikipedia.org/wiki/Ayaneo
+https://droix.net/blogs/ayaneo-next-faq-ayas-next-windows-gaming-handheld/
+
+----------
+
+ENTRY: AYANEO Next and Next Pro
+Maker: AYANEO
+Released: Revealed January 5, 2022; shipping from around April 2022 (DROIX).
+Launch price: Retail US$1,335 (1 TB), US$1,435 (2 TB), US$1,535 (Pro); early bird US$1,285, US$1,385, US$1,485 (DROIX, 2022).
+
+WHAT IT CAN DO
+A larger, more ergonomic, more powerful AYANEO with hall-effect sticks and triggers. IGN called it impressive but quirky with controller glitches (Wikipedia).
+
+HARDWARE
+Processor: AMD Ryzen 7 5800U (8 cores/16 threads); the Pro a higher-clocked variant (DROIX).
+Memory: 16 GB.
+Graphics: AMD Radeon integrated (Vega 8).
+Storage: 1 or 2 TB SSD.
+Display: 7-inch IPS 1280 by 800 touchscreen.
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint sensor under the power button for one-touch wake; removable modular joysticks (DROIX).
+
+CONTROLS AND BUTTON LAYOUT
+Hall-effect joysticks and linear hall-effect triggers.
+
+HOW IT FEELS
+DROIX: a decidedly more ergonomic design, with a smooth grip on the edges where your hands naturally rest.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: mid for 2022.
+
+UNCERTAIN
+Weight and battery not documented.
+
+SOURCES
+https://droix.net/blogs/ayaneo-next-faq-ayas-next-windows-gaming-handheld/
+https://en.wikipedia.org/wiki/Ayaneo
+
+----------
+
+ENTRY: AYANEO Air, Air Lite and Air Pro
+Maker: AYANEO
+Released: Indiegogo 2022; shipping from Q3 2022 (Notebookcheck).
+Launch price: From US$499 (5560U, 8 GB, 128 GB) up to US$1,255 for the flagship Pro on Indiegogo (Notebookcheck, 2022).
+
+WHAT IT CAN DO
+A small, light handheld with a 5.5-inch OLED screen. Eurogamer found less graphics power than the Steam Deck; IGN found acceptable performance at 720p, and praised the screen, portability and native Windows compatibility (Wikipedia).
+
+HARDWARE
+Processor: AMD Ryzen 5 5560U (Air); Pro used a faster chip (Wikipedia).
+Memory: 8 or 16 GB.
+Graphics: AMD Radeon integrated (Vega).
+Storage: 128 or 512 GB replaceable SSD; SD expansion.
+Display: 5.5-inch 1920 by 1080 OLED.
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+Reviewers praised its portability (Wikipedia). Specific weight not documented here. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: low-mid.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://www.notebookcheck.net/AYA-NEO-AIR-series-debuts-on-Indiegogo-from-US-499-with-AMD-Barcelona-APUs-and-OLED-displays.631319.0.html
+https://en.wikipedia.org/wiki/Ayaneo
+
+----------
+
+ENTRY: AYANEO Air Plus
+Maker: AYANEO
+Released: Indiegogo 2023; shipping expected June 2023 (Liliputing).
+Launch price: Standard Indiegogo from US$549; early bird Ryzen 3 7320U-class model with 16 GB/512 GB at US$499 (Liliputing). Search summary: 6800U version from US$889 (UNCERTAIN).
+
+WHAT IT CAN DO
+A 6-inch Windows 11 handheld offered with Ryzen 7 6800U, AMD Mendocino, or Intel Alder Lake chips.
+
+HARDWARE
+Processor: AMD Ryzen 7 6800U, AMD Mendocino (Ryzen 3), or Intel Alder Lake (models not documented here).
+Memory: 16 GB in cited configuration.
+Graphics: Integrated, varies by chip.
+Storage: 512 GB in cited configuration.
+Display: 6-inch.
+Battery: not documented
+Weight and size: About 510 to 525 grams; 237 by 91.4 by 23.1 millimetres, a little wider than a Switch Lite (Liliputing).
+Operating system: Windows 11.
+Wi-Fi and network: Wi-Fi 6.
+Bluetooth: Bluetooth 5.2.
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo speakers, dual microphones, RGB lighting on controls.
+
+CONTROLS AND BUTTON LAYOUT
+Built-in game controllers with RGB lighting.
+
+HOW IT FEELS
+About the size of a Nintendo Switch Lite but a little wider, and just over a pound.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: low (Mendocino) to mid (6800U).
+
+UNCERTAIN
+6800U price UNCERTAIN.
+
+SOURCES
+https://liliputing.com/aya-neo-air-plus-hits-indiegogo-for-499-and-up-ships-in-june-handheld-gaming-pc-with-ryzen-7-6800u-amd-mendocino-or-intel-alder-lake/
+
+----------
+
+ENTRY: AYANEO 2 and AYANEO Geek
+Maker: AYANEO
+Released: Launched December 2022 (VideoCardz).
+Launch price: VideoCardz: pricing from US$949 to US$1,549 across AYANEO 2 and Geek (the US$949 floor applies to the Geek per a search summary). The Verge later said the AYANEO 2 cost US$1,300.
+
+WHAT IT CAN DO
+7-inch Ryzen 7 6800U handhelds. The Geek drops motion sensors in body and handles, the higher-quality vibration motor, touch-to-wake fingerprint and the default PCIe 4.0 SSD (Wikipedia).
+
+HARDWARE
+Processor: AMD Ryzen 7 6800U (8 cores/16 threads, Zen 3+).
+Memory: not documented
+Graphics: AMD Radeon 680M.
+Storage: PCIe 4.0 SSD (AYANEO 2).
+Display: not documented
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): AYANEO 2: motion sensors in body and handles, higher-quality vibration motor, fingerprint touch-to-wake.
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+Not documented in sources used. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: mid.
+
+UNCERTAIN
+THIN ENTRY. Exact US prices DISPUTED between sources.
+
+SOURCES
+https://videocardz.com/newz/ayaneo-2-and-geek-ryzen-7-6800u-gaming-consoles-to-launch-in-december-pricing-from-949-to-1549
+https://en.wikipedia.org/wiki/Ayaneo
+https://www.theverge.com/2025/1/24/24351191/ayaneo-3-price-release-date-indiegogo-specs-handheld
+
+----------
+
+ENTRY: AYANEO 2S, Air 1S, Geek 1S and Kun
+Maker: AYANEO
+Released: 2023 (Wikipedia).
+Launch price: Kun: early bird US$999, Indiegogo US$1,129, retail US$1,209 (16 GB/512 GB), up to US$1,949 retail for 64 GB/4 TB (Dexerto). 2S: early bird about US$950, retail about US$1,140 (search summary of GameSpot, UNCERTAIN).
+
+WHAT IT CAN DO
+AYANEO's 2023 Ryzen 7 7840U models. The Kun is a large, heavy flagship.
+
+HARDWARE
+Processor: AMD Ryzen 7 7840U (8 cores/16 threads, Zen 4).
+Memory: Kun: 16 to 64 GB.
+Graphics: AMD Radeon 780M.
+Storage: Kun: 512 GB to 4 TB.
+Display: not documented
+Battery: not documented
+Weight and size: Kun: about 950 grams, 30 grams more than the Legion Go 2 per Digitec.
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+The Kun is one of the heaviest handhelds: Digitec called it the only handheld heavier than the 920-gram Legion Go 2. THIN ENTRY for the others.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters).
+
+GAME COMPATIBILITY
+Performance tier: upper-mid (780M).
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://en.wikipedia.org/wiki/Ayaneo
+https://www.dexerto.com/tech/ayaneo-kun-price-steam-deck-rival-2269851/
+https://www.digitec.ch/en/page/lenovo-legion-go-2-review-too-heavy-too-slow-40071
+
+----------
+
+ENTRY: AYANEO Flip KB and Flip DS
+Maker: AYANEO
+Released: Early 2024; 7840U version shipping from mid-March, 8840U from end of April (AYANEO).
+Launch price: Early bird from US$699 (Flip KB) and US$739 (Flip DS) (AYANEO).
+
+WHAT IT CAN DO
+Clamshell handhelds: the KB has a full RGB backlit keyboard between the grips; the DS has a second screen there.
+
+HARDWARE
+Processor: AMD Ryzen 7 7840U or 8840U.
+Memory: not documented
+Graphics: AMD Radeon 780M.
+Storage: not documented
+Display: not documented
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Optical finger mouse; independent Home button; hinge with three click-stop angles at 120, 150 and 180 degrees, then locks; rubber pads between screen and base (AYANEO).
+
+CONTROLS AND BUTTON LAYOUT
+Recessed joystick, D-pad, ABXY and shoulder buttons with metal dome switches ("crisp and light feedback"), hall-effect sticks and triggers; Fn row for F-keys (AYANEO).
+
+HOW IT FEELS
+AYANEO says the body has rounded corners and interchangeable grip pieces in two textures: an anti-slip "Star Diamond" texture and a smooth anti-sweat "Galaxy" texture. The hinge clicks at three angles, which is easy to feel.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters). The Flip KB's built-in keyboard with an F-key area makes screen reader commands reachable without an external keyboard, a real plus for blind buyers.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid.
+
+UNCERTAIN
+Feel details come from the manufacturer, not an independent review.
+
+SOURCES
+https://www.ayaneo.com/article/810
+
+----------
+
+ENTRY: AYANEO 3
+Maker: AYANEO
+Released: Indiegogo early 2025; shipping expected end of April 2025 (The Verge).
+Launch price: From US$900 (Ryzen 7 8840U, 16 GB, 512 GB); HX 370 model from US$1,500; Magic Module kit US$139 extra (The Verge, January 2025).
+
+WHAT IT CAN DO
+A handheld with swappable control modules: the joystick-and-button pods can be exchanged for analog sticks, a six-button fight pad, or D-pads with conductive silicone, matching your ergonomic preferences.
+
+HARDWARE
+Processor: AMD Ryzen 7 8840U or Ryzen AI 9 HX 370.
+Memory: 16 GB LPDDR5X (base).
+Graphics: AMD Radeon 780M (8840U) or 890M (HX 370).
+Storage: 512 GB (base).
+Display: Choice of OLED or IPS.
+Battery: 49 Wh.
+Weight and size: About 1.5 pounds.
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB4, OCuLink.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Hardware switch on the bottom edge to toggle controller and virtual mouse-and-keyboard modes; trigger locks for hall-effect triggers; modules latch electronically and are ejected by a software button that runs a motor (The Verge).
+
+CONTROLS AND BUTTON LAYOUT
+RGB-ringed hall-effect joysticks plus swappable modules.
+
+HOW IT FEELS
+The Verge: modules electronically latch into the frame. The hardware mode switch on the bottom edge is a physical control you can find by touch.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. AYASpace (AYANEO's launcher) accessibility with screen readers is not documented. AYANEO devices are crowdfunded by a small company; warranty and repair support are weaker than ASUS or Lenovo (general reporting, Liliputing commenters). Note the modules eject by a software button, so a blind owner needs an accessible way to reach that control (not documented).
+
+GAME COMPATIBILITY
+Performance tier: upper-mid to high.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.theverge.com/2025/1/24/24351191/ayaneo-3-price-release-date-indiegogo-specs-handheld
+
+END OF AYANEO

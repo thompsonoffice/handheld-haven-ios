@@ -1,0 +1,143 @@
+OTHER HANDHELDS AND THE STEAM DECK
+
+Zotac Zone, Acer Nitro Blaze 7, and the Valve Steam Deck as a context entry (it ships with SteamOS, not Windows, but many people compare it with Windows handhelds).
+
+This file has 3 entries:
+1. Zotac Zone
+2. Acer Nitro Blaze 7
+3. Valve Steam Deck (LCD and OLED), context entry
+
+ENTRY: Zotac Zone
+Maker: Zotac
+Released: 2024.
+Launch price: US$799 (GamesRadar, PC Gamer, TechPowerUp, via search summary).
+
+WHAT IT CAN DO
+A 7-inch OLED Windows handheld from a graphics card maker.
+
+HARDWARE
+Processor: AMD Ryzen 7 8840U.
+Memory: 16 GB.
+Graphics: AMD Radeon 780M.
+Storage: 512 GB.
+Display: 7-inch 1920 by 1080 OLED, 120 Hz.
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+not documented
+
+HOW IT FEELS
+Not documented in fetched sources. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. Reviewers criticized Zotac's software; screen reader accessibility of it is not documented.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid.
+
+UNCERTAIN
+THIN ENTRY. Details from search summaries.
+
+SOURCES
+https://www.gamesradar.com/hardware/handhelds/zotac-zone-review/
+https://www.techpowerup.com/review/zotac-zone/
+https://www.pcgamer.com/hardware/handheld-gaming-pcs/zotac-zone-review/
+
+----------
+
+ENTRY: Acer Nitro Blaze 7
+Maker: Acer
+Released: Announced 2024 (TechRadar hands-on).
+Launch price: Initially not announced; later listed around EUR 749 (search summary, UNCERTAIN).
+
+WHAT IT CAN DO
+Acer's 7-inch Windows handheld.
+
+HARDWARE
+Processor: AMD Ryzen 7 8840HS.
+Memory: 16 GB.
+Graphics: AMD Radeon 780M.
+Storage: Up to 2 TB.
+Display: 7-inch 1920 by 1080 IPS, 144 Hz.
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+not documented
+
+HOW IT FEELS
+Not documented. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://www.techradar.com/computing/gaming-computers/acer-nitro-blaze-7-acer-gets-in-the-pc-gaming-handheld-game-but-is-it-enough-to-blaze-a-trail-out-of-a-crowded-field
+
+----------
+
+ENTRY: Valve Steam Deck (LCD and OLED), context entry
+Maker: Valve
+Released: LCD: February 25, 2022 (North America and Europe). OLED: November 16, 2023 (Wikipedia).
+Launch price: LCD at launch US$399 (64 GB eMMC), US$529 (256 GB), US$649 (512 GB) (Tom's Hardware). OLED at launch US$549 and US$649 (The Verge cites US$549 in 2025). On May 27, 2026 Valve raised OLED prices to US$789 (512 GB) and US$949 (1 TB) because of component costs (Wikipedia).
+
+WHAT IT CAN DO
+Not a Windows device by default: it runs SteamOS (Linux) and plays Windows games through Valve's Proton compatibility layer. Windows can be installed; Valve and AMD provide Windows drivers, but Valve does not support Windows on it (Wikipedia).
+
+HARDWARE
+Processor: Custom AMD APU, quad-core Zen 2, eight threads, 2.4 to 3.5 GHz. LCD: 7 nm 'Aerith'; OLED: 6 nm 'Sephiroth'.
+Memory: 16 GB LPDDR5-5500 (LCD) or LPDDR5X at 6400 MT/s (OLED); soldered.
+Graphics: RDNA 2, 8 compute units at 1 to 1.6 GHz.
+Storage: LCD: 64 GB eMMC, 256 GB or 512 GB NVMe. OLED: 512 GB or 1 TB NVMe. microSD.
+Display: LCD: 7-inch 1280 by 800 IPS 60 Hz. OLED: 7.4-inch 1280 by 800 HDR OLED 90 Hz.
+Battery: not documented
+Weight and size: Tom's Hardware: original 1.47 pounds; OLED 1.41 pounds; 11.73 by 4.6 by about 1.95 inches.
+Operating system: SteamOS; Windows installable, unsupported.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C with USB 3.2 Gen 2 and DisplayPort; headphone jack; microSD. Official dock (October 2022) adds HDMI, DisplayPort, gigabit Ethernet and three USB-A.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Two pressure-sensitive trackpads, capacitive sticks, 6-axis gyro, microphone, ambient light sensor.
+
+CONTROLS AND BUTTON LAYOUT
+Two clickable sticks, two trackpads, A/B/X/Y, D-pad, two bumpers, two analog triggers, four back grip buttons (L4, R4, L5, R5), View, Menu, Steam, Quick Access, volume, power (Wikipedia).
+
+HOW IT FEELS
+The widest common handheld, almost 12 inches across, with deep grips and square trackpads under each thumbstick. SightlessKombat, a blind accessibility consultant, called it "much like a larger Nintendo Switch with non-detachable controls"; its D-pad was good for four-way movement but weak on diagonals.
+
+BLIND USABILITY
+SteamOS: until 2025 it had no screen reader (SightlessKombat's 2023 review). Valve added a SteamOS screen reader in a June 2025 beta, with adjustable pitch, volume and rate and a two-button shortcut (The Verge). It covers the Steam interface; Windows audio games that need NVDA will not speak under SteamOS. SightlessKombat installed Windows with sighted help (the Deck lacks audio drivers in Windows setup, so an accessible install is hard), then ran NVDA, Steam and accessible games like Blind Drive, Brok the InvestiGator, Killer Instinct and The Last of Us Part I; touch with NVDA was not very responsive, a keyboard "worked wonders", a braille display worked with NVDA, and the speakers were loud and clear. Under Windows the fans were louder and some games needed extra software for the built-in controller.
+
+GAME COMPATIBILITY
+Performance tier: mid (2022 baseline). Valve's Verified, Playable and Unsupported ratings apply to SteamOS. Some anti-cheat games did not work under Proton; Easy Anti-Cheat and BattlEye support Proton if developers opt in (Wikipedia).
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Steam_Deck
+https://www.sightlesskombat.com/steam-deck-accessibility-review/
+https://www.theverge.com/games/689922/steam-is-adding-screen-reader-support-and-other-accessibility-tools
+https://www.tomshardware.com/news/onexplayer-mini-handheld-pc-gaming-console
+https://www.tomshardware.com/video-games/handheld-gaming/lenovo-legion-go-s-steamos-review
+
+END OF OTHER HANDHELDS AND THE STEAM DECK

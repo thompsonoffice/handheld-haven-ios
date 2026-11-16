@@ -1,0 +1,38 @@
+GLOSSARY
+
+Each term is on its own line, followed by its meaning.
+
+ANTI-CHEAT: Software that some online games use to block cheating. Some anti-cheat systems do not work on ARM Windows or on SteamOS.
+APU: A chip combining the processor and graphics, used in AMD handhelds (for example Z1 Extreme).
+ARM: A processor design used in phones and in Snapdragon and SQ Windows devices. Many older Windows programs run through emulation on ARM.
+ARMOURY CRATE SE: ASUS's control software on ROG Ally handhelds.
+AUDIO GAME: A game designed to be played by sound alone, popular among blind players.
+BAY TRAIL: Intel's 2013 Atom chips used in cheap Windows tablets.
+CLAMSHELL: A device that opens like a laptop or a Nintendo DS.
+COMPUTE UNITS (CU): Groups of processing cores in an AMD graphics chip. More usually means faster graphics.
+CROWDFUNDING: Pre-selling a product on sites like Indiegogo before it is made. Many GPD, AYANEO and OneXPlayer devices launched this way.
+DOCK: A stand or hub that connects a handheld to a monitor, keyboard, power and network.
+eGPU: External graphics card, connected through USB4, Thunderbolt or a special port such as OCuLink.
+EMMC: Slower soldered storage used in budget devices.
+FULL SCREEN EXPERIENCE: See XBOX MODE.
+GYRO: A motion sensor used for aiming in games.
+HALL EFFECT: Magnetic joystick or trigger sensors that resist drift.
+HAPTICS: Vibration feedback.
+JAWS: A commercial Windows screen reader from Freedom Scientific (Vispero).
+LPDDR5 / LPDDR5X: Fast, low-power memory, usually soldered and not upgradeable.
+MICROSD: A small memory card slot for extra storage.
+NARRATOR: The screen reader built into Windows. Start or stop it with Windows key+Ctrl+Enter.
+NVDA: NonVisual Desktop Access, a free, open-source Windows screen reader.
+OCULINK: A fast external port used by some GPD and AYANEO devices for external graphics.
+ORIGAMI: Microsoft and Intel's 2006 project code name for Ultra-Mobile PCs.
+PRISM: Microsoft's x86 and x64 emulator on ARM Windows.
+S MODE: A locked mode of Windows that only installs Store apps. It can be turned off for free, one time.
+SOC: System on a chip.
+STEAMOS: Valve's Linux-based system for the Steam Deck and some Legion Go S models.
+TDP: Thermal design power, roughly how many watts a processor is allowed to use. Handhelds often let you change it.
+THUMB KEYBOARD: A small keyboard typed with the thumbs.
+THUNDERBOLT / USB4: Fast USB-C standards supporting displays, docks and sometimes external graphics.
+UMPC: Ultra-Mobile PC, a 2006 to 2010 category of small Windows computers.
+WINDOWS HELLO: Windows sign-in with a fingerprint or face camera instead of a password.
+WINDOWS RT: A 2012 to 2013 version of Windows for ARM that could not install normal desktop programs or third-party screen readers.
+XBOX MODE: Microsoft's console-style full screen Xbox app experience on Windows 11 handhelds, toggled with Win+F11.

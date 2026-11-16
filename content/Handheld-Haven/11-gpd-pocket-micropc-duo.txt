@@ -1,0 +1,273 @@
+GPD POCKET, MICROPC AND DUO
+
+GPD's pocket laptops: tiny clamshells with real keyboards, plus the dual-screen Duo. These are not game handhelds first, but their keyboards make them very attractive for screen reader users.
+
+This file has 6 entries:
+1. GPD Pocket (original)
+2. GPD Pocket 2
+3. GPD Pocket 3
+4. GPD Pocket 4
+5. GPD MicroPC
+6. GPD Duo
+
+ENTRY: GPD Pocket (original)
+Maker: GamePad Digital (GPD)
+Released: Indiegogo pre-orders early 2017; shipping planned for June 2017 (Liliputing).
+Launch price: US$399 on Indiegogo (Liliputing, 2017).
+
+WHAT IT CAN DO
+A 7-inch mini laptop with a full keyboard, aimed at travel and general Windows or Ubuntu use rather than gaming.
+
+HARDWARE
+Processor: Intel Atom x7-Z8750 (upgraded from the planned Z8700). Four cores, four threads.
+Memory: 8 GB (upgraded from planned 4 GB), soldered.
+Graphics: Intel HD graphics (integrated; model not documented).
+Storage: not documented
+Display: 7-inch (resolution not documented in sources used).
+Battery: 7,000 mAh; GPD claimed up to 12 hours.
+Weight and size: not documented
+Operating system: Windows 10 or Ubuntu (same price).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Small pointing stick instead of a touchpad. Magnesium alloy case.
+
+CONTROLS AND BUTTON LAYOUT
+Keyboard and pointing stick; no gaming controls.
+
+HOW IT FEELS
+A tiny magnesium-alloy clamshell with a pointing-stick nub in place of a touchpad (Liliputing). Other physical details not documented in sources used.
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit.
+
+GAME COMPATIBILITY
+Performance tier: very low. Audio games and text games only, realistically.
+
+UNCERTAIN
+THIN ENTRY. Screen resolution, storage, weight not confirmed here.
+
+SOURCES
+https://liliputing.com/gpd-pocket-7-inch-laptop-pre-order-399-crowdfunding/
+https://www.windowscentral.com/gpd-pocket-review
+
+----------
+
+ENTRY: GPD Pocket 2
+Maker: GamePad Digital (GPD)
+Released: Indiegogo launched July 2018; rewards expected October 2018 (CNX Software).
+Launch price: US$529 (4 GB/128 GB) and US$599 (8 GB/128 GB) on Indiegogo; a reseller listed US$649.99/US$739.99 (CNX Software, 2018).
+
+WHAT IT CAN DO
+A 7-inch Windows 10 mini laptop with a Core m3-class chip (CNX headline: Core-i series eMMC).
+
+HARDWARE
+Processor: Intel Core m3 (model not documented in fetched sources; UNCERTAIN).
+Memory: 4 or 8 GB, soldered.
+Graphics: not documented
+Storage: 128 GB eMMC.
+Display: 7-inch (resolution not documented here).
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 10.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Ships with a fast charger (5V/3A, 9V/2.67A, 12V/2A).
+
+CONTROLS AND BUTTON LAYOUT
+Keyboard; no gaming controls.
+
+HOW IT FEELS
+Not documented in the sources used. THIN ENTRY.
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit.
+
+GAME COMPATIBILITY
+Performance tier: low.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://www.cnx-software.com/2018/07/30/gpd-pocket-2-mini-laptop-windows-10/
+
+----------
+
+ENTRY: GPD Pocket 3
+Maker: GamePad Digital (GPD)
+Released: Indiegogo late 2021; shipping to backers from January 2022 (Liliputing).
+Launch price: US$650 (Pentium Silver N6000/8 GB/512 GB) or US$999 (Core i7-1195G7) on Indiegogo; US$1,079 with serial and KVM modules; retail 23 to 31 percent higher (Liliputing, 2021).
+
+WHAT IT CAN DO
+An 8-inch convertible mini laptop with a swappable port module (RS-232 serial or KVM), aimed at IT professionals and travellers. The screen flips to make a tablet.
+
+HARDWARE
+Processor: Intel Pentium Silver N6000 or Intel Core i7-1195G7 (four cores, eight threads).
+Memory: 8 GB (N6000) or 16 GB (i7, per Notebookcheck comparison), soldered.
+Graphics: Intel UHD (N6000) or Iris Xe 96 EU (i7).
+Storage: 512 GB or 1 TB SSD.
+Display: 8-inch 1920 by 1200 IPS touchscreen (Notebookcheck comparison).
+Battery: not documented
+Weight and size: 730 grams (Notebookcheck comparison).
+Operating system: Windows 11 (UNCERTAIN; shipped at Windows 10/11 transition).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Modular port slot (serial RS-232 or KVM module), other ports not documented in sources used.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Touchpad above keyboard with left, right and middle buttons; 180-degree hinge for tablet mode; accelerometer on production units.
+
+CONTROLS AND BUTTON LAYOUT
+Keyboard and small touchpad above the keys.
+
+HOW IT FEELS
+An aluminium mini laptop about 8 inches wide. Liliputing found the chassis sturdy with surprisingly little keyboard flex and a display that does not wobble while typing; the reviewer typed about 67 words per minute on the not-quite-full-size keyboard. The touchpad sits above the keyboard, not below.
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit. Liliputing's 67 wpm result suggests the keyboard is usable for real typing, which matters for screen reader users.
+
+GAME COMPATIBILITY
+Performance tier: low (N6000) to low-mid (i7).
+
+UNCERTAIN
+RAM on N6000 model and OS edition not fully confirmed.
+
+SOURCES
+https://liliputing.com/gpd-pocket-3-hits-indiegogo-unboxing-and-first-look-at-the-8-inch-mini-laptop-with-modular-ports/
+https://www.notebookcheck.net/GPD-Pocket-4-Ryzen-AI-9-handheld-PC-review-Small-fast-and-oh-so-adorable.952834.0.html
+
+----------
+
+ENTRY: GPD Pocket 4
+Maker: GamePad Digital (GPD)
+Released: 2024 to 2025 (Notebookcheck review).
+Launch price: Notebookcheck list price US$1,400 (Ryzen AI 9 HX 370); its test unit was about US$1,300. A search summary reported US$895 for the base Ryzen 7 8840U model (UNCERTAIN). Amazon showed US$1,355 for the HX 365 configuration and US$1,999.95 for an HX 370 32 GB/2 TB listing as of November 12, 2026 (Notebookcheck price widget).
+
+WHAT IT CAN DO
+An 8.8-inch convertible mini laptop strong enough for office work, docking, light-to-moderate editing and gaming.
+
+HARDWARE
+Processor: AMD Ryzen AI 9 HX 370 (test unit), also HX 365 and Ryzen 7 8840U configurations.
+Memory: 32 GB LPDDR5x-7500 (test unit), soldered.
+Graphics: AMD Radeon 890M (HX 370).
+Storage: Kioxia M.2 PCIe 4 x4 NVMe SSD in test unit (replaceable M.2). MicroSD reader.
+Display: 8.8-inch 2560 by 1600 (Notebookcheck calls it 1440p-class), 144 Hz IPS touchscreen.
+Battery: About 6 hours web browsing, 60 to 90 minutes nonstop gaming (Notebookcheck).
+Weight and size: 777 grams; 22.2 mm thick.
+Operating system: Windows 11 Home.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C 4.0 (40 Gbps) with DisplayPort and Power Delivery, USB-C 10 Gbps with DisplayPort and PD, HDMI 2.1, USB-A 3.2, microSD, reset button (Notebookcheck).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo 2 by 2 W speakers, measured over 91 dB(A), louder than most laptops. Pointing device with mouse buttons on the opposite side, so two hands are needed.
+
+CONTROLS AND BUTTON LAYOUT
+Keyboard nearly identical to the Pocket 3's; touch pointing device with buttons on the other side.
+
+HOW IT FEELS
+A slightly bigger, heavier aluminium-alloy version of the Pocket 3 (Notebookcheck), about 1.7 pounds. The keyboard is cramped and takes getting used to. Hot spots reach about 36 degrees C on keyboard and bottom.
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit. Loud speakers (over 91 dB(A)) are a plus for speech without headphones.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid (Radeon 890M).
+
+UNCERTAIN
+Base-model price UNCERTAIN.
+
+SOURCES
+https://www.notebookcheck.net/GPD-Pocket-4-Ryzen-AI-9-handheld-PC-review-Small-fast-and-oh-so-adorable.952834.0.html
+
+----------
+
+ENTRY: GPD MicroPC
+Maker: GamePad Digital (GPD)
+Released: Indiegogo February 2019; delivery expected August 2019 (CNX Software).
+Launch price: US$299 on Indiegogo (2,000 units), US$399 retail (CNX Software, 2019).
+
+WHAT IT CAN DO
+A palm-sized Windows 10 (or Ubuntu MATE) computer for sysadmins, with lots of full-size ports for network and serial work.
+
+HARDWARE
+Processor: Intel Celeron N4100 (Gemini Lake, four cores, four threads).
+Memory: not documented
+Graphics: Intel UHD (integrated, model not documented).
+Storage: not documented
+Display: 6-inch 1280 by 720 (search summary of Liliputing/CNX).
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 10 or Ubuntu MATE.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Ethernet and serial port are its selling points (UNCERTAIN detail; full list not in fetched sources).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Touchpad with left, right and middle buttons above the keyboard (Liliputing, Pocket 3 article).
+
+CONTROLS AND BUTTON LAYOUT
+Thumb keyboard with touchpad above it.
+
+HOW IT FEELS
+Not documented beyond its 6-inch size. THIN ENTRY.
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit.
+
+GAME COMPATIBILITY
+Performance tier: very low; audio games only.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://www.cnx-software.com/2019/02/15/gpd-micropc-windows-10-ubuntu-mate-portable-mini-pc-sysadmins/
+https://liliputing.com/gpd-micropc-benchmarks/
+
+----------
+
+ENTRY: GPD Duo
+Maker: GamePad Digital (GPD)
+Released: Crowdfunding pre-order October 2024; retail from January 2025 (Liliputing).
+Launch price: From US$1,270 on crowdfunding (Liliputing, October 2024); higher at retail. Tom's Hardware: flagship Ryzen AI 9 model US$1,860.
+
+WHAT IT CAN DO
+Not a handheld: a dual-screen 13-inch-class laptop with two OLED touchscreens. Included because it is part of GPD's line.
+
+HARDWARE
+Processor: AMD Ryzen AI 9 HX 370, or lower-cost Ryzen 7 8840U.
+Memory: not documented
+Graphics: AMD Radeon integrated (890M with HX 370; 780M with 8840U).
+Storage: Up to 2 TB configuration.
+Display: Two 2.8K OLED touchscreens (size commonly reported as 13.3-inch, UNCERTAIN).
+Battery: 80 Wh.
+Weight and size: 2.2 kg (4.85 pounds); 23.8 mm thick.
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Full-size Ethernet and HDMI on the back, two USB 3.2 Gen 1 Type-A on the right, USB-C video input above the upper screen's brightness buttons.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Power button with fingerprint reader (only works with a Microsoft account sign-in), kickstand, stereo speakers "reasonably loud and clear" but thin on bass.
+
+CONTROLS AND BUTTON LAYOUT
+Laptop keyboard and touchpad (touchpad criticized).
+
+HOW IT FEELS
+A sturdy, all-metal laptop nearly an inch thick, close to five pounds. The second screen folds up above the first; a kickstand on the back of the main display stops it tipping (Liliputing).
+
+BLIND USABILITY
+These are keyboard-first mini laptops, so a screen reader works as on any Windows laptop: Windows+Ctrl+Enter starts Narrator, and NVDA or JAWS install normally. Accessibility testing on these specific machines is not documented. The small, cramped keyboards are the main barrier; reviewers note non-standard key placement, so expect to relearn where Insert, arrows and Fn sit. The dual screens add nothing for a screen reader user, so this is only worth it for its keyboard and power.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid laptop.
+
+UNCERTAIN
+Screen size UNCERTAIN.
+
+SOURCES
+https://liliputing.com/gpd-duo-review/
+https://www.tomshardware.com/laptops/amd-powered-dual-screen-oled-laptop-launches-at-usd1-270-flagship-ryzen-ai-9-model-carries-usd1-860-price-tag
+
+END OF GPD POCKET, MICROPC AND DUO

@@ -1,0 +1,187 @@
+MSI CLAW FAMILY
+
+MSI's Claw handhelds: the Intel Meteor Lake Claw A1M, the Lunar Lake Claw 7 AI+ and 8 AI+, and the AMD-based Claw A8.
+
+This file has 4 entries:
+1. MSI Claw A1M
+2. MSI Claw 7 AI+
+3. MSI Claw 8 AI+
+4. MSI Claw A8
+
+ENTRY: MSI Claw A1M
+Maker: MSI
+Released: March 8 and 15, 2024 (Wikipedia).
+Launch price: US$699.99 (Core Ultra 5 135H, 512 GB), US$749.99 (Core Ultra 7 155H, 512 GB), US$799.99 (Core Ultra 7, 1 TB) (Wikipedia).
+
+WHAT IT CAN DO
+MSI's first handheld and the first major one with Intel. Reviewers criticized high power draw and lower performance than rivals; Wired called battery life poor (Wikipedia).
+
+HARDWARE
+Processor: Intel Core Ultra 5 135H (14 cores/18 threads, up to 4.6 GHz) or Core Ultra 7 155H (16 cores/22 threads, up to 4.8 GHz), Meteor Lake (Wikipedia).
+Memory: 16 GB LPDDR5-6400; soldered.
+Graphics: Intel Arc (Alchemist-based) with 8 Xe cores, up to 2.2 to 2.25 GHz.
+Storage: 512 GB or 1 TB NVMe PCIe 4.0 M.2 2230; UHS-II microSD.
+Display: 7-inch 1920 by 1080 IPS, 120 Hz, 48 to 120 Hz VRR, 500 nits.
+Battery: 53 Wh.
+Weight and size: 675 grams; 294 by 117 by 21.2 millimetres (VideoCardz).
+Operating system: Windows 11 Home or Pro.
+Wi-Fi and network: Wi-Fi 7, Killer BE1750 (VideoCardz).
+Bluetooth: Bluetooth 5.4.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): One Thunderbolt 4 USB-C (DisplayPort, PD 3.0), microSD, audio jack. Thunderbolt 4 allows eGPU docks in principle.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 by 2 W stereo speakers, hi-res audio ready; RGB hall-effect sticks; black outer coating.
+
+CONTROLS AND BUTTON LAYOUT
+RGB A/B/X/Y, RGB hall-effect sticks, standard handheld layout.
+
+HOW IT FEELS
+About 1.5 pounds with a black coating; the Claw name refers to its deep grips (grip depth not measured in sources).
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. MSI Center M accessibility is not documented by any reviewer found; one AppleVis commenter said it was "not that accessible last time I heard" (second-hand, UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: mid, below the Z1 Extreme rivals at launch (Wikipedia; The Verge review cited in later coverage). Intel Arc driver compatibility with older games was a known concern at launch (general reporting, not detailed here, UNCERTAIN).
+
+UNCERTAIN
+Arc older-game issues UNCERTAIN.
+
+SOURCES
+https://en.wikipedia.org/wiki/MSI_Claw_A1M
+https://videocardz.com/newz/msi-claw-a8-with-ryzen-z2-extreme-debuts-on-newegg-costs-more-than-claw-8-with-lunar-lake
+
+----------
+
+ENTRY: MSI Claw 7 AI+
+Maker: MSI
+Released: Pre-orders December 3, 2024; release around December 25, 2024 to January 2025 (The Verge; Windows Central).
+Launch price: US$799 at launch; later US$829 at Best Buy and US$899.99 on MSI's site, likely tariff-related (Windows Central, 2025).
+
+WHAT IT CAN DO
+Lunar Lake refresh of the 7-inch Claw with much better efficiency.
+
+HARDWARE
+Processor: Intel Core Ultra 7 258V (Lunar Lake, 8 cores/8 threads: 4 P-cores up to 4.8 GHz and 4 E-cores up to 3.7 GHz; 30 W sustained, 37 W burst per Notebookcheck's Claw 8 test).
+Memory: 32 GB LPDDR5x-8533, on-package (not upgradeable).
+Graphics: Intel Arc 140V (integrated).
+Storage: M.2 2230 PCIe Gen4 SSD; microSD.
+Display: 7-inch 1920 by 1080 IPS-level, 120 Hz, VRR, 500 nits, 100 percent sRGB.
+Battery: 54.5 Wh; 65 W USB-C PD.
+Weight and size: 675 grams; 290 by 117 by 21.2 millimetres.
+Operating system: Windows 11 Home.
+Wi-Fi and network: Intel Wi-Fi 6E AX211 (VideoCardz).
+Bluetooth: Bluetooth 5.3.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two Thunderbolt 4 USB-C (DisplayPort, PD 3.0), microSD, audio combo jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Power button with fingerprint sensor; redesigned hall-effect sticks and triggers, updated bumpers and D-pad.
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+Not described in detail in sources used; same size class as the A1M (about 1.5 pounds).
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. MSI Center M accessibility is not documented by any reviewer found; one AppleVis commenter said it was "not that accessible last time I heard" (second-hand, UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: upper-mid; Lunar Lake much improved over the A1M.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.theverge.com/2024/12/3/24311944/msi-claw-7-ai-plus-8-ai-plus-lunar-lake-32gb-ram-gaming-pc-handhelds
+https://www.windowscentral.com/gaming/where-to-buy-msi-claw-7-8-ai-plus-handhelds
+https://videocardz.com/newz/msi-claw-a8-with-ryzen-z2-extreme-debuts-on-newegg-costs-more-than-claw-8-with-lunar-lake
+
+----------
+
+ENTRY: MSI Claw 8 AI+
+Maker: MSI
+Released: December 2024 to January 2025.
+Launch price: US$899.99 at launch (Notebookcheck); later raised to US$999.99 (The Verge, 2025; Windows Central). EUR 999.
+
+WHAT IT CAN DO
+The 8-inch Lunar Lake Claw. Notebookcheck rated it 85 percent, "one of the best gaming handhelds", with better gaming performance than the ROG Ally X and longer runtimes, but expensive.
+
+HARDWARE
+Processor: Intel Core Ultra 7 258V (as Claw 7 AI+).
+Memory: 32 GB LPDDR5x-8533 on-package.
+Graphics: Intel Arc 140V.
+Storage: 1 TB M.2 2230 PCIe Gen4 SSD with an easy-access slot; microSD.
+Display: 8-inch 1920 by 1200, 16:10, 120 Hz, VRR, 500 nits.
+Battery: 80 Wh.
+Weight and size: 795 grams (MSI); Notebookcheck measured 793 grams; 299 by 126 by 24 millimetres.
+Operating system: Windows 11 Home.
+Wi-Fi and network: Intel Wi-Fi 7 BE201 (VideoCardz).
+Bluetooth: Bluetooth 5.4.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two Thunderbolt 4 USB-C, microSD, audio combo jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Fingerprint power button. Notebookcheck: fans quieter than before but fluctuate under constant load; MSI software sometimes laggy.
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout with redesigned hall-effect sticks and triggers.
+
+HOW IT FEELS
+About 1.75 pounds; deeper and larger than the 7-inch Claw. Detailed texture not documented.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. MSI Center M accessibility is not documented by any reviewer found; one AppleVis commenter said it was "not that accessible last time I heard" (second-hand, UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: high for 2025 (Notebookcheck).
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.notebookcheck.net/MSI-Claw-8-AI-review-The-best-gaming-handheld-thanks-to-Intel-Lunar-Lake.974004.0.html
+https://www.windowscentral.com/gaming/where-to-buy-msi-claw-7-8-ai-plus-handhelds
+https://videocardz.com/newz/msi-claw-a8-with-ryzen-z2-extreme-debuts-on-newegg-costs-more-than-claw-8-with-lunar-lake
+
+----------
+
+ENTRY: MSI Claw A8
+Maker: MSI
+Released: Released between July 2025 and January 2026 depending on region (VideoCardz).
+Launch price: EUR 999 recommended (Notebookcheck); US$1,149 on MSI's US store and Newegg (VideoCardz). Notebookcheck's price widget showed US$1,074.99 on Amazon as of November 14, 2026.
+
+WHAT IT CAN DO
+MSI's first AMD Claw. Notebookcheck (83 percent) found it offers no real added value over the Intel Claw 8, with a less ergonomic new case and smaller shoulder buttons and triggers.
+
+HARDWARE
+Processor: AMD Ryzen Z2 Extreme: 8 cores/16 threads (3 Zen 5 up to 5.0 GHz plus 5 Zen 5c up to 3.3 GHz); 20 W sustained, 50 W burst (Notebookcheck).
+Memory: 24 GB LPDDR5X-8000; soldered.
+Graphics: AMD Radeon 890M.
+Storage: 1 TB M.2 2280 PCIe Gen4 SSD; microSD.
+Display: 8-inch 1920 by 1200, 120 Hz, VRR.
+Battery: 80 Wh (4-cell).
+Weight and size: 765 grams; 299.5 by 126.2 by 24 millimetres.
+Operating system: Windows 11 Home.
+Wi-Fi and network: Wi-Fi 7 (chip not documented).
+Bluetooth: Bluetooth 5.4.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C (USB4, DisplayPort, PD 3.0, Thunderbolt 4 compatible), microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo speakers; 65 W adapter.
+
+CONTROLS AND BUTTON LAYOUT
+Standard layout; shoulder buttons and triggers smaller than the Claw 8 AI+ (Notebookcheck).
+
+HOW IT FEELS
+A new, less ergonomic case than the Claw 8 AI+ per Notebookcheck; about 1.7 pounds.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. MSI Center M accessibility is not documented by any reviewer found; one AppleVis commenter said it was "not that accessible last time I heard" (second-hand, UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: high.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.notebookcheck.net/8-inch-gaming-handheld-now-also-with-AMD-MSI-Claw-A8-review.1185107.0.html
+https://videocardz.com/newz/msi-claw-a8-with-ryzen-z2-extreme-debuts-on-newegg-costs-more-than-claw-8-with-lunar-lake
+
+END OF MSI CLAW FAMILY

@@ -1,0 +1,122 @@
+HANDHELD HAVEN: INDEX
+
+FILES IN THIS COLLECTION
+00-README.txt: what this is and how to read it.
+01-INDEX.txt: this file.
+02-history-and-eras.txt: the story from 2004 pocket PCs to 2025 Xbox handhelds.
+03-blind-buyers-guide.txt: should you buy a handheld, value picks, used-buying tips.
+04-screen-reader-setup.txt: turning on Narrator and NVDA on handhelds, Xbox mode, button mapping.
+05-glossary.txt: terms explained.
+06-sources.txt: every web address used.
+07-build-notes.txt: method, uncertain and thin entries, limits.
+10-gpd-win-series.txt: GPD WIN SERIES (8 entries).
+11-gpd-pocket-micropc-duo.txt: GPD POCKET, MICROPC AND DUO (6 entries).
+12-asus-rog-ally.txt: ASUS ROG ALLY FAMILY (4 entries).
+13-lenovo-legion.txt: LENOVO LEGION GO FAMILY (3 entries).
+14-msi-claw.txt: MSI CLAW FAMILY (4 entries).
+15-ayaneo.txt: AYANEO (8 entries).
+16-onexplayer.txt: ONEXPLAYER AND ONEXFLY (5 entries).
+17-other-handhelds-and-steam-deck.txt: OTHER HANDHELDS AND THE STEAM DECK (3 entries).
+18-microsoft-surface.txt: MICROSOFT SURFACE (21 entries).
+19-dell-venue-and-small-windows-tablets.txt: DELL VENUE AND SMALL WINDOWS TABLETS (5 entries).
+20-umpcs-and-origami.txt: UMPCS AND PROJECT ORIGAMI (8 entries).
+Handheld-Haven-complete.txt: everything in one file.
+
+DEVICES BY FILE
+
+GPD WIN SERIES (file 10-gpd-win-series.txt)
+GPD Win (original). Released: Announced October 2015.
+GPD Win 2. Released: Indiegogo campaign early 2018.
+GPD Win Max. Released: Indiegogo campaign launched May 18, 2020, ended July 1, 2020.
+GPD Win 3. Released: Announced January 2021.
+GPD Win 4 (including 2023, 2024 and 2025 refreshes). Released: Indiegogo campaign started December 2022.
+GPD Win Max 2. Released: Indiegogo mid-2022.
+GPD Win Mini. Released: Announced 2023.
+GPD Win 5. Released: Crowdfunded 2025.
+
+GPD POCKET, MICROPC AND DUO (file 11-gpd-pocket-micropc-duo.txt)
+GPD Pocket (original). Released: Indiegogo pre-orders early 2017.
+GPD Pocket 2. Released: Indiegogo launched July 2018.
+GPD Pocket 3. Released: Indiegogo late 2021.
+GPD Pocket 4. Released: 2024 to 2025.
+GPD MicroPC. Released: Indiegogo February 2019.
+GPD Duo. Released: Crowdfunding pre-order October 2024.
+
+ASUS ROG ALLY FAMILY (file 12-asus-rog-ally.txt)
+ASUS ROG Ally (Z1 and Z1 Extreme). Released: Z1 Extreme model June 13, 2023.
+ASUS ROG Ally X. Released: Announced at Computex 2024.
+ROG Xbox Ally. Released: Unveiled June 8, 2025.
+ROG Xbox Ally X. Released: October 16, 2025.
+
+LENOVO LEGION GO FAMILY (file 13-lenovo-legion.txt)
+Lenovo Legion Go. Released: October 31, 2023.
+Lenovo Legion Go S (Windows and SteamOS editions). Released: Announced CES January 2025.
+Lenovo Legion Go 2. Released: Unveiled CES January 2025.
+
+MSI CLAW FAMILY (file 14-msi-claw.txt)
+MSI Claw A1M. Released: March 8 and 15, 2024.
+MSI Claw 7 AI+. Released: Pre-orders December 3, 2024.
+MSI Claw 8 AI+. Released: December 2024 to January 2025.
+MSI Claw A8. Released: Released between July 2025 and January 2026 depending on region.
+
+AYANEO (file 15-ayaneo.txt)
+AYANEO (original, 2021) and AYANEO 2021 Pro. Released: 2021, crowdfunded on Indiegogo.
+AYANEO Next and Next Pro. Released: Revealed January 5, 2022.
+AYANEO Air, Air Lite and Air Pro. Released: Indiegogo 2022.
+AYANEO Air Plus. Released: Indiegogo 2023.
+AYANEO 2 and AYANEO Geek. Released: Launched December 2022.
+AYANEO 2S, Air 1S, Geek 1S and Kun. Released: 2023.
+AYANEO Flip KB and Flip DS. Released: Early 2024.
+AYANEO 3. Released: Indiegogo early 2025.
+
+ONEXPLAYER AND ONEXFLY (file 16-onexplayer.txt)
+ONEXPLAYER (original, Intel). Released: Indiegogo 2021.
+ONEXPLAYER Mini. Released: January 2022.
+ONEXPLAYER 2 Pro. Released: Available for purchase 2023.
+ONEXFLY. Released: 2023.
+ONEXFLY F1 Pro. Released: November 2024.
+
+OTHER HANDHELDS AND THE STEAM DECK (file 17-other-handhelds-and-steam-deck.txt)
+Zotac Zone. Released: 2024.
+Acer Nitro Blaze 7. Released: Announced 2024.
+Valve Steam Deck (LCD and OLED), context entry. Released: LCD: February 25, 2022.
+
+MICROSOFT SURFACE (file 18-microsoft-surface.txt)
+Surface (first generation), later called Surface RT. Released: Announced June 2012.
+Surface 2. Released: Unveiled September 23, 2013.
+Surface 3 (non-Pro, 2015). Released: 2015.
+Surface Pro (first generation, 2013). Released: February 2013.
+Surface Pro 2. Released: Unveiled September 23, 2013.
+Surface Pro 3. Released: Announced May 20, 2014.
+Surface Pro 4. Released: Announced October 6, 2015.
+Surface Pro (fifth generation, 2017), also called Surface Pro 5. Released: Announced May 2017.
+Surface Pro 6. Released: Announced October 2, 2018.
+Surface Pro 7 and Pro 7+. Released: Pro 7 announced October 2, 2019, available October 22, 2019.
+Surface Pro X. Released: SQ1 announced October 2, 2019, available October 22, 2019.
+Surface Pro 8. Released: Announced September 22, 2021.
+Surface Pro 9. Released: Announced October 12, 2022.
+Surface Pro 10 (for Business). Released: Announced March 21, 2024.
+Surface Pro (11th Edition), also called Surface Pro 11 or Copilot+ Surface Pro. Released: Consumer June 18, 2024.
+Surface Pro 12-inch (2025). Released: Released May 20, 2025.
+Surface Go. Released: Unveiled July 10, 2018.
+Surface Go 2. Released: Released May 6, 2020.
+Surface Go 3. Released: Released September 22, 2021.
+Surface Go 4 (for Business). Released: October 3, 2023.
+Surface Duo (note: Android, not Windows). Released: Announced October 2, 2019.
+
+DELL VENUE AND SMALL WINDOWS TABLETS (file 19-dell-venue-and-small-windows-tablets.txt)
+Dell Venue 8 Pro (2013). Released: Announced October 2, 2013 with the Venue 11 Pro.
+Dell Venue 11 Pro (2013) and Venue 11 Pro 7000. Released: Venue 11 Pro announced October 2013.
+Note on Dell Venue 7, Venue 8 and Venue 8 7000. Released: 2013 to 2015.
+Toshiba Encore (8-inch, 2013). Released: Late 2013.
+HP Stream 7 (2014). Released: Announced September 29, 2014.
+
+UMPCS AND PROJECT ORIGAMI (file 20-umpcs-and-origami.txt)
+OQO model 01 and 01+. Released: Model 01: retail shipments from October 14, 2004.
+OQO model 02, e2 and the unreleased model 2+. Released: Model 02 introduced by Bill Gates at CES January 2007.
+Samsung Q1 family (Q1, Q1 SSD, Q1b, Q1F, Q1 Ultra, Q1 Ultra Premium). Released: Q1 in 2006 as one of the first Microsoft Origami UMPCs.
+Sony VAIO UX Micro PC (UX180P and later). Released: 2006.
+Sony VAIO P series (2009 to 2010). Released: January 2009.
+Fujitsu LifeBook U810. Released: 2007.
+Viliv S5 (2009). Released: Mid-2009.
+Other UMPCs of the Origami era (short notes). Released: 2006 to 2010.

@@ -1,0 +1,228 @@
+DELL VENUE AND SMALL WINDOWS TABLETS
+
+Dell Venue Pro Windows tablets, plus the 8-inch Windows tablet wave of 2013 and 2014: Toshiba Encore and HP Stream 7.
+
+This file has 5 entries:
+1. Dell Venue 8 Pro (2013)
+2. Dell Venue 11 Pro (2013) and Venue 11 Pro 7000
+3. Note on Dell Venue 7, Venue 8 and Venue 8 7000
+4. Toshiba Encore (8-inch, 2013)
+5. HP Stream 7 (2014)
+
+ENTRY: Dell Venue 8 Pro (2013)
+Maker: Dell
+Released: Announced October 2, 2013 with the Venue 11 Pro (Wikipedia); reviewed November 2013 (The Verge).
+Launch price: US$299.99 (The Verge, 2013).
+
+WHAT IT CAN DO
+An 8-inch tablet running full Windows 8.1, able to run desktop programs and Office; with a monitor, keyboard and mouse, a tiny desktop.
+
+HARDWARE
+Processor: Intel Atom Z3740D, quad-core, 1.8 GHz burst (The Verge).
+Memory: 2 GB (The Verge).
+Graphics: Intel HD (Bay Trail).
+Storage: 32 or 64 GB; microSD under a flap.
+Display: 8-inch IPS, 1280 by 800 (The Verge). The Verge found a broken auto-brightness at launch.
+Battery: The Verge Battery Test: 11 hours 55 minutes; 7 hours 33 minutes with auto-brightness off.
+Weight and size: 13.9 ounces (The Verge); 13.6 ounces (Laptop Mag); 9 mm thick.
+Operating system: Windows 8.1 with Office 2013.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): One micro-USB (also for charging), headphone jack, microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): One loudspeaker on the bottom. Windows key on the top edge that doubles as part of the power button.
+
+CONTROLS AND BUTTON LAYOUT
+Power button and volume rocker on the right side; Windows key on top next to the headphone jack; left side clear.
+
+HOW IT FEELS
+The Verge: comfortable to hold in one hand with weight well distributed; a black plastic slab with a textured, rubber-like back with grooves that grips your fingers, matte so it resists fingerprints.
+
+BLIND USABILITY
+These 8-inch Windows 8.1 tablets have a hardware Windows button, so Microsoft's touch-device shortcut, Windows button+Volume Up, is the documented way to start Narrator without a keyboard (whether it works on Windows 8.1 the same way as on Windows 10 and 11 is UNCERTAIN). Narrator in Windows 8.1 supported touch gestures, but Narrator has improved greatly since; these tablets are now old, slow and limited to 32-bit Windows in many cases (UNCERTAIN per model), so NVDA versions that require 64-bit Windows may not install. Treat them as collectibles or very light text devices. The Verge notes the Windows key is on the top edge, not below the screen, so feel along the top beside the headphone jack.
+
+GAME COMPATIBILITY
+Performance tier: very low by modern standards. Suitable only for very old PC games and simple audio games that still support Windows XP or 7 (check each game).
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.theverge.com/2013/11/20/5121634/dell-venue-8-pro-review
+https://en.wikipedia.org/wiki/Dell_Venue
+
+----------
+
+ENTRY: Dell Venue 11 Pro (2013) and Venue 11 Pro 7000
+Maker: Dell
+Released: Venue 11 Pro announced October 2013 (Wikipedia); 7000 series reviewed by Laptop Mag around 2015.
+Launch price: Venue 11 Pro 7000 starts at US$699; Laptop Mag's reviewed configuration was US$1,259 with stylus and keyboard. Original 2013 price not documented in sources used.
+
+WHAT IT CAN DO
+A 10.8-inch Windows business tablet with a battery-equipped keyboard dock and pen.
+
+HARDWARE
+Processor: Intel Bay Trail Atom on the original (Wikipedia); 7000-series CPU not documented in fetched text.
+Memory: not documented
+Graphics: not documented
+Storage: not documented
+Display: 10.8-inch (Laptop Mag).
+Battery: 38 Wh; Laptop Mag: 8 hours alone, 13 hours 33 minutes with the keyboard dock.
+Weight and size: 1.6 pounds tablet; 3.6 pounds with keyboard dock; 11.01 by 6.95 by 0.42 inches.
+Operating system: Windows 8.1.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Left edge: headphone jack, volume buttons, speaker, micro-USB power, micro HDMI, USB 3.0. Right edge: power, microSD, speaker, lock slot (Laptop Mag). Optional US$80 Dell Tablet Dock adds three USB 3.0, DisplayPort, HDMI, audio and Ethernet.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Waves MaxxAudio speakers measured 86 dB, louder than the Surface Pro 3; 8 MP camera; active stylus.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls.
+
+HOW IT FEELS
+Laptop Mag: a matte black back with a soft-touch finish. The keyboard dock has 1.3 mm key travel but needs 71 grams of force per key, stiffer than the Surface Type Cover; no backlight.
+
+BLIND USABILITY
+These 8-inch Windows 8.1 tablets have a hardware Windows button, so Microsoft's touch-device shortcut, Windows button+Volume Up, is the documented way to start Narrator without a keyboard (whether it works on Windows 8.1 the same way as on Windows 10 and 11 is UNCERTAIN). Narrator in Windows 8.1 supported touch gestures, but Narrator has improved greatly since; these tablets are now old, slow and limited to 32-bit Windows in many cases (UNCERTAIN per model), so NVDA versions that require 64-bit Windows may not install. Treat them as collectibles or very light text devices. The battery keyboard dock gives a real laptop keyboard for screen reader commands.
+
+GAME COMPATIBILITY
+Performance tier: very low to low.
+
+UNCERTAIN
+Specs differ between the 2013 Atom model and later Core-based 7000 series; not separated in sources used.
+
+SOURCES
+https://www.laptopmag.com/reviews/tablets/dell-venue-11-pro-7000
+https://en.wikipedia.org/wiki/Dell_Venue
+
+----------
+
+ENTRY: Note on Dell Venue 7, Venue 8 and Venue 8 7000
+Maker: Dell
+Released: 2013 to 2015.
+Launch price: Not covered.
+
+WHAT IT CAN DO
+These Venue models ran Android, not Windows (Wikipedia). The Venue 8 7000 (January 2015) had an 8.4-inch 2560 by 1600 OLED and an Atom Z3580. Dell discontinued the Venue line on June 30, 2016.
+
+HARDWARE
+Processor: Venue 8 7000: Intel Atom Z3580, 2.3 GHz quad-core.
+Memory: Venue 8 7000: 2 GB.
+Graphics: not documented
+Storage: Venue 8 7000: 16 GB (about 9 GB usable), microSD.
+Display: Venue 8 7000: 8.4-inch 2560 by 1600 OLED.
+Battery: not documented
+Weight and size: Venue 8 7000: 10.72 ounces, 0.24 inches thick.
+Operating system: Android.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+not documented
+
+HOW IT FEELS
+not documented
+
+BLIND USABILITY
+Android with TalkBack; not a Windows device.
+
+GAME COMPATIBILITY
+Android only.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Dell_Venue
+
+----------
+
+ENTRY: Toshiba Encore (8-inch, 2013)
+Maker: Toshiba
+Released: Late 2013 (Laptop Mag review era; exact date not documented).
+Launch price: US$329 MSRP for 32 GB, as low as US$299 online; US$399 for 64 GB (Laptop Mag).
+
+WHAT IT CAN DO
+An 8-inch full Windows 8.1 tablet with Office Home and Student 2013 included.
+
+HARDWARE
+Processor: Intel Atom Z3740, 1.33 GHz (Bay Trail).
+Memory: 2 GB (Laptop Mag's text says "2MB", an obvious typo).
+Graphics: Intel HD (Bay Trail).
+Storage: 32 or 64 GB eMMC; microSD.
+Display: 8-inch, 1280 by 800 (Laptop Mag).
+Battery: 8 hours 35 minutes in Laptop Mag's test.
+Weight and size: 15.3 ounces; 8.4 by 5.4 by 0.4 inches.
+Operating system: Windows 8.1.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Top edge: headphone jack, micro HDMI, micro-USB. Left edge: microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo speakers with Dolby Digital Plus (unimpressive per Laptop Mag); 2 MP front camera in the top-right corner, 8 MP rear.
+
+CONTROLS AND BUTTON LAYOUT
+Volume and power buttons on the right edge; Windows home button below the screen.
+
+HOW IT FEELS
+Laptop Mag: a plastic build in an aluminium colour that felt heavy, with a textured back panel that provides a nice grip.
+
+BLIND USABILITY
+These 8-inch Windows 8.1 tablets have a hardware Windows button, so Microsoft's touch-device shortcut, Windows button+Volume Up, is the documented way to start Narrator without a keyboard (whether it works on Windows 8.1 the same way as on Windows 10 and 11 is UNCERTAIN). Narrator in Windows 8.1 supported touch gestures, but Narrator has improved greatly since; these tablets are now old, slow and limited to 32-bit Windows in many cases (UNCERTAIN per model), so NVDA versions that require 64-bit Windows may not install. Treat them as collectibles or very light text devices.
+
+GAME COMPATIBILITY
+Performance tier: very low by modern standards. Suitable only for very old PC games and simple audio games that still support Windows XP or 7 (check each game).
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.laptopmag.com/reviews/tablets/toshiba-encore
+
+----------
+
+ENTRY: HP Stream 7 (2014)
+Maker: HP
+Released: Announced September 29, 2014 (Wikipedia).
+Launch price: US$99, with a year of Office 365 Personal and a US$25 Windows Store gift card (Thurrott).
+
+WHAT IT CAN DO
+One of the cheapest full Windows tablets ever sold; a 7-inch Windows 8.1 tablet for basic home use.
+
+HARDWARE
+Processor: Intel Atom Z3735G, quad-core 1.8 GHz.
+Memory: 1 GB.
+Graphics: Intel HD (Bay Trail).
+Storage: 32 GB eMMC; microSD (UNCERTAIN).
+Display: 7-inch 1280 by 800 IPS.
+Battery: HP rated up to 8 hours; under 5 hours in Thurrott's video test; non-removable.
+Weight and size: Not given; Thurrott calls it chunky, heavy and thick.
+Operating system: Windows 8.1 with Bing (UNCERTAIN edition name).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Single mono speaker that is loud and clear (Thurrott).
+
+CONTROLS AND BUTTON LAYOUT
+Hardware Windows button (UNCERTAIN location).
+
+HOW IT FEELS
+Thurrott: durable-feeling but chunky, heavy and thick; a removable back cover that is very hard to remove.
+
+BLIND USABILITY
+These 8-inch Windows 8.1 tablets have a hardware Windows button, so Microsoft's touch-device shortcut, Windows button+Volume Up, is the documented way to start Narrator without a keyboard (whether it works on Windows 8.1 the same way as on Windows 10 and 11 is UNCERTAIN). Narrator in Windows 8.1 supported touch gestures, but Narrator has improved greatly since; these tablets are now old, slow and limited to 32-bit Windows in many cases (UNCERTAIN per model), so NVDA versions that require 64-bit Windows may not install. Treat them as collectibles or very light text devices. With only 1 GB of RAM and 32 GB storage, running a modern screen reader will be very slow.
+
+GAME COMPATIBILITY
+Performance tier: very low by modern standards. Suitable only for very old PC games and simple audio games that still support Windows XP or 7 (check each game).
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.thurrott.com/hardware/1204/hp-stream-7-review
+https://en.wikipedia.org/wiki/HP_Stream
+
+END OF DELL VENUE AND SMALL WINDOWS TABLETS

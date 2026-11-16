@@ -1,0 +1,44 @@
+SCREEN READER SETUP ON HANDHELD AND SMALL WINDOWS DEVICES
+
+This chapter collects documented steps. It was not tested on each device. Microsoft's Narrator documentation and the reviews cited are the sources.
+
+STEP 1: GET A KEYBOARD READY
+For any handheld without a built-in keyboard, connect a USB keyboard (a USB-C adapter or hub may be needed) or a Bluetooth keyboard. A USB keyboard works during Windows setup without pairing. Bluetooth pairing during setup without speech is difficult.
+
+STEP 2: TURN ON NARRATOR DURING WINDOWS SETUP
+Press Windows key+Ctrl+Enter (Microsoft Support, Narrator keyboard commands). On a touch device with a hardware Windows button, Microsoft documents holding the Windows button and pressing Volume Up. Can I Play That found Narrator is available right away in setup on the ROG Xbox Ally X, but the on-screen prompt only mentions keyboard combinations, not controller buttons.
+The Steam Deck is different: it ships with SteamOS. Valve added a SteamOS screen reader in a June 2025 beta (The Verge), and Windows setup on a Deck needed sighted help in SightlessKombat's review because audio drivers are missing during setup.
+
+STEP 3: MAKE NARRATOR OR NVDA START AUTOMATICALLY
+In Narrator settings, turn on "Start Narrator before sign-in for everyone" and "Start Narrator after sign-in" (Microsoft Support, customizing Narrator). After installing NVDA, NVDA's own options can start it at Windows sign-in.
+
+STEP 4: XBOX MODE (FULL SCREEN EXPERIENCE)
+On the ROG Xbox Ally family and, from late 2025, on other Windows 11 handhelds, Microsoft offers Xbox mode, also called the full screen experience. Press Win+F11 to enter and leave it. Microsoft says that when Xbox mode is set to start at sign-in, other startup apps start only the first time you switch to the desktop. To make sure NVDA runs, set NVDA to Start at log in under Settings, Apps, Startup (Microsoft Support, KB5070297). An AppleVis user with five months on the ROG Xbox Ally X found Xbox mode navigable with NVDA or Narrator.
+
+STEP 5: MAP A BUTTON TO A SCREEN READER SHORTCUT
+Maker software can often turn a back paddle or spare button into a keyboard key or macro. Can I Play That reports ASUS Armoury Crate SE can remap every button except the Xbox, Command Center and Library buttons, with macros of up to five key presses. Use this for keys such as Insert or Caps Lock (the Narrator and NVDA modifier key), Tab, Escape, or a combination. Whether a specific combination like Windows key+Ctrl+Enter is accepted was not confirmed in sources. Lenovo Legion Space, MSI Center, AYANEO AYASpace and OneXConsole accessibility is not well documented; one AppleVis user reported MSI Center as not accessible.
+
+STEP 6: USE TOUCH WHEN NO KEYBOARD IS ATTACHED
+Narrator supports touch gestures on touchscreens (Microsoft Support appendix): touch or drag to hear what is under your finger; flick left or right to move to the previous or next item; double-tap to activate; three-finger swipes to move by Tab and Shift+Tab; and four-finger triple-tap shows all gestures (check Microsoft's current list, as gestures change between Windows versions). NVDA also supports touch gestures on touchscreens. SightlessKombat found NVDA touch input not very responsive on a Steam Deck running Windows, and a keyboard "worked wonders".
+
+STEP 7: ARM DEVICES AND S MODE
+ARM Windows devices (Surface Pro X, Snapdragon Surface Pro 11 and Pro 12-inch): NVDA runs through Microsoft's x64 emulation, and JAWS provides a native ARM64 build (Freedom Scientific system requirements). Windows RT (Surface RT and Surface 2) cannot install NVDA or JAWS at all.
+Surface Go and some low-cost devices ship in Windows S mode, which only installs Store apps. Switch out of S mode (free, one-way) in Settings before installing NVDA.
+
+STEP 8: AUDIO
+Most handhelds have a 3.5 mm headphone jack; check the entry. Bluetooth headphones add delay, which matters for audio games. A USB-C audio adapter or USB audio interface is an alternative on devices without a jack.
+
+STEP 9: KEEP A RECOVERY PLAN
+Windows updates and maker software updates can reset settings. Keep a keyboard with you for the first weeks, and learn how to restart Narrator with Windows key+Ctrl+Enter if NVDA stops.
+
+SOURCES FOR THIS CHAPTER
+https://support.microsoft.com/en-us/accessibility/windows/narrator/appendix-b-narrator-keyboard-commands-and-touch-gestures
+https://support.microsoft.com/en-us/accessibility/windows/narrator/chapter-7-customizing-narrator
+https://support.microsoft.com/en-us/servicing/os/windows/docs/2025/10/windows-gaming-full-screen-experience
+https://caniplaythat.com/2025/10/15/rog-xbox-ally-x-accessibility-review/
+https://www.applevis.com/forum/windows/seeking-peoples-experiences-xbox-rog-ally-x-screen-readers
+https://www.sightlesskombat.com/steam-deck-accessibility-review/
+https://www.theverge.com/games/689922/steam-is-adding-screen-reader-support-and-other-accessibility-tools
+https://learn.microsoft.com/en-us/surface/surface-arm-faq
+https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation
+https://support.freedomscientific.com/Downloads/JAWS/jaws-system-requirements

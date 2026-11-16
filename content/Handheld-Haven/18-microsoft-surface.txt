@@ -1,0 +1,941 @@
+MICROSOFT SURFACE
+
+Microsoft's Surface tablets: the ARM Surface RT and Surface 2, the Intel Surface 3, the Surface Pro line through the 2025 Pro 12-inch, the Surface Go line, and a note on the Android Surface Duo. These are tablets with keyboard covers, not gaming handhelds, but they are the most common small Windows computers.
+
+This file has 21 entries:
+1. Surface (first generation), later called Surface RT
+2. Surface 2
+3. Surface 3 (non-Pro, 2015)
+4. Surface Pro (first generation, 2013)
+5. Surface Pro 2
+6. Surface Pro 3
+7. Surface Pro 4
+8. Surface Pro (fifth generation, 2017), also called Surface Pro 5
+9. Surface Pro 6
+10. Surface Pro 7 and Pro 7+
+11. Surface Pro X
+12. Surface Pro 8
+13. Surface Pro 9
+14. Surface Pro 10 (for Business)
+15. Surface Pro (11th Edition), also called Surface Pro 11 or Copilot+ Surface Pro
+16. Surface Pro 12-inch (2025)
+17. Surface Go
+18. Surface Go 2
+19. Surface Go 3
+20. Surface Go 4 (for Business)
+21. Surface Duo (note: Android, not Windows)
+
+ENTRY: Surface (first generation), later called Surface RT
+Maker: Microsoft
+Released: Announced June 2012; released October 26, 2012; discontinued July 18, 2013 (Wikipedia).
+Launch price: US$499 and up (The Verge, 2012). Cut 30 percent to US$350 in July 2013 (Wikipedia).
+
+WHAT IT CAN DO
+Microsoft's first in-house PC: an ARM tablet running Windows RT, which looks like Windows 8 but cannot install traditional desktop programs.
+
+HARDWARE
+Processor: Nvidia Tegra 3, 1.3 GHz (quad-core ARM).
+Memory: 2 GB DDR3, soldered.
+Graphics: Nvidia Tegra 3 integrated (GeForce ULP).
+Storage: 32 or 64 GB eMMC; microSDXC (under the kickstand).
+Display: 10.6-inch 1366 by 768.
+Battery: 31.5 Wh; 24 W charger. The Verge: about eight hours claimed, a full day of heavy use observed.
+Weight and size: 1.5 pounds (680 g); 10.81 by 6.77 by 0.37 inches.
+Operating system: Windows RT, upgradable to Windows RT 8.1.
+Wi-Fi and network: Wi-Fi 802.11a/b/g/n.
+Bluetooth: Bluetooth 4.0.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB 2.0, micro HDMI, 3.5 mm headphone jack, microSDXC, cover connector.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Two 720p cameras, two microphones, stereo speakers that sometimes distorted (The Verge); accelerometer, gyroscope, magnetometer, ambient light sensor.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+The Verge: a magnesium (VaporMg) slab that feels like thin, stiff aluminium, with edges that taper back from the glass. A full-width kickstand flips out of the back; its metal edges are extremely sharp and scratched wooden surfaces. At nearly 11 inches wide it is awkward to hold in landscape for long and "laughably tall" in portrait. A capacitive Windows button sits centered below the screen. Touch Cover keyboards have no moving keys; Type Covers have real keys.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This model has a Windows button below the screen (capacitive on the Surface RT, per The Verge), so Windows button+Volume Up can start Narrator without a keyboard (behavior on this exact model not tested in sources; UNCERTAIN). Windows RT models (Surface RT and Surface 2) do not allow ordinary desktop programs except Microsoft Office and Internet Explorer (The Verge), so NVDA and JAWS cannot be installed; Narrator is the only screen reader. Microsoft provided security updates for Surface 2 until January 2023 (Wikipedia). Not recommended for a blind buyer today.
+
+GAME COMPATIBILITY
+Performance tier: very low; Windows Store apps only. Audio games for desktop Windows will not install.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_(2012_tablet)
+https://www.theverge.com/2012/10/23/3540550/microsoft-surface-review
+
+----------
+
+ENTRY: Surface 2
+Maker: Microsoft
+Released: Unveiled September 23, 2013; released October 22, 2013; 4G LTE model March 18, 2014; discontinued January 27, 2015 (Wikipedia).
+Launch price: US$449 (Wikipedia price table).
+
+WHAT IT CAN DO
+Faster Windows RT 8.1 tablet with Office 2013 RT included.
+
+HARDWARE
+Processor: Nvidia Tegra 4, quad-core ARM Cortex-A15 at 1.7 GHz plus a power-saving fifth core.
+Memory: 2 GB.
+Graphics: Tegra 4 with 72 GeForce cores.
+Storage: 32 GB (18 GB available) or 64 GB (47 GB available); microSD up to 64 GB.
+Display: 10.6-inch 1920 by 1080, 208 ppi.
+Battery: not documented
+Weight and size: 1.49 pounds (676 g); 10.81 by 6.81 by 0.35 inches.
+Operating system: Windows RT 8.1.
+Wi-Fi and network: 2x2 MIMO Wi-Fi 802.11a/b/g/n.
+Bluetooth: Bluetooth 4.0.
+Cellular: 4G LTE model (64 GB, AT&T partner, shipped unlocked, with GPS).
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Full-size USB 3.0, micro HDMI, microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Dolby Digital Plus stereo speakers; 3.5 MP front and 5 MP rear cameras; dual noise-cancelling microphones; silver magnesium finish.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Same overall shape as the Surface RT, slightly lighter, with a more scratch-resistant silver magnesium finish (Wikipedia).
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. Windows RT models (Surface RT and Surface 2) do not allow ordinary desktop programs except Microsoft Office and Internet Explorer (The Verge), so NVDA and JAWS cannot be installed; Narrator is the only screen reader. Microsoft provided security updates for Surface 2 until January 2023 (Wikipedia). Not recommended for a blind buyer today.
+
+GAME COMPATIBILITY
+Performance tier: very low; Store apps only.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_2
+
+----------
+
+ENTRY: Surface 3 (non-Pro, 2015)
+Maker: Microsoft
+Released: 2015; discontinued late 2016 (Wikipedia).
+Launch price: US$499 (Liliputing's GPD Win review); Wikipedia's price table lists US$449 for a configuration (DISPUTED; likely different storage tiers).
+
+WHAT IT CAN DO
+A full Windows 8.1/10 tablet (not RT) using an Intel Atom, so ordinary desktop programs and NVDA run.
+
+HARDWARE
+Processor: Intel Atom x7-Z8700, quad-core, 1.6 to 2.4 GHz, 2 MB cache, 2 W.
+Memory: 2 or 4 GB LPDDR3-1600, soldered.
+Graphics: Intel HD Graphics (integrated).
+Storage: 64 or 128 GB (37 or 93 GB user-available); microSD.
+Display: 10.8-inch 1920 by 1280, 3:2.
+Battery: 27.5 Wh (7,270 mAh); 13 W micro-USB charger.
+Weight and size: 1.37 pounds (620 g); Type Cover adds 265 g.
+Operating system: Windows 8.1, upgradable to Windows 10.
+Wi-Fi and network: Wi-Fi 802.11a/b/g/n/ac.
+Bluetooth: Bluetooth 4.0 LE.
+Cellular: 4G LTE option.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Full-size USB 3.0, Mini DisplayPort, 3.5 mm jack, micro-USB charging port, cover port, microSD.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Front 3.5 MP and rear 8 MP cameras; dual front speakers; N-trig pen support (pen sold separately).
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Thin 0.34-inch tablet, about 1.4 pounds, with the Surface kickstand. Charges over micro-USB, which is easy to plug in by touch.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: very low (Atom).
+
+UNCERTAIN
+Base price DISPUTED.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_3
+https://liliputing.com/gpd-win-handheld-gaming-pc-quick-review/
+
+----------
+
+ENTRY: Surface Pro (first generation, 2013)
+Maker: Microsoft
+Released: February 2013 (Wikipedia, Engadget).
+Launch price: US$899 for 64 GB (search summary of The Verge, Engadget, Laptop Mag reviews).
+
+WHAT IT CAN DO
+The first Intel Surface: a full Windows 8 Pro tablet with Ultrabook-class performance and a Wacom pen.
+
+HARDWARE
+Processor: Intel Core i5-3317U, 1.7 GHz (dual-core, four threads).
+Memory: 4 GB.
+Graphics: Intel HD Graphics 4000 (standard for this chip).
+Storage: 64 or 128 GB.
+Display: 10.6-inch 1920 by 1080.
+Battery: Reviewers reported roughly 4 to 5 hours (search summary).
+Weight and size: About 2 pounds.
+Operating system: Windows 8 Pro.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Reviews called it heavy and thick for a tablet (search summary).
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This model has a Windows button below the screen (capacitive on the Surface RT, per The Verge), so Windows button+Volume Up can start Narrator without a keyboard (behavior on this exact model not tested in sources; UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+Several specs from a search summary of reviews.
+
+SOURCES
+https://www.theverge.com/2013/2/5/3955130/microsoft-surface-pro-review
+https://www.engadget.com/2013-02-05-microsoft-surface-pro-review.html
+https://en.wikipedia.org/wiki/Surface_Pro_(1st_generation)
+
+----------
+
+ENTRY: Surface Pro 2
+Maker: Microsoft
+Released: Unveiled September 23, 2013; released October 22, 2013; discontinued July 5, 2014 (Wikipedia).
+Launch price: Starting around US$900 (Digital Trends quoted in Wikipedia).
+
+WHAT IT CAN DO
+Haswell update of the Surface Pro with much longer battery life.
+
+HARDWARE
+Processor: Intel Core i5-4200U (before December 2013) then i5-4300U, dual-core, 15 W.
+Memory: 4 or 8 GB dual-channel DDR3-1600.
+Graphics: Intel HD Graphics 4400.
+Storage: 64 to 512 GB; microSDXC.
+Display: 10.6-inch 1920 by 1080, Wacom digitizer.
+Battery: 42 Wh.
+Weight and size: 1.984 pounds (900 g); 10.81 by 6.81 by 0.53 inches.
+Operating system: Windows 8.1 Pro, upgradable to Windows 10.
+Wi-Fi and network: 2x2 MIMO 802.11a/b/g/n.
+Bluetooth: Bluetooth 4.0.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB 3.0, Mini DisplayPort 1.2.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Dolby Digital Plus stereo speakers; 720p front and rear cameras.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Digital Trends: still too heavy for a tablet. Over half an inch thick.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This model has a Windows button below the screen (capacitive on the Surface RT, per The Verge), so Windows button+Volume Up can start Narrator without a keyboard (behavior on this exact model not tested in sources; UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_2
+
+----------
+
+ENTRY: Surface Pro 3
+Maker: Microsoft
+Released: Announced May 20, 2014; released June 20, 2014; discontinued November 1, 2016 (Wikipedia).
+Launch price: US$799 to US$1,949 (Wikipedia).
+
+WHAT IT CAN DO
+The 12-inch 3:2 Surface that made the line profitable.
+
+HARDWARE
+Processor: Intel Core i3-4020Y, i5-4300U or i7-4650U.
+Memory: 4 or 8 GB LPDDR3-1600, soldered.
+Graphics: Intel HD 4200, HD 4400 or HD 5000.
+Storage: 64 to 512 GB; microSDHC.
+Display: 12-inch 2160 by 1440, 3:2.
+Battery: 42 Wh; 36 W charger with a USB charging port.
+Weight and size: 1.76 pounds (800 g); 11.5 by 7.93 by 0.36 inches.
+Operating system: Windows 8.1 Pro, upgradable to Windows 10 Pro.
+Wi-Fi and network: Wi-Fi 5.
+Bluetooth: Bluetooth 4.0.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB 3.0, Mini DisplayPort, 3.5 mm jack, cover port, charging port.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 5 MP front and rear cameras; front-facing stereo speakers.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Thinner and lighter than the Pro 2, with a friction kickstand (widely reported, UNCERTAIN). Laptop Mag notes its Type Cover takes 50 grams of force per key.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This model has a Windows button below the screen (capacitive on the Surface RT, per The Verge), so Windows button+Volume Up can start Narrator without a keyboard (behavior on this exact model not tested in sources; UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_3
+https://www.laptopmag.com/reviews/tablets/dell-venue-11-pro-7000
+
+----------
+
+ENTRY: Surface Pro 4
+Maker: Microsoft
+Released: Announced October 6, 2015; released October 26, 2015 (Wikipedia).
+Launch price: US$899 (GBP 749) (Wikipedia).
+
+WHAT IT CAN DO
+Skylake Surface Pro with a 12.3-inch screen.
+
+HARDWARE
+Processor: Intel Core m3-6Y30, i5-6300U or i7-6650U.
+Memory: 4, 8 or 16 GB.
+Graphics: Intel HD 515, HD 520, or Iris 540.
+Storage: 128 GB to 1 TB PCIe SSD.
+Display: 12.3-inch 2736 by 1824 PixelSense, 3:2.
+Battery: not documented
+Weight and size: 766 to 786 grams; 292.1 by 201.42 by 8.45 mm.
+Operating system: Windows 10 Pro.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Thin, under a third of an inch, about 1.7 pounds.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. Whether this model keeps a front Windows button is not documented in sources used (UNCERTAIN).
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_4
+
+----------
+
+ENTRY: Surface Pro (fifth generation, 2017), also called Surface Pro 5
+Maker: Microsoft
+Released: Announced May 2017; released June 15, 2017 (Wikipedia).
+Launch price: US$799 (GBP 749) (Wikipedia).
+
+WHAT IT CAN DO
+Kaby Lake Surface Pro; the m3 model is fanless.
+
+HARDWARE
+Processor: Intel Core m3-7Y30 (4.5 W), i5-7300U (15 W) or i7-7660U (15 W), dual-core.
+Memory: 4, 8 or 16 GB.
+Graphics: Intel HD 615, HD 620 or Iris Plus 640.
+Storage: 128 GB to 1 TB PCIe NVMe SSD.
+Display: 12.3-inch 2736 by 1824, 3:2, pen support.
+Battery: not documented
+Weight and size: 768 to 784 grams; 292 by 201 by 8.5 mm.
+Operating system: Windows 10 Pro.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Thin tablet about 1.7 pounds; Type Covers in Alcantara fabric were offered (Wikipedia caption), a soft, suede-like surface.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_(2017)
+
+----------
+
+ENTRY: Surface Pro 6
+Maker: Microsoft
+Released: Announced October 2, 2018; released October 16, 2018 (Wikipedia).
+Launch price: US$899 to US$2,299 (Wikipedia).
+
+WHAT IT CAN DO
+Quad-core 8th-generation Intel Surface Pro.
+
+HARDWARE
+Processor: Intel Core i5-8250U, i5-8350U or i7-8650U.
+Memory: 8 or 16 GB.
+Graphics: Intel UHD Graphics 620.
+Storage: 128 GB to 1 TB SSD; microSD.
+Display: 12.3-inch 2736 by 1824.
+Battery: not documented
+Weight and size: 770 to 784 grams.
+Operating system: Windows 10 Home (consumer) or Pro (business).
+Wi-Fi and network: Wi-Fi 5.
+Bluetooth: Bluetooth 4.1.
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Mini DisplayPort, 3.5 mm jack, microSD (no USB-C).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 1.6 W stereo speakers with Dolby Audio; dual microphones; 5 MP front, 8 MP rear cameras.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Same shape as the Pro 2017.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_6
+
+----------
+
+ENTRY: Surface Pro 7 and Pro 7+
+Maker: Microsoft
+Released: Pro 7 announced October 2, 2019, available October 22, 2019. Pro 7+ announced January 11, 2021 (Wikipedia).
+Launch price: Pro 7: US$750 to US$2,400. Pro 7+: US$900 to US$2,800 (Wikipedia, rounded).
+
+WHAT IT CAN DO
+First Surface Pro with USB-C. The 7+ added Tiger Lake chips, a removable SSD and LTE.
+
+HARDWARE
+Processor: Pro 7: Intel Core i3-1005G1, i5-1035G4, i7-1065G7. Pro 7+: i3-1115G4, i5-1135G7, i7-1165G7.
+Memory: Pro 7: 4 to 16 GB LPDDR4x. Pro 7+: 8 to 32 GB.
+Graphics: Intel UHD (i3), Iris Plus (Pro 7 i5/i7) or Iris Xe (Pro 7+).
+Storage: 128 GB to 1 TB; removable SSD on Pro 7+; microSD.
+Display: 12.3-inch 2736 by 1824.
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 10, upgradable to Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Omnisonic speakers with Dolby Audio; 3.5 mm headphone jack; 5 MP front, 8 MP rear.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Same shape as earlier 12.3-inch Pros.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_7
+
+----------
+
+ENTRY: Surface Pro X
+Maker: Microsoft
+Released: SQ1 announced October 2, 2019, available October 22, 2019; SQ2 October 2020 (Wikipedia).
+Launch price: Wikipedia lists US$899.99 for the least expensive 8 GB/128 GB model and SQ1 ranges of about US$900 to US$1,900; whether US$899.99 was the 2019 launch price is UNCERTAIN.
+
+WHAT IT CAN DO
+Microsoft's ARM Surface Pro with a thin 13-inch design and LTE.
+
+HARDWARE
+Processor: Microsoft SQ1 or SQ2 (co-developed with Qualcomm).
+Memory: 8 or 16 GB LPDDR4x.
+Graphics: Adreno 685 (SQ1) or 690 (SQ2).
+Storage: 128, 256 or 512 GB removable SSD; no microSD.
+Display: 13-inch 2880 by 1920, 450 nits.
+Battery: not documented
+Weight and size: 774 grams; 7.3 mm thick.
+Operating system: Windows 10, upgradable to Windows 11.
+Wi-Fi and network: Wi-Fi 5.
+Bluetooth: Bluetooth 5.
+Cellular: LTE Advanced, GPS.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C (USB 3).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 5 MP front, 10 MP 4K rear cameras; 2 W stereo speakers.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Very thin at 7.3 mm, about 1.7 pounds.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This is an ARM (Snapdragon or SQ) Surface. NVDA runs through Windows x64 emulation (Microsoft's Prism emulator) and JAWS offers a native ARM64 build (Freedom Scientific system requirements; Microsoft ARM FAQ). Some older x86 audio games and drivers may not run or may run slower under emulation; kernel drivers and some anti-cheat cannot be emulated (Microsoft's emulation documentation).
+
+GAME COMPATIBILITY
+Performance tier: low for games; x86 games run under emulation.
+
+UNCERTAIN
+Launch price UNCERTAIN.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_X
+https://learn.microsoft.com/en-us/surface/surface-arm-faq
+https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation
+https://support.freedomscientific.com/Downloads/JAWS/jaws-system-requirements
+
+----------
+
+ENTRY: Surface Pro 8
+Maker: Microsoft
+Released: Announced September 22, 2021; available October 5, 2021 (Wikipedia).
+Launch price: Wikipedia gives AUD 1,100 to 2,600; US launch price is not documented in sources used.
+
+WHAT IT CAN DO
+Redesigned 13-inch, 120 Hz Surface Pro with Thunderbolt 4.
+
+HARDWARE
+Processor: Intel Core i3-1115G4, i5-1135G7 or i7-1185G7.
+Memory: 8, 16 or 32 GB LPDDR4x.
+Graphics: Intel Iris Xe.
+Storage: 128 GB to 1 TB removable SSD.
+Display: 13-inch 2880 by 1920, 120 Hz.
+Battery: not documented
+Weight and size: 889 grams; 287 by 208 by 9.3 mm.
+Operating system: Windows 11 Home or Pro.
+Wi-Fi and network: Wi-Fi 6.
+Bluetooth: Bluetooth 5.1.
+Cellular: LTE option.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C with Thunderbolt; 3.5 mm headphone jack.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers with Dolby Atmos; dual far-field mics; 5 MP front, 10 MP 4K rear.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+About 2 pounds, rounded edges like the Pro X.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_8
+
+----------
+
+ENTRY: Surface Pro 9
+Maker: Microsoft
+Released: Announced October 12, 2022; available October 25, 2022 (Wikipedia).
+Launch price: US$1,100 to US$2,700 (Wikipedia, rounded).
+
+WHAT IT CAN DO
+Offered in Intel and ARM (SQ3 5G) versions.
+
+HARDWARE
+Processor: Intel Core i5-1235U/1245U or i7-1255U/1265U, or Microsoft SQ3.
+Memory: 8, 16 or 32 GB LPDDR5 (LPDDR4X on SQ3).
+Graphics: Intel Iris Xe (Intel) or Adreno (SQ3).
+Storage: 128 GB to 1 TB SSD.
+Display: 13-inch 2880 by 1920, 120 Hz.
+Battery: not documented
+Weight and size: 879 to 883 grams.
+Operating system: Windows 11 Home or Pro.
+Wi-Fi and network: Wi-Fi 6 (Intel).
+Bluetooth: Bluetooth 5.1.
+Cellular: LTE or 5G option (SQ3).
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C with Thunderbolt (Intel). No headphone jack is listed in the infobox (UNCERTAIN).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers with Dolby Atmos; far-field mics; 10 MP 4K rear camera.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+not documented
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. The SQ3 version has the ARM notes of the Surface Pro X.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_9
+
+----------
+
+ENTRY: Surface Pro 10 (for Business)
+Maker: Microsoft
+Released: Announced March 21, 2024; released April 9, 2024 (Wikipedia).
+Launch price: Not documented in sources used.
+
+WHAT IT CAN DO
+Business-only Intel Core Ultra Surface Pro.
+
+HARDWARE
+Processor: Intel Core Ultra (model not documented in sources used).
+Memory: not documented
+Graphics: not documented
+Storage: not documented
+Display: not documented
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11 Pro (business line).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+not documented
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_10
+
+----------
+
+ENTRY: Surface Pro (11th Edition), also called Surface Pro 11 or Copilot+ Surface Pro
+Maker: Microsoft
+Released: Consumer June 18, 2024; business (Intel) announced January 30, 2025, released February 18, 2025 (Wikipedia).
+Launch price: Consumer US$999 to US$2,099; business US$1,500 to US$2,500 (Wikipedia).
+
+WHAT IT CAN DO
+Snapdragon X Copilot+ PC; reviewers praised much improved battery life and repairability (Wikipedia).
+
+HARDWARE
+Processor: Qualcomm Snapdragon X Plus or X Elite (consumer); Intel Core Ultra 5 or 7 Series 2 (business).
+Memory: 16 or 32 GB.
+Graphics: Qualcomm Adreno X1-85 (3.8 TFLOPS).
+Storage: 256 GB, 512 GB or 1 TB SSD.
+Display: 13-inch 2880 by 1920, 120 Hz, IPS or OLED.
+Battery: not documented
+Weight and size: 895 grams; 287 by 208 by 9.3 mm.
+Operating system: Windows 11 Home (consumer) or Pro (business).
+Wi-Fi and network: Wi-Fi 7.
+Bluetooth: Bluetooth 5.4.
+Cellular: 5G (business).
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C 40 Gbps (USB4); Thunderbolt 4 on business models.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers with Dolby Atmos; dual far-field mics; 1440p front, 10 MP 4K rear; NFC on business model.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+not documented
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This is an ARM (Snapdragon or SQ) Surface. NVDA runs through Windows x64 emulation (Microsoft's Prism emulator) and JAWS offers a native ARM64 build (Freedom Scientific system requirements; Microsoft ARM FAQ). Some older x86 audio games and drivers may not run or may run slower under emulation; kernel drivers and some anti-cheat cannot be emulated (Microsoft's emulation documentation). (Intel business model: standard x64, no emulation notes.)
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Pro_11th_Edition
+https://learn.microsoft.com/en-us/surface/surface-arm-faq
+https://support.freedomscientific.com/Downloads/JAWS/jaws-system-requirements
+
+----------
+
+ENTRY: Surface Pro 12-inch (2025)
+Maker: Microsoft
+Released: Released May 20, 2025 (Wikipedia).
+Launch price: From US$799.99 with Snapdragon X Plus, 16 GB, 256 GB (search summary of Wired/Notebookcheck). Notebookcheck's 512 GB unit cost US$899, plus US$70 for the 45 W charger and about US$250 for keyboard and stylus, totalling about US$1,220.
+
+WHAT IT CAN DO
+A smaller fanless ARM Surface Pro; Notebookcheck rated it a solid everyday 2-in-1 but too expensive.
+
+HARDWARE
+Processor: Qualcomm Snapdragon X Plus X1P-42-100 (eight cores).
+Memory: 16 GB.
+Graphics: Qualcomm Adreno X1-45, 1.7 TFLOPS.
+Storage: 256 or 512 GB UFS 4 (slow storage per reviews).
+Display: 12-inch 2196 by 1464 IPS, 90 Hz, 3:2.
+Battery: Notebookcheck: almost 15 hours at 150 nits, about 8.5 hours at full brightness.
+Weight and size: 682 grams (Notebookcheck), 686 grams (Wikipedia); 7.8 mm thick; 1,023 grams with keyboard.
+Operating system: Windows 11 Home.
+Wi-Fi and network: Wi-Fi 7.
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB-C (few ports per reviews).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Stereo speakers decent but behind iPad Air; backlit keyboard cover; stylus attaches magnetically to the back.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+Notebookcheck: fanless aluminium case with rounded edges, cool at idle, up to 45 C under load; a solid kickstand up to 165 degrees.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. This is an ARM (Snapdragon or SQ) Surface. NVDA runs through Windows x64 emulation (Microsoft's Prism emulator) and JAWS offers a native ARM64 build (Freedom Scientific system requirements; Microsoft ARM FAQ). Some older x86 audio games and drivers may not run or may run slower under emulation; kernel drivers and some anti-cheat cannot be emulated (Microsoft's emulation documentation).
+
+GAME COMPATIBILITY
+Performance tier: office-class integrated graphics. Fine for audio games, text adventures, accessible indies and older titles; not designed for modern 3D games.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://www.notebookcheck.net/Finally-a-silent-Snapdragon-2-in-1-Microsoft-Surface-Pro-12-review.1041342.0.html
+https://www.wired.com/review/microsoft-surface-pro-12-2025/
+https://en.wikipedia.org/wiki/Surface_Pro_10
+
+----------
+
+ENTRY: Surface Go
+Maker: Microsoft
+Released: Unveiled July 10, 2018; released August 2, 2018 (Wikipedia).
+Launch price: US$399 (Wikipedia); Windows 10 Pro US$50 extra.
+
+WHAT IT CAN DO
+A 10-inch budget Surface for light work.
+
+HARDWARE
+Processor: Intel Pentium Gold 4415Y, 1.6 GHz, 6 W.
+Memory: 4 or 8 GB.
+Graphics: Intel HD Graphics 615.
+Storage: 64 GB eMMC, or 128/256 GB NVMe SSD; microSDXC.
+Display: 10-inch 1800 by 1200, 3:2, Gorilla Glass 3.
+Battery: not documented
+Weight and size: 522 grams (Wi-Fi), 532 grams (LTE); Type Cover 245 grams; 245 by 175 by 8.3 mm.
+Operating system: Windows 10 Home in S mode (upgradeable).
+Wi-Fi and network: Wi-Fi 5.
+Bluetooth: Bluetooth 5.
+Cellular: LTE Advanced option.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C, 3.5 mm jack, microSDXC, Surface Connect (UNCERTAIN, not in infobox).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers with Dolby Audio; 5 MP front with infrared Windows Hello camera, 8 MP rear; NFC; kickstand to 165 degrees.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+About 1.15 pounds, the lightest Surface.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard. S mode only allows Microsoft Store apps, so you must switch out of S mode before installing NVDA (Microsoft's S mode policy, not tested here).
+
+GAME COMPATIBILITY
+Performance tier: very low.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Go
+
+----------
+
+ENTRY: Surface Go 2
+Maker: Microsoft
+Released: Released May 6, 2020; available May 12, 2020 (Wikipedia).
+Launch price: US$399.99 to US$729.99; keyboard US$99 (Wikipedia).
+
+WHAT IT CAN DO
+10.5-inch update of the Go.
+
+HARDWARE
+Processor: Intel Pentium Gold 4425Y or Core m3-8100Y.
+Memory: 4 or 8 GB.
+Graphics: Intel UHD 615.
+Storage: 64 GB eMMC or 128/256 GB SSD; microSDXC.
+Display: 10.5-inch 1920 by 1280.
+Battery: not documented
+Weight and size: 544 grams (Wi-Fi), 553 grams (LTE).
+Operating system: Windows 10 Home in S mode.
+Wi-Fi and network: Wi-Fi 6.
+Bluetooth: Bluetooth 5.
+Cellular: LTE option.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C, 3.5 mm jack, microSDXC.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers; 5 MP front, 8 MP rear; NFC.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+As Surface Go.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: very low.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Go_2
+
+----------
+
+ENTRY: Surface Go 3
+Maker: Microsoft
+Released: Released September 22, 2021 (Wikipedia).
+Launch price: About US$400 to US$730 (Wikipedia, rounded); keyboard US$99.
+
+WHAT IT CAN DO
+Faster Go with Windows 11.
+
+HARDWARE
+Processor: Intel Pentium Gold 6500Y or Core i3-10100Y.
+Memory: 4 or 8 GB.
+Graphics: Intel UHD 615.
+Storage: 64 GB eMMC or 128/256 GB SSD; microSDXC.
+Display: 10.5-inch 1920 by 1280.
+Battery: not documented
+Weight and size: 544 grams (Wi-Fi), 553 grams (LTE).
+Operating system: Windows 11 Home in S mode.
+Wi-Fi and network: Wi-Fi 6.
+Bluetooth: Bluetooth 5.
+Cellular: LTE (Snapdragon X16 modem, eSIM and nano SIM).
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C, 3.5 mm jack, microSDXC.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers; NFC.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+As Surface Go.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: very low.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Go_3
+
+----------
+
+ENTRY: Surface Go 4 (for Business)
+Maker: Microsoft
+Released: October 3, 2023 (Wikipedia).
+Launch price: US$579 to US$779 (Wikipedia).
+
+WHAT IT CAN DO
+Business-focused Go with improved repairability; no LTE or colour options.
+
+HARDWARE
+Processor: Intel Processor N200.
+Memory: 8 GB.
+Graphics: Intel UHD.
+Storage: 64, 128 or 256 GB.
+Display: 10.5-inch 1920 by 1280.
+Battery: not documented
+Weight and size: 521 grams.
+Operating system: Windows 11 Pro.
+Wi-Fi and network: Wi-Fi 6.
+Bluetooth: Bluetooth 5.1.
+Cellular: None.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C, 3.5 mm jack, microSDXC.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 2 W stereo speakers; dual far-field mics.
+
+CONTROLS AND BUTTON LAYOUT
+No game controls. Power and volume buttons on the edges; detachable Type Cover keyboard sold separately (except where noted); kickstand.
+
+HOW IT FEELS
+As Surface Go.
+
+BLIND USABILITY
+With a Type Cover or Signature Keyboard attached, Windows key+Ctrl+Enter starts Narrator like on any laptop, and NVDA or JAWS install normally (except on Windows RT, see below). Without a keyboard, Microsoft documents Windows button+Volume Up for touch devices; this works only on models with a hardware or capacitive Windows button. Narrator touch gestures (flick left or right to move, double-tap to activate, three-finger swipes to tab) let you use the tablet by touch alone. Accessibility of Surface out-of-box setup has not been specifically reviewed in sources found; Windows setup itself offers Narrator. Surfaces have no game controls, so for games you add a Bluetooth or USB controller or keyboard.
+
+GAME COMPATIBILITY
+Performance tier: very low.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Go_4
+
+----------
+
+ENTRY: Surface Duo (note: Android, not Windows)
+Maker: Microsoft
+Released: Announced October 2, 2019; released September 10, 2020 (Wikipedia).
+Launch price: US$1,399 (The Verge via Wikipedia).
+
+WHAT IT CAN DO
+A dual-screen Android phone. Included only because it carries the Surface name; it does not run Windows, NVDA, or Windows games.
+
+HARDWARE
+Processor: Qualcomm Snapdragon 855.
+Memory: 6 GB LPDDR4X.
+Graphics: Adreno (part of Snapdragon 855).
+Storage: 128 or 256 GB.
+Display: Two 5.6-inch 1800 by 1350 AMOLED.
+Battery: 3,577 mAh.
+Weight and size: not documented
+Operating system: Android 10, later Android 12L.
+Wi-Fi and network: 802.11ac.
+Bluetooth: Bluetooth 5.0.
+Cellular: LTE.
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): USB-C.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): 11 MP camera.
+
+CONTROLS AND BUTTON LAYOUT
+Phone buttons only.
+
+HOW IT FEELS
+Folded: 145.2 by 93.3 by 9.9 mm, like a thin paperback-sized book that opens to two screens.
+
+BLIND USABILITY
+Runs Android, so the screen reader is TalkBack, not Narrator or NVDA. Discontinued.
+
+GAME COMPATIBILITY
+Android games only.
+
+UNCERTAIN
+None.
+
+SOURCES
+https://en.wikipedia.org/wiki/Surface_Duo
+
+END OF MICROSOFT SURFACE

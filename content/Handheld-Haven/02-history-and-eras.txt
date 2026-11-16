@@ -1,0 +1,18 @@
+HISTORY AND ERAS OF HANDHELD WINDOWS COMPUTERS
+
+This chapter is an overview. Details and sources are in each device entry.
+
+ERA 1: POCKET PCS AND PROJECT ORIGAMI, 2004 TO 2010
+The OQO model 01 shipped in October 2004 with a Transmeta Crusoe processor, a slide-out keyboard and full Windows XP in a body under a pound. In spring 2006 Microsoft and Intel launched the Ultra-Mobile PC, code-named Project Origami: small touchscreen PCs, usually 7 inches or smaller. Samsung's Q1 (suggested retail US$1,099), Sony's VAIO UX (US$1,800 for the UX180P) and Fujitsu's U810 (US$999) were typical. Prices stayed near laptop prices, batteries lasted a few hours, and Windows XP and Vista were not built for tiny touchscreens. Netbooks and smartphones overtook them. OQO stopped operating in 2009, and Sony's ultra-wide VAIO P ended in 2011.
+
+ERA 2: WINDOWS 8 TABLETS, 2012 TO 2016
+Windows 8 brought a touch-first interface. Microsoft released its own Surface tablets in 2012: the Surface RT, which ran Windows RT on an ARM chip and could not install normal desktop programs, and the Surface Pro, which ran full Windows. Intel's Bay Trail Atom chips made cheap 8-inch Windows tablets possible in late 2013: Dell's Venue 8 Pro (US$299.99), Toshiba's Encore (US$329), and in 2014 the HP Stream 7 at just US$99. These tablets had a hardware Windows button, which matters for blind users because Windows button plus Volume Up is Microsoft's touch-device shortcut for starting Narrator. Dell ended the Venue line in 2016.
+
+ERA 3: CROWDFUNDED GAMING HANDHELDS, 2016 TO 2022
+GPD crowdfunded the GPD Win in 2016: an Atom x7-Z8700 machine shaped like a Nintendo 3DS-style clamshell with a game controller and thumb keyboard, running full Windows 10. GPD followed with the Win 2, Win Max, Win 3 and Win 4, and pocket laptops like the GPD Pocket and MicroPC. AYANEO (from 2021) and One-Netbook's ONEXPLAYER (from 2021) joined with larger controller-shaped devices using Intel Core and AMD Ryzen chips. These devices were expensive, sold mostly online through crowdfunding, and aimed at enthusiasts.
+
+ERA 4: THE MAINSTREAM HANDHELD BOOM, 2022 TO TODAY
+Valve's Steam Deck (February 2022, from US$399) showed there was a big market, though it runs SteamOS, a Linux system. ASUS launched the Windows-based ROG Ally in 2023 at US$599.99 to US$699.99, Lenovo the Legion Go, and MSI the Claw in 2024. AMD's Z1, Z1 Extreme and Z2 chips were designed for handhelds. In 2025 ASUS and Microsoft released the ROG Xbox Ally and Xbox Ally X, with Microsoft's Xbox full screen experience, a console-style mode that boots to a game launcher. Microsoft also made Xbox mode (Win+F11) available on other Windows handhelds. Prices rose through 2025 and 2026; the Xbox Ally X launched at US$999.99, and Valve raised Steam Deck OLED prices in May 2026.
+
+ACCESSIBILITY THROUGH THE ERAS
+In the UMPC era, screen readers such as JAWS ran on Windows XP, and NVDA's first versions appeared in 2006, but no reviews of blind use of UMPCs were found. In the Windows 8 era, Narrator gained touch gestures, and an 8-inch tablet with a Windows button could, in principle, be started and used entirely by touch. In the gaming handheld era, the controller replaced the keyboard, and that made screen reader setup harder: most handhelds have no Windows button and no keyboard, so plugging in a keyboard is the most reliable way to turn on Narrator. In 2025 Valve added a screen reader to SteamOS (in beta), and reviewers and blind users began publishing their experiences with the ROG Xbox Ally X.

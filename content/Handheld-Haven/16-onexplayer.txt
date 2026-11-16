@@ -1,0 +1,226 @@
+ONEXPLAYER AND ONEXFLY
+
+One-Netbook's ONEXPLAYER and ONEXFLY handhelds.
+
+This file has 5 entries:
+1. ONEXPLAYER (original, Intel)
+2. ONEXPLAYER Mini
+3. ONEXPLAYER 2 Pro
+4. ONEXFLY
+5. ONEXFLY F1 Pro
+
+ENTRY: ONEXPLAYER (original, Intel)
+Maker: One Netbook (ONEXPLAYER brand), China
+Released: Indiegogo 2021; shipping to backers from June 2021 (Liliputing).
+Launch price: From US$819 on Indiegogo, US$1,059 and up after the campaign (Liliputing, 2021).
+
+WHAT IT CAN DO
+A big 8.4-inch Windows handheld with console-quality controls and Thunderbolt-class USB4 ports for desktop docking.
+
+HARDWARE
+Processor: Intel Core i7-1165G7 (Tiger Lake, four cores/eight threads); runs at 20 W by default, with a Turbo button raising it to 28 W (Liliputing).
+Memory: not documented
+Graphics: Intel Iris Xe (integrated).
+Storage: not documented
+Display: 8.4-inch touchscreen.
+Battery: not documented
+Weight and size: About 1.8 pounds; about 11 by 5 by 1 inches.
+Operating system: Windows 10 (at launch).
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Two USB4 ports; external monitor, mouse and keyboard supported.
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Built-in adjustable kickstand. Optional keyboard cover US$40 (crowdfunding) or US$80 (retail).
+
+CONTROLS AND BUTTON LAYOUT
+Xbox-style split: D-pad and left stick on the left, lettered buttons and right stick on the right, four shoulder buttons including two linear pressure-sensitive triggers. Special keys, clockwise from bottom left: Home, Back/Select, Start, Keyboard, Turbo (Liliputing).
+
+HOW IT FEELS
+Liliputing: plastic, but "there's no give when you squeeze"; the controllers feel like an Xbox controller split in two around the screen. At about 1.8 pounds, twice a Switch, it is heavy to hold for long; resting the bottom on your lap works well.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. OneXPlayer's software accessibility is not documented. The original ONEXPLAYER had a dedicated keyboard button that pops up the Windows on-screen keyboard and, held down, switches to mouse mode (Liliputing); with Narrator, the touch keyboard is usable by touch exploration but slow.
+
+GAME COMPATIBILITY
+Performance tier: mid for 2021.
+
+UNCERTAIN
+Memory and storage options not documented here.
+
+SOURCES
+https://liliputing.com/onexplayer-handheld-gaming-pc-review/
+
+----------
+
+ENTRY: ONEXPLAYER Mini
+Maker: One Netbook
+Released: January 2022 (Tom's Hardware).
+Launch price: US$1,039 (512 GB), US$1,179 (1 TB), US$1,370 (2 TB) with a 17 percent 22-hour launch discount; then US$1,259, US$1,399, US$1,599 (Tom's Hardware, 2022).
+
+WHAT IT CAN DO
+A 7-inch 1080p handheld shaped much like a Nintendo Switch.
+
+HARDWARE
+Processor: Intel (Tom's Hardware headline; model commonly reported as Core i7-1195G7, UNCERTAIN). AMD versions followed (not detailed here).
+Memory: not documented
+Graphics: not documented
+Storage: 512 GB, 1 TB or 2 TB.
+Display: 7-inch 1920 by 1080.
+Battery: 10,455 mAh lithium-ion.
+Weight and size: 1.3 pounds.
+Operating system: Windows.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Dual speakers; aluminium heatsink, two copper heat pipes, single fan.
+
+CONTROLS AND BUTTON LAYOUT
+Two thumbsticks, A/B/X/Y, D-pad, dual bumpers, dual linear triggers.
+
+HOW IT FEELS
+About 1.3 pounds with a Switch-like shape (Tom's Hardware).
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. OneXPlayer's software accessibility is not documented. The original ONEXPLAYER had a dedicated keyboard button that pops up the Windows on-screen keyboard and, held down, switches to mouse mode (Liliputing); with Narrator, the touch keyboard is usable by touch exploration but slow.
+
+GAME COMPATIBILITY
+Performance tier: mid for 2022.
+
+UNCERTAIN
+CPU model UNCERTAIN.
+
+SOURCES
+https://www.tomshardware.com/news/onexplayer-mini-handheld-pc-gaming-console
+
+----------
+
+ENTRY: ONEXPLAYER 2 Pro
+Maker: One Netbook
+Released: Available for purchase 2023; shipping from August 2023 (Liliputing).
+Launch price: US$1,399 retail; US$1,159 pre-order (search summary of Liliputing, UNCERTAIN).
+
+WHAT IT CAN DO
+An 8.4-inch-class handheld with detachable controllers, like the later Legion Go.
+
+HARDWARE
+Processor: AMD Ryzen 7 7840U.
+Memory: 32 GB.
+Graphics: AMD Radeon 780M.
+Storage: not documented
+Display: not documented
+Battery: not documented
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): Detachable controllers.
+
+CONTROLS AND BUTTON LAYOUT
+Detachable controllers.
+
+HOW IT FEELS
+Not documented in the sources used. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. OneXPlayer's software accessibility is not documented. The original ONEXPLAYER had a dedicated keyboard button that pops up the Windows on-screen keyboard and, held down, switches to mouse mode (Liliputing); with Narrator, the touch keyboard is usable by touch exploration but slow.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://liliputing.com/onexplayer-2-pro-is-now-available-for-purchase-starts-shipping-in-august-handheld-gaming-pc-with-ryzen-7-7840u-32gb-ram-and-detachable-controllers/
+
+----------
+
+ENTRY: ONEXFLY
+Maker: One Netbook
+Released: 2023 (PC Gamer).
+Launch price: US$739 lowest configuration; US$1,299 for 64 GB/4 TB (PC Gamer).
+
+WHAT IT CAN DO
+A compact 7-inch handheld smaller and lighter than the Steam Deck and ROG Ally, with many ports.
+
+HARDWARE
+Processor: AMD Ryzen 7 7840U.
+Memory: Up to 64 GB.
+Graphics: AMD Radeon 780M.
+Storage: Up to 4 TB.
+Display: 7-inch, bright and crisp (PC Gamer); 1080p 120 Hz per search summary (UNCERTAIN).
+Battery: Battery life "will always be on your mind" (PC Gamer).
+Weight and size: not documented
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): Lots of ports including a slightly wobbly top USB4 connection (PC Gamer).
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): RGB lighting around the sticks and palm rests; quiet fans.
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+PC Gamer: thick but with a much smaller footprint than the Deck or Ally; a rubberised coating that feels "grippy without feeling sticky", not a fingerprint magnet.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. OneXPlayer's software accessibility is not documented. The original ONEXPLAYER had a dedicated keyboard button that pops up the Windows on-screen keyboard and, held down, switches to mouse mode (Liliputing); with Narrator, the touch keyboard is usable by touch exploration but slow.
+
+GAME COMPATIBILITY
+Performance tier: upper-mid.
+
+UNCERTAIN
+Screen details UNCERTAIN.
+
+SOURCES
+https://www.pcgamer.com/onexplayer-onexfly-handheld-gaming-pc-review/
+
+----------
+
+ENTRY: ONEXFLY F1 Pro
+Maker: One Netbook
+Released: November 2024 (Liliputing).
+Launch price: From US$1,099 (Ryzen AI 9 HX 365, 32 GB, 1 TB); HX 370 models higher, about US$1,339 per XDA summary (UNCERTAIN) (Liliputing, 2024).
+
+WHAT IT CAN DO
+The first handheld with AMD Strix Point and a 144 Hz OLED screen (Liliputing).
+
+HARDWARE
+Processor: AMD Ryzen AI 9 HX 365 or HX 370.
+Memory: 32 to 64 GB.
+Graphics: AMD Radeon 880M or 890M.
+Storage: 1 TB to 4 TB.
+Display: 7-inch 144 Hz OLED.
+Battery: Weak battery life per reviews (search summary).
+Weight and size: About 599 grams (search summary, UNCERTAIN).
+Operating system: Windows 11.
+Wi-Fi and network: not documented
+Bluetooth: not documented
+Cellular: not documented
+Ports and expansion (USB4, Thunderbolt, eGPU, video out, microSD, docking): not documented
+Other hardware (fingerprint or Windows Hello, cameras, speakers, headphone jack, haptics, gyro): not documented
+
+CONTROLS AND BUTTON LAYOUT
+Standard handheld layout.
+
+HOW IT FEELS
+Not documented in fetched sources. THIN ENTRY.
+
+BLIND USABILITY
+No keyboard is built in, so the standard Narrator shortcut (Windows key+Ctrl+Enter) needs a USB or Bluetooth keyboard. Microsoft's alternative for touch devices, Windows button+Volume Up, needs a hardware Windows button, which this device does not list in its controls, so it should not be relied on (UNCERTAIN whether the maker maps a combination to it). Can I Play That's review of the ROG Xbox Ally X found Narrator is available right away during Windows setup, but setup only mentions keyboard combinations, not controller buttons, and blind users may struggle to turn it on with the small on-screen icons. The same applies to any Windows 11 handheld. Plan to plug in a keyboard for first setup. Once Windows is set up, turn on Start Narrator before sign-in (or install NVDA), and remap a spare back button to a keyboard shortcut if the maker's software allows it. OneXPlayer's software accessibility is not documented. The original ONEXPLAYER had a dedicated keyboard button that pops up the Windows on-screen keyboard and, held down, switches to mouse mode (Liliputing); with Narrator, the touch keyboard is usable by touch exploration but slow.
+
+GAME COMPATIBILITY
+Performance tier: high.
+
+UNCERTAIN
+THIN ENTRY.
+
+SOURCES
+https://liliputing.com/first-handheld-gaming-pc-with-amd-strix-point-and-a-144-hz-oled-display-goes-up-for-pre-order/
+https://www.xda-developers.com/onexfly-f1-pro-review/
+
+END OF ONEXPLAYER AND ONEXFLY
