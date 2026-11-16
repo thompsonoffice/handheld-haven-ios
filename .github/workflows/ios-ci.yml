@@ -15,7 +15,9 @@ permissions:
 
 jobs:
   test:
-    runs-on: macos-15
+    # Intel runners are a separate free pool from the arm64 macOS images, which
+    # often sit in the queue until GitHub gives up on acquiring a machine.
+    runs-on: macos-26-intel
     timeout-minutes: 45
     steps:
       - name: Check out

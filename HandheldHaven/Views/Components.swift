@@ -22,23 +22,26 @@ extension View {
         navigationBarTitleDisplayMode(.inline)
     }
 
-    /// A Dynamic Type title in the navigation bar. UIKit's navigationTitle does not
-    /// grow through the accessibility sizes, so the audit reports it as partially unsupported.
+    /// Title drawn in the screen body, not in the UIKit navigation bar.
+    /// A bar title stays about 20 points tall and fails the Dynamic Type audit.
     func havenScreenTitle(_ title: String) -> some View {
-        toolbar {
-            ToolbarItem(placement: .principal) {
-                Text(title)
-                    .font(.headline)
-                    .foregroundStyle(Color(.label))
-                    .multilineTextAlignment(.center)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
+        safeAreaInset(edge: .top, spacing: 0) {
+            Text(title)
+                .font(.largeTitle.weight(.bold))
+                .foregroundStyle(Color(.label))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.horizontal)
+                .padding(.bottom, 8)
+                .background(Color(.systemBackground))
+                .accessibilityHeading(.h1)
         }
         .navigationBarTitleDisplayMode(.inline)
     }
 
+    /// Pushed pages already show their name as a heading in the content.
     func wrappingNavigationTitle(_ title: String) -> some View {
-        havenScreenTitle(title)
+        navigationBarTitleDisplayMode(.inline)
     }
 
     /// Keeps lines at a readable length on iPad without clipping Dynamic Type.
