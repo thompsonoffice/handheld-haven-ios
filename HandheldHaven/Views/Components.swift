@@ -270,6 +270,7 @@ struct DeviceRow: View {
                     if device.thin {
                         Text("THIN ENTRY")
                             .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(Color(.label))
                     }
                     if favorites.contains(FavoriteKey.device(device.id)) {
                         FavoriteMark()
