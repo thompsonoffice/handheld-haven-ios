@@ -34,9 +34,6 @@ extension View {
                 .padding(.horizontal)
                 .padding(.bottom, 8)
                 .background(Color(.systemBackground))
-                .accessibilityElement(children: .ignore)
-                .accessibilityLabel(title)
-                .accessibilityAddTraits(.isHeader)
                 .accessibilityHeading(.h1)
         }
         .navigationBarTitleDisplayMode(.inline)

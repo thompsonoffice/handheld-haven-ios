@@ -46,30 +46,34 @@ struct GlossaryView: View {
 
     var body: some View {
         let terms = store.glossaryTerms(matching: query)
-        List {
-            Section {
+        VStack(alignment: .leading, spacing: 8) {
+            if !store.data.glossaryIntro.isEmpty {
                 Text(store.data.glossaryIntro)
                     .font(.body)
+                    .foregroundStyle(Color(.label))
                     .fixedSize(horizontal: false, vertical: true)
-            } header: {
-                SectionHeader("Glossary", level: .h1)
+                    .padding(.horizontal)
             }
-            Section {
-                ForEach(terms) { term in
-                    NavigationLink(value: Route.glossaryTerm(term.id)) {
-                        VStack(alignment: .leading, spacing: 3) {
-                            Text(term.term).font(.body.weight(.semibold))
-                            SecondaryLine(text: term.definition)
+            List {
+                Section {
+                    Text("\(terms.count) \(terms.count == 1 ? "term" : "terms")")
+                        .font(.title3.weight(.bold))
+                        .foregroundStyle(Color(.label))
+                        .accessibilityHeading(.h2)
+                    ForEach(terms) { term in
+                        NavigationLink(value: Route.glossaryTerm(term.id)) {
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(term.term).font(.body.weight(.semibold))
+                                SecondaryLine(text: term.definition)
+                            }
+                            .padding(.vertical, 2)
+                            .accessibilityElement(children: .combine)
                         }
-                        .padding(.vertical, 2)
-                        .accessibilityElement(children: .combine)
                     }
                 }
-            } header: {
-                SectionHeader("\(terms.count) \(terms.count == 1 ? "term" : "terms")")
             }
+            .havenListChrome()
         }
-        .havenListChrome()
         .havenScreenTitle("Glossary")
         .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a term")
         .autocorrectionDisabled()
