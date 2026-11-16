@@ -34,16 +34,6 @@ struct CompareView: View {
                         }
                         .accessibilityAction(named: "Remove from Compare") { compare.remove(device.id) }
                     }
-                    if !compare.isFull {
-                        Text("Add Device")
-                            .font(.body)
-                            .foregroundStyle(Color(.label))
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .contentShape(Rectangle())
-                            .onTapGesture { showingPicker = true }
-                            .accessibilityAddTraits(.isButton)
-                            .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
-                    }
                     if !picked.isEmpty {
                         Button("Clear Comparison", role: .destructive) { compare.removeAll() }
                     }
@@ -73,6 +63,18 @@ struct CompareView: View {
             }
             .havenScreenTitle("Compare")
             .havenListChrome()
+            .safeAreaInset(edge: .bottom) {
+                if !compare.isFull {
+                    Button("Add Device") { showingPicker = true }
+                        .font(.body)
+                        .buttonStyle(.bordered)
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                        .padding(.horizontal)
+                        .padding(.vertical, 8)
+                        .background(Color(.systemBackground))
+                        .accessibilityHint("\(compare.ids.count) of \(CompareStore.capacity) devices picked.")
+                }
+            }
             .havenDestinations()
             .sheet(isPresented: $showingPicker) {
                 ComparePickerView()
