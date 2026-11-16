@@ -88,6 +88,11 @@ struct SectionHeader: View {
     let title: String
     var level: AccessibilityHeadingLevel = .h2
 
+    init(_ title: String, level: AccessibilityHeadingLevel = .h2) {
+        self.title = title
+        self.level = level
+    }
+
     var body: some View {
         Text(title)
             .font(.title3.weight(.bold))
