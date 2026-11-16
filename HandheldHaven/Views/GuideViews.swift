@@ -70,7 +70,7 @@ struct GlossaryView: View {
             }
         }
         .havenListChrome()
-        .navigationTitle("Glossary")
+        .havenScreenTitle("Glossary")
         .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Look up a term")
         .autocorrectionDisabled()
     }
@@ -134,7 +134,7 @@ struct SourcesView: View {
             .padding()
             .readableColumn()
         }
-        .navigationTitle("Sources")
+        .havenScreenTitle("Sources")
         .inlineTitle()
     }
 }

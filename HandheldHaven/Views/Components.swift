@@ -22,21 +22,23 @@ extension View {
         navigationBarTitleDisplayMode(.inline)
     }
 
-    /// Shows the full title on several lines so the navigation bar does not truncate it.
-    /// VoiceOver still uses the navigation title. The visible copy is hidden from VoiceOver
-    /// so the name is not spoken twice.
-    func wrappingNavigationTitle(_ title: String) -> some View {
-        navigationTitle(title)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .principal) {
-                    Text(title)
-                        .font(.headline)
-                        .multilineTextAlignment(.center)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .accessibilityHidden(true)
-                }
+    /// A Dynamic Type title in the navigation bar. UIKit's navigationTitle does not
+    /// grow through the accessibility sizes, so the audit reports it as partially unsupported.
+    func havenScreenTitle(_ title: String) -> some View {
+        toolbar {
+            ToolbarItem(placement: .principal) {
+                Text(title)
+                    .font(.headline)
+                    .foregroundStyle(Color(.label))
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    func wrappingNavigationTitle(_ title: String) -> some View {
+        havenScreenTitle(title)
     }
 
     /// Keeps lines at a readable length on iPad without clipping Dynamic Type.
@@ -264,7 +266,7 @@ struct DeviceRow: View {
         NavigationLink(value: Route.device(device.id)) {
             VStack(alignment: .leading, spacing: 3) {
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
-                    Text(device.name).font(.body.weight(.semibold))
+                    Text(device.name).font(.body.weight(.semibold)).foregroundStyle(Color(.label))
                     if device.thin {
                         Text("THIN ENTRY")
                             .font(.subheadline.weight(.semibold))
@@ -278,6 +280,7 @@ struct DeviceRow: View {
             .padding(.vertical, 2)
             .accessibilityElement(children: .combine)
         }
+        .listRowBackground(Color(.systemBackground))
     }
 }
 
@@ -289,12 +292,13 @@ struct ChapterRow: View {
         let count = chapter.deviceIDs.count
         NavigationLink(value: Route.chapter(chapter.id)) {
             VStack(alignment: .leading, spacing: 3) {
-                Text(chapter.title).font(.body.weight(.semibold))
+                Text(chapter.title).font(.body.weight(.semibold)).foregroundStyle(Color(.label))
                 SecondaryLine(text: "\(count) \(count == 1 ? "entry" : "entries")")
             }
             .padding(.vertical, 2)
             .accessibilityElement(children: .combine)
         }
+        .listRowBackground(Color(.systemBackground))
     }
 }
 
@@ -306,7 +310,7 @@ struct GuideRow: View {
         NavigationLink(value: Route.guide(guide.id)) {
             VStack(alignment: .leading, spacing: 3) {
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
-                    Text(guide.title).font(.body.weight(.semibold))
+                    Text(guide.title).font(.body.weight(.semibold)).foregroundStyle(Color(.label))
                     if favorites.contains(FavoriteKey.guide(guide.id)) {
                         FavoriteMark()
                     }
@@ -318,6 +322,7 @@ struct GuideRow: View {
             .padding(.vertical, 2)
             .accessibilityElement(children: .combine)
         }
+        .listRowBackground(Color(.systemBackground))
     }
 }
 

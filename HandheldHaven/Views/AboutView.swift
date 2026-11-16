@@ -44,7 +44,7 @@ struct AboutView: View {
             .padding()
             .readableColumn()
         }
-        .navigationTitle("About")
+        .havenScreenTitle("About")
         .inlineTitle()
     }
 }
@@ -65,7 +65,7 @@ struct PrivacyPolicyView: View {
             .padding()
             .readableColumn()
         }
-        .navigationTitle("Privacy Policy")
+        .havenScreenTitle("Privacy Policy")
         .inlineTitle()
     }
 }

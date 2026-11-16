@@ -44,7 +44,7 @@ struct BrowseView: View {
                     SectionHeader("Chapters")
                 }
             }
-            .navigationTitle("Browse")
+            .havenScreenTitle("Browse")
             .havenListChrome()
             .havenDestinations()
         }
@@ -94,7 +94,7 @@ struct RecentsView: View {
                     .accessibilityAction(named: "Remove from Recently Viewed") { recents.remove(key) }
             }
         }
-        .navigationTitle("Recently Viewed")
+        .havenScreenTitle("Recently Viewed")
         .havenListChrome()
     }
 }

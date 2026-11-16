@@ -29,7 +29,7 @@ struct FavoritesView: View {
                     }
                 }
             }
-            .navigationTitle("Favorites")
+            .havenScreenTitle("Favorites")
             .havenListChrome()
             .havenDestinations()
         }

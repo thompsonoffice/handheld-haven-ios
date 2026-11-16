@@ -109,7 +109,7 @@ struct SettingsView: View {
             }
         }
         .havenListChrome()
-        .navigationTitle("Settings")
+        .havenScreenTitle("Settings")
         .confirmationDialog("Remove all \(favorites.keys.count) favorites?", isPresented: $confirmFavorites, titleVisibility: .visible) {
             Button("Remove All Favorites", role: .destructive) { favorites.removeAll() }
             Button("Cancel", role: .cancel) {}

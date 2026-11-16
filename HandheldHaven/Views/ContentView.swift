@@ -74,7 +74,7 @@ struct MoreView: View {
                     SectionHeader("About")
                 }
             }
-            .navigationTitle("More")
+            .havenScreenTitle("More")
             .havenListChrome()
             .havenDestinations()
         }

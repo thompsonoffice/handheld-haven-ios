@@ -69,7 +69,7 @@ struct CompareView: View {
                         .font(.body)
                 }
             }
-            .navigationTitle("Compare")
+            .havenScreenTitle("Compare")
             .havenListChrome()
             .havenDestinations()
             .sheet(isPresented: $showingPicker) {
@@ -134,7 +134,7 @@ struct ComparePickerView: View {
             }
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a device to add")
             .autocorrectionDisabled()
-            .navigationTitle("Add Device")
+            .havenScreenTitle("Add Device")
             .inlineTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
