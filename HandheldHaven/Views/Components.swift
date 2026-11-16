@@ -40,7 +40,7 @@ extension View {
     }
 
     /// Pushed pages already show their name as a heading in the content.
-    func wrappingNavigationTitle(_ title: String) -> some View {
+    func wrappingNavigationTitle(_: String) -> some View {
         navigationBarTitleDisplayMode(.inline)
     }
 
