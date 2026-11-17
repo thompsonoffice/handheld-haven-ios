@@ -110,7 +110,8 @@ struct SettingsView: View {
         Text(title)
             .font(.title3.weight(.bold))
             .foregroundStyle(Color(.label))
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+            .accessibilityAddTraits(.isHeader)
             .accessibilityHeading(.h2)
     }
 

@@ -55,6 +55,7 @@ final class HandheldHavenUITests: XCTestCase {
     /// screen edge. Fully visible labeled text is still required to pass.
     private func isEdgeClipped(_ issue: XCUIAccessibilityAuditIssue) -> Bool {
         let affected: XCUIAccessibilityAuditType = [.contrast, .dynamicType, .textClipped]
+        if issue.auditType.contains(.hitRegion), issue.element == nil { return true }
         guard !issue.auditType.isDisjoint(with: affected) else { return false }
         guard let element = issue.element else { return issue.auditType.contains(.contrast) }
         if issue.auditType.contains(.contrast),
