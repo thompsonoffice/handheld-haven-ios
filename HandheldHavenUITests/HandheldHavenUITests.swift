@@ -226,6 +226,7 @@ final class HandheldHavenUITests: XCTestCase {
         tab("Browse")
         tapRow("Glossary"); audit("Glossary")
         goBack()
+        scrollToTop()
         tapRow("BLIND BUYER'S GUIDE"); audit("Blind buyer's guide")
     }
 
